@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>后台</title>
+    <link href="/Css/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="/Css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="/Css/animate.min.css" rel="stylesheet">
+    <link href="/Css/style.min.css?v=4.0.0" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/Css/webuploader.css">
+    <link rel="stylesheet" type="text/css" href="/Css/diyUpload.css">
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-content">
+                    <div class="form-horizontal m-t" id="commentForm">
+                        <h2><div  class="col-sm-2"></div>修改种类规格</h2>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">颜色</label>
+                            <div class="col-sm-8">
+                                <input type="text" size="30" name="class1" size="80" minlength="6" maxlength="60" class="form-control"  id="color" value="" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">尺码或类型</label>
+                            <div class="col-sm-8">
+                                <input type="text" size="30"  size="80" minlength="6" maxlength="60" class="form-control"  id="size" value=""/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">价格</label>
+                            <div class="col-sm-8">
+                                <input type="text" size="30"  size="80" minlength="6" maxlength="60" class="form-control"  id="price" value=""/>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">库存</label>
+                            <div class="col-sm-8">
+                                <input type="text" size="30"  size="80" minlength="6" maxlength="60" class="form-control"  id="num"  value=""/>
+                            </div>
+                        </div>
+                        
+                        <div class="form-horizontal" id="step2">
+                            <div class="form-group">
+                                <label class="control-label col-sm-2">图片上传:<br>(重新上传图片将全部被覆盖)：</label>
+                                <div class="col-sm-10">
+                                    <div id="size_file_upload" ></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        </volist>
+
+
+
+                        
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-3">
+                                <input type="hidden" id='id' value="<?php echo I('param.id');?>">
+                                <input type="hidden" id='commodity_id' value="<?php echo $result['commodity_id'];?>">
+                                <button class="btn btn-primary" type="button" id="adds">提交</button>
+                                <a href="/Commodity/lists"><button class="btn btn-white" type="button">取消</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/Js/jquery.min.js?v=2.1.4"></script>
+<script type="text/javascript" src="/Js/webuploader.html5only.min.js"></script>
+<script type="text/javascript" src="/Js/diyUpload.js"></script>
+<script type="text/javascript">
+    var size_group_img_url=[];
+    $('#size_file_upload').diyUpload({
+
+        url:'/Commodity/upload_do',
+        success:function( data ) {
+            size_group_img_url.push(data._raw);
+            // console.log(size_group_img_url);
+        },
+        error:function( err ) {
+            console.info( err );    
+        },
+        buttonText : '选择文件',
+        chunked:true,
+        // 分片大小
+        chunkSize:1024 * 1024,
+        //最大上传的文件数量, 总文件大小,单个文件大小(单位字节);
+        fileNumLimit:1,
+        fileSizeLimit:500000 * 1024,
+        fileSingleSizeLimit:50000 * 1024,
+        accept: {}
+    });
+    
+    $("#adds").click(function(){
+    });
+    $(document).on('click','#adds',function(){
+        var commodity_id=$("#id").val();
+        var color=$("#color").val();
+        var size=$('#size').val();
+        var type=$('#type').val();
+        var id=$('#id').val();
+        var price=$('#price').val();
+        var num=$('#num').val();
+
+        var img = size_group_img_url[0];
+            $.ajax({
+                url:'/Size/sizeadds_do', 
+                data:{
+                    "commodity_id":commodity_id,
+                    "color":color,
+                    "size":size,
+                    "price":price,
+                    "num":num,
+                    "img":img,
+
+                },
+                type:'post',
+                dataType:"json",
+                success:function(data){
+                    if(data.status){
+                        
+                        alert('编辑成功');
+                        window.location="/Commodity/lists";
+                    }else{
+                        alert(data.message)
+                    }
+                }
+            });
+        
+        
+       
+    })
+</script>
+</body>
+</html>

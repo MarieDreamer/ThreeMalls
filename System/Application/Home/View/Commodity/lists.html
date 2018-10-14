@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="cetial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>后台</title>
+    <!--[if lt IE 8]>
+    <meta http-equiv="refresh" content="0;ie.html" />
+    <![endif]-->
+    <link href="/Css/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="/Css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="/Css/animate.min.css" rel="stylesheet">
+    <link href="/Css/style.min.css?v=4.0.0" rel="stylesheet">
+    <link href="/Css/paging.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="wrapper wrapper-content animated fadeInRight">
+    <!-- Panel Other -->
+    <div class="ibox float-e-margins">
+        
+        <div class="ibox-content">
+            <div class="row row-lg">
+                <div class="col-sm-12">
+                    <!-- Example Toolbar -->
+                    <div class="example-wrap">
+                        <div class="example">
+                            <div class="btn-group" role="group">
+                                <a href="/Commodity/adds" class="btn btn-outline btn-default">
+                                    <i class="glyphicon glyphicon-plus" aria-hidden="true"></i> 添加商品
+                                </a>
+                            </div>
+                            <h1>Commodity商品管理</h1>
+                            <table data-toggle="table" class="table table-hover"  data-mobile-responsive="true">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th align="center">商城类别</th>
+                                        <th align="center">商品名称</th>
+                                        <th align="center">商品编号</th>
+                                        <th align="center">商品主图</th>
+                                        <th align="center">商品子别</th>
+                                        <th align="center">商品总数</th>
+                                        <th align="center">已销售商品数</th>
+                                        <th align="center">商品详细</th>
+                                        <th align="center">商品价格</th>
+                                        <th align="center">商品减免价格</th>
+                                        <th align="center">创建时间</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                   <volist name="results" id="vo">
+                                    <tr target="sid_user" rel="{$vo['id']}">
+                                        <td class="id">{$vo['id']}</td>
+                                        <td>{$vo['mall_id']}</td>
+                                        <td>{$vo['shop_name']}</td>
+                                        <td>{$vo['shop_id']}</td>
+                                        <td>
+                                            <?php
+                                                $urls=json_decode($vo['shop_index_image'],true);
+                                                foreach ($urls as $key => $value) {
+                                            ?>
+                                            <a href="{$value}" target="_blank"><img style="height: 100px;"  src="{$value}"></a>
+                                            <?php
+                                                }
+                                            ?>
+                                        </td>
+                                        <td>{$vo['shop_type']}</td>
+                                        <td>{$vo['shop_num']}</td>
+                                        <td>{$vo['shop_sale']}</td>
+                                        <td>{$vo['shop_introduce']}</td>
+                                        <td>{$vo['shop_price']}</td>
+                                        <td>{$vo['last_price']}</td>
+                                        <td>{$vo['create_time']|date="Y-m-d H:i:s",###}</td>
+                                        
+                                        
+                                        <td>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <a href="/Commodity/raedit?id={$vo['id']}">编辑</a>&nbsp;&nbsp;&nbsp;
+                                            <a href="/Size/lists?id={$vo['id']}">查看规格</a>&nbsp;&nbsp;&nbsp;
+                                            <a href="/Size/adds?id={$vo['id']}">添加规格</a>&nbsp;&nbsp;&nbsp;
+                                            <a href="/SpellGroup/adds?id={$vo['id']}">参加活动</a>&nbsp;&nbsp;&nbsp;
+                                            <a title="添加到热卖" class="hot">{$vo['hot']}</a>&nbsp;&nbsp;&nbsp;
+                                            <a title="添加到热卖" class="recommend">{$vo['recommend']}</a>&nbsp;&nbsp;&nbsp;
+                                            <a title="添加到热卖" class="quantitychange">{$vo['quantity']}</a>&nbsp;&nbsp;&nbsp;
+                                            <a title="删除" class="btnDel">删除</a>&nbsp;&nbsp;&nbsp;
+                                        </td>
+                                    </tr>
+                                    </volist>
+                                </tbody>
+                            </table>
+                           <div class="paggings">
+                           {$paging}
+                        </div>
+                    </div>
+                </div>    
+                    <!-- End Example Toolbar -->
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</div> 
+<div class="modal fade" id="ajax_container" tabindex="-1" role="dialog" aria-labelledby="ajax_container" aria-hidden="true"> 
+</div>
+<script src="/Js/jquery.min.js?v=2.1.4"></script>
+<script src="/Js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    $(document).on('click','.btnDel',function(){
+        if(confirm("确定要删除吗？")){
+            var id=$(this).parent().siblings('.id').text();
+            $.ajax({
+                url:'/Commodity/dele_do', 
+                data:{
+                    "id":id,
+                },
+                type:'get',
+                dataType:"json",
+                success:function(data){
+                    if(data.status){
+                        alert('删除成功');
+                        window.location="/Commodity/lists";
+                    }else{
+                        alert(data.message)
+                    }
+                },
+            });
+        }
+    })
+
+    $(document).on('click','.hot',function(){
+        if(confirm("确定变更热卖状态吗？")){
+            var id=$(this).parent().siblings('.id').text();
+            var hotzt=$(this).text();
+            $.ajax({
+                url:'/Commodity/hotchange', 
+                data:{
+                    "id":id,
+                    "hotzt":hotzt
+                },
+                type:'get',
+                dataType:"json",
+                success:function(data){
+                    if(data.status){
+                        alert('更改成功');
+                        window.location="/Commodity/lists";
+                    }else{
+                        alert(data.message)
+                    }
+                },
+            });
+        }
+    })
+
+    $(document).on('click','.recommend',function(){
+        if(confirm("确定变更推荐状态吗？")){
+            var id=$(this).parent().siblings('.id').text();
+            var recommendzt=$(this).text();
+            $.ajax({
+                url:'/Commodity/recommendchange', 
+                data:{
+                    "id":id,
+                    "recommendzt":recommendzt
+                },
+                type:'get',
+                dataType:"json",
+                success:function(data){
+                    if(data.status){
+                        alert('更改成功');
+                        window.location="/Commodity/lists";
+                    }else{
+                        alert(data.message)
+                    }
+                },
+            });
+        }
+    })
+
+    $(document).on('click','.quantitychange',function(){
+        if(confirm("确定变更限量状态吗？")){
+            var id=$(this).parent().siblings('.id').text();
+            var quantityzt=$(this).text();
+            $.ajax({
+                url:'/Commodity/quantitychange', 
+                data:{
+                    "id":id,
+                    "quantityzt":quantityzt
+                },
+                type:'get',
+                dataType:"json",
+                success:function(data){
+                    if(data.status){
+                        alert('更改成功');
+                        window.location="/Commodity/lists";
+                    }else{
+                        alert(data.message)
+                    }
+                },
+            });
+        }
+    })
+    
+</script>
+</body>

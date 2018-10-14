@@ -1,0 +1,279 @@
+/* pages/homepage/homepage.wxss */
+.display{
+  display: none;
+}
+/* 菜单栏 */
+.tab{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30rpx;
+  padding: 20rpx 30rpx 0 30rpx;
+}
+.tab_item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tab_bottom{
+  width: 100%;
+  height: 6rpx;
+  border-radius: 3rpx;
+  margin: 10rpx 0;
+}
+.tab_bottom_select{
+  width: 100%;
+  height: 6rpx;
+  border-radius: 3rpx;
+  background-color: white;
+  margin: 10rpx 0;
+}
+
+.page_row{
+  width: 90%;
+  height: 60rpx;
+  margin-left: 5%;
+  border-radius: 10rpx;
+  background-color: #F0EFF5;
+  line-height: 60rpx;
+}
+.searchcion{
+  float: left;
+  width: 10%;
+  margin-left:200rpx;
+  margin-top: 10rpx;
+}
+.text{
+  float:left;
+  width:40%;
+  margin-left:15rpx;
+  color: #A9A9A9;
+}
+.hengxianggundong{
+  white-space: nowrap;
+  display: flex;
+}
+.hot{
+  width: 100rpx;
+  height: 80rpx;
+  display: inline-block;
+  color: white;
+  font-size: 25rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+.orderchoice{
+  width: 150rpx;
+  height: 80rpx;
+  display: inline-block;
+  color: black;
+  font-size: 25rpx;
+  text-align: center;
+  border-bottom:2px solid rgb(231, 232, 236);
+  line-height: 80rpx;
+}
+.orderchoiceblue{
+  width: 150rpx;
+  height: 80rpx;
+  display: inline-block;
+  color: black;
+  font-size: 25rpx;
+  text-align: center;
+  border-bottom:2px solid #1296db;
+  line-height: 80rpx;
+}
+
+.orderchoisediv{
+  width: 700rpx;
+  margin: 25rpx;
+  background-color: white;
+  border-radius: 10rpx;
+  color: black;
+  font-size: 30rpx;
+  box-shadow: #bbb 0rpx 0rpx 20rpx;
+}
+.banner{
+  height: 460rpx;
+}
+.page_row{
+  display: flex;
+  flex-direction: row
+}
+/* .searchcion1 {
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  position: absolute;
+  left:25rpx;
+  z-index: 2;
+  width: 20rpx;
+  height: 20rpx;
+  text-align: center;
+} */
+.lunbotuimg{
+width: 100%;
+height: 500rpx;
+}
+swiper{
+  height: 450rpx;
+}
+.lunbo-text{
+  width: 100%;
+  height: 60rpx;
+}
+.text-div{
+  float: left;
+  width: 33%;
+  height: 60rpx;
+}
+.tubiao-1{
+  float: left;
+  width: 50rpx;
+  height:50rpx;
+  margin-left: 20rpx;
+}
+.text-1{
+  font-size: 25rpx;
+}
+.kg{
+  height: 25rpx;
+  background: #F0EFF5;
+}
+.pinpaizhenxuan{
+
+}
+.title{
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 35rpx;
+}
+.hengxiang{
+  display:flex;
+  flex-wrap:wrap;
+
+}
+.zhenxuan-div{
+  background-color: #F0EFF5;
+  width: 45%;
+  height: 250rpx;
+  margin-left: 26rpx;
+  margin-bottom: 25rpx;
+  display: flex;
+}
+.div-text{
+  width: 50%;
+}
+.name{
+  font-size: 30rpx;
+  margin: 30rpx 0rpx 10rpx 20rpx;
+}
+.price-1{
+  width: 85%;
+  font-size: 40rpx;
+  margin-left:20rpx;
+}
+.style{
+  border:2rpx solid #A9A9A9;
+  width:70rpx;
+  text-align:center;
+  height:40rpx;
+  font-size:30rpx;
+  line-height:40rpx;
+  margin-left:20rpx;
+  margin-top:10rpx;
+  background-color: #1296db;
+  color: white;
+}
+.shangpin{
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  height: 200rpx;
+  margin-top:25rpx;
+}
+.zhanshi-div{
+  margin-left: 30rpx;
+}
+.xinpinshoufa{
+  height: 650rpx;
+}
+.hengxiangshoufa{
+  white-space:nowrap;
+  display:flex;
+}
+.zhanshi-div{
+  width:300rpx;
+  height:600rpx;
+  display:inline-block;
+}
+.shangpin-image{
+  width: 300rpx;
+  height: 300rpx;
+}
+.zhanshi-name{
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+}
+.zhanshi-name1{
+  font-size: 30rpx;
+  color: #A9A9A9;
+  margin-bottom: 10rpx;
+}
+.zhanshi-price{
+  color:#1296db;
+  font-size: 35rpx;
+  margin-bottom: 10rpx;
+}
+.tuijian-div{
+  width: 90%;
+  height:250rpx;
+  border:2rpx solid #F0EFF5;
+  margin: 5rpx 5% 5rpx 5%;
+  margin-bottom: 30rpx;
+}
+.tuijian-image{
+  width: 200rpx;
+  height: 200rpx;
+  margin:20rpx 50rpx 20rpx 20rpx;
+  float: left;
+}
+.tuijian-text{
+  width: 60%;
+  float: left;
+}
+.tuijian-name{
+  font-size: 30rpx;
+  margin-top: 70rpx;
+  margin-bottom: 10rpx;
+  margin-left: 30rpx;
+}
+.tuijian-shuoming{
+  font-size: 30rpx;
+  margin-left: 30rpx;
+}
+.zhanshi-price1{
+  color:#1296db;
+  font-size:35rpx;
+  margin-bottom:10rpx;
+  margin-left: 30rpx;
+}
+.zhanshi-div1{
+  width:40%;
+  height:600rpx;
+  float:left;
+  margin-left: 50rpx;
+}
+.shangpin-image1{
+  width: 300rpx;
+  height: 370rpx;
+}
+.zhanshi-name2{
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
+.pic{
+  width: 100%;
+  height: 400rpx;
+}

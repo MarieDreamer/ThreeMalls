@@ -1,0 +1,77 @@
+/* pages/addres/addres.wxss */
+page{
+  background-color: #F0EFF5;
+}
+.mid{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.personal{
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  background-color: white;
+  margin-top: 2rpx;
+  width: 700rpx;
+  padding: 25rpx;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  min-height: 150rpx;
+}
+.inner{
+  position: absolute;
+  top:0rpx;
+  background-color: #1296db;
+  width: 180rpx;
+  text-align: center;
+  z-index: 1;
+  right: 2rpx;
+  color: #fff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.def{
+  font-size: 30rpx;
+  border:1rpx solid red;
+  border-radius: 5rpx;
+  padding:0 10rpx;
+  color: red;
+  margin-right: 10rpx;
+}
+.personal-name{
+  text-align: center;
+  font-size: 35rpx;
+  margin-bottom: 10rpx;
+}
+
+.personal-phone{
+  font-size: 30rpx;
+  width: 400rpx;
+  color: gray;
+}
+.personal-addres{
+  font-size: 30rpx;
+  margin-bottom: 10rpx;
+}
+.right{
+  width: 30rpx;
+  height: 30rpx;
+  margin-left:10rpx;
+}
+.add{
+  width: 650rpx;
+  border: 2rpx solid gray;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 30rpx;
+  border-radius: 10rpx;
+  position: fixed;
+  bottom: 50rpx;
+  left: 50rpx;
+  background-color: white;
+}

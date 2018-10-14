@@ -1,0 +1,60 @@
+/* pages/youhuiquan/youhuiquan.wxss */
+page{
+  background: #F0EFF5;
+}
+.dise{
+  height: 25rpx;
+}
+.orderchoice{
+  width: 250rpx;
+  height: 80rpx;
+  display: inline-block;
+  background-color: white;
+  font-size: 25rpx;
+  text-align: center;
+  border-bottom:2px solid rgb(231, 232, 236);
+  line-height: 80rpx;
+}
+.orderchoiceblue{
+  background-color: white;
+  width: 250rpx;
+  height: 80rpx;
+  display: inline-block;
+  color: black;
+  font-size: 25rpx;
+  text-align: center;
+  border-bottom:2px solid #1296db;
+  line-height: 80rpx;
+}
+display{
+  display: none;
+}
+.youhuiquan{
+  height: 130rpx;
+  background-color: white;
+}
+.shuru{
+  border:2rpx solid rgb(231, 232, 236);
+  border-radius:10rpx;
+  width:70%;
+  float:left;
+  font-size:30rpx;
+  height:70rpx;
+  line-break:70rpx;
+  margin-left:30rpx;
+  margin-top:12px;
+
+}
+.anniu{
+  float:left;
+  width:15%;
+  border-radius:10rpx;
+  border:2rpx solid rgb(231, 232, 236);
+  height:70rpx;
+  margin-top:30rpx;
+  line-height:70rpx;
+  text-align:center;
+  color:white;
+  background:rgb(231, 232, 236);
+  margin-left:40rpx;
+}

@@ -1,0 +1,46 @@
+<!--pages/partner/partner.wxml-->
+<view class='partner'>
+  <view class='partner-title'>KUOSE阔色合伙推广天使</view>
+  <view class='partner-plan'>招募计划</view>
+  <image class='partner-image' src='/image/partner.png'></image>
+</view>
+<view class='body'>
+  <view class='body-mode'>
+    <view class='body-title'>招募对象:</view>
+    <view class='body-body'>KUOSE阔色粉丝</view>
+  </view>
+  <view class='body-mode'>
+    <view class='body-title'>招募条件:</view>
+    <view class='body-body'>关注公众号“KUOSE阔色”（方便结算佣金）</view>
+  </view>
+  <view class='body-mode'>  
+    <view class='body-title'>申请步骤:</view>
+    <view class='body-body'>
+      <view class='body-body1'>1、绑定手机号码</view>
+      <view class='body-body1'>2、在个人主页-分销员中心申请成为分销员</view>
+      <view class='body-body1'>3、待审核通过</view>
+    </view>
+  </view>
+  <view>  
+    <view class='body-title'>推广步骤:</view>
+    <view class='body-body'>推广天使分享推广链接，点击过推广链接进店的用户日后在本店下单的，推广天使都可以收到佣金</view>
+  </view>
+  <view class='body-mode'>  
+    <view class='body-title'>分享步骤:</view>
+    <view class='body-body'>
+      <view class='body-body1'>1、推广天使的右下角会有一个“赚”的logo</view>
+      <view class='body-body1'>点击“赚”后可以分享链接给好友，也可以生成图文分享到朋友圈</view>
+    </view>
+  </view>
+  <view class='body-mode'>
+    <view class='body-title2'>推广天使权益:</view>
+    <view class='body-body2'>一键分享，持续收益</view>
+  </view>
+</view>
+<image class='parter-image1' src='/image/text.jpg'></image>
+<image class='parter-image1' src='/image/text.jpg'></image>
+
+<view class='dibu' >
+  <view class='dibu-text1'>KUOSE阔色</view>
+  <view class='dibu-text2'>有赞提供技术支持</view>
+</view>

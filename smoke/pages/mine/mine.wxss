@@ -1,0 +1,134 @@
+/* pages/mine/mine.wxss */
+
+/* pages/mine/mine.wxss */
+page{
+  background-color: #F0EFF5;
+}
+.userinfo{
+  width: 100%;
+  height: 320rpx;
+  background-color: black;
+}
+.userinfo-avatar{
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 50rpx;
+  float: left;
+}
+.username{
+  color: white;
+  font-size: 40rpx;
+
+  padding-top: 90rpx;
+}
+.vip{
+  color: white;
+  font-size: 35rpx;
+  margin-top: 10rpx;
+}
+.account-bg {
+  width: 100%;
+  height: 150rpx;
+}
+.userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin:45rpx;
+  border-radius: 50%;
+}
+/* 订单 */
+.order {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 90rpx;
+  background-color: white;
+  border-bottom: 4rpx #F0EFF5 solid;
+}
+.dise{
+  height: 8px;
+}
+.myorder-text {
+  font-size: 30rpx;
+  color: gray;
+  margin: 20rpx;
+  width: 40%;
+}
+.myorderlook-text {
+  font-size: 30rpx;
+  color: gray;
+  position: relative;
+  right: 20rpx;
+  width: 60%;
+  text-align: right;
+}
+.next-image {
+  width: 20rpx;
+  height: 25rpx;
+  position: relative;
+  right: 10rpx;
+}
+.orderinfo{
+  height: 150rpx;
+  background-color: white;
+}
+.orderinfo-view{
+  float: left;
+  width: 25%;
+}
+.orderinfo-view-image{
+  width:70rpx ;
+  height: 70rpx ;
+  margin-top: 10rpx ;
+  margin-left: 60rpx ;
+}
+.orgerinfo-view-text{
+  font-size: 25rpx;
+  text-align: center;
+}
+/* 列表 */
+.person-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: white;
+}
+.list-item {
+ display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 90rpx;
+  background-color: white;
+  border-bottom: 4rpx #F0EFF5 solid;
+}
+.list-item-1{
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 90rpx;
+  background-color: white;
+  border-bottom: 4rpx #FFFAFA solid;
+}
+.item-text {
+  font-size: 30rpx;
+  color: gray;
+  margin: 20rpx;
+  width: 100%;
+}
+.item-image{
+  width: 20rpx;
+  height: 25rpx;
+  position: relative;
+  right: 10rpx;
+}
+.person-line {
+  width: 100%;
+  height: 2rpx;
+  background: lightgray;
+  margin-left: 10rpx;
+}

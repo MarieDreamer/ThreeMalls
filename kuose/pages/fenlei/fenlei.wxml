@@ -1,0 +1,20 @@
+<!--pages/fenlei/fenlei.wxml-->
+<!--横向滚动条-->
+<scroll-view scroll-x="true"  class='bar'>
+  <view bindtap='select_bar' style="{{select_bar == index?'display:none':''}}" data-index="{{index}}" wx:for="{{bar}}">{{item.name}}</view>
+</scroll-view>
+
+<view class='fenlei-name'>
+  {{bar[select_bar]['name']}}
+</view>
+
+<view class='card_container'>
+  <view class='card' style='{{index%2==0?"margin-right:25rpx;":""}}' bindtap='godetailedinfo' wx:for="{{list}}" data-id='{{item.id}}'>
+      <image class='qgimg-img' src='http://wechat.threemall.jianfengweb.com/{{item.shop_index_image}}' mode='widthFix' />
+    <view class='qianggou-info'>【小程序限时秒杀】{{item.shop_name}}</view>
+    <view class='qianggou-dollor'>
+      ￥{{item.shop_price}} 
+      <image class='car' src='/image/cart.png'/>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/store/store",
+    "pages/detailedinfo/detailedinfo",
+    "pages/shoppingcart/shoppingcart",
+    "pages/dingdan/dingdan",
+    "pages/queren/queren",
+    "pages/mine/mine",
+    "pages/address/address",
+    "pages/fenlei/fenlei",
+    "pages/pintuan/pintuan",
+    "pages/my_spell/my_spell",
+    "pages/myyouhuiquan/myyouhuiquan",
+    "pages/address_edit/address_edit",
+    "pages/order_detail/order_detail",
+    "pages/goodslist/goodslist",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/VIPinfo/VIP",
+    "pages/xinpin/xinpin",
+    "pages/myyouhuima/myyouhuima",
+    "pages/huiyuancard/huiyuancard",
+    "pages/jifen/jifen",
+    "pages/lipinka/lipinka",
+    "pages/freeshichuan/freeshichuan",
+    "pages/partner/partner",
+    "pages/hongbaogonglue/hongbaogonglue",
+    "pages/xianshimiaosha/xianshimiaosha",
+    "pages/xianshiqianggou/xianshiqianggou",
+    "pages/welfare/welfare",
+    "pages/logs/logs",
+    "pages/duihuanlipin/duihuanlipin",
+    "pages/buylipin/buylipin"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "阔色商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "image/home-2.png",
+        "iconPath": "image/home-1.png",
+        "pagePath": "pages/store/store",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "image/huodong-2.png",
+        "iconPath": "image/huodong-1.png",
+        "pagePath": "pages/welfare/welfare",
+        "text": "店铺活动"
+      },
+      {
+        "selectedIconPath": "image/gouwuche_click.png",
+        "iconPath": "image/gouwuche.png",
+        "pagePath": "pages/shoppingcart/shoppingcart",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "image/yonghu-2.png",
+        "iconPath": "image/yonghu-1.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

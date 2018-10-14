@@ -1,0 +1,33 @@
+<view class='kuaididiv'>
+  <view class='kuaidi'>
+    <view class='kuaidititle'>快递单号:</view>
+    <view class='kuaiditext'>131515445451</view>
+  </view>
+
+  <view class='kuaidi'>
+    <view class='kuaidititle'>配送方式:</view>
+    <view class='kuaiditext'>圆通快递</view>
+  </view>
+</view>
+
+<view class='tc'></view>
+
+<view class='jiludiv'>
+  <view class='leftdiv'>
+    <image class='reddian' src='/images/reddian.png'></image>
+  </view>
+  <view class='rightdiv'>
+    <view class='jingdutext'>正在出库正在出库正在出库正在出库正在出库正在出库正在出库</view>
+    <view class='timetext'>2018-07-26 13:20:21</view>
+  </view>
+</view>
+
+<view class='jiludiv'>
+  <view class='leftdiv'>
+    <image class='reddian' src='/images/huidian.png'></image>
+  </view>
+  <view class='rightdiv'>
+    <view class='jingdutext'>接受订单</view>
+    <view class='timetext'>2018-07-26 13:20:21</view>
+  </view>
+</view>

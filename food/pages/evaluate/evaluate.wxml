@@ -1,0 +1,44 @@
+<view class='headdiv'>
+  <view bindtap='select_tab' data-index='{{index}}' wx:for="{{tab}}" style='{{select_tab == index?"color:red":""}}'>
+    <view>{{item}}</view>
+    <view>144</view>
+  </view>
+</view>
+<view style='margin-top:10rpx;'></view>
+
+<view class='list' wx:for="{{list}}">
+  <view class='list_head'>
+    <view>
+      <image class='spimg' src='/images/lianxi.png'></image>
+      <view class='nametext'>{{item.user_name}}</view>
+      <image class='star' src='/images/xing.png' wx:for="{{item.star_num}}"></image>
+    </view>
+    <view class='time'>{{item.create_time}}</view>
+  </view>
+  <view class='list_content'>{{item.content}}</view>
+  <view class='pinglunimgdiv'>
+    <image wx:for="{{item.image}}" wx:for-item="image" src='http://wechat.threemall.jianfengweb.com{{image}}' class='pingluntu'></image>
+  </view>
+  <view class='goumaitimediv'>购买日期：{{item.buy_time}}</view>
+</view>
+
+<view class='list' wx:if="{{!list}}">
+  <view class='list_head'>
+    <view>
+      <image class='spimg' src='/images/lianxi.png'></image>
+      <view class='nametext'>waangxians</view>
+      <image class='star' src='/images/xing.png'></image>
+      <image class='star' src='/images/xing.png'></image>
+    </view>
+    <view class='time'>2018-07-21</view>
+  </view>
+  <view class='list_content'>haofewfewfewfewfewfewfewcweewfewfwefdewfewfwefewfewfewfewfewew</view>
+  <view class='pinglunimgdiv'>
+    <image src='/images/sp.jpg' class='pingluntu'></image>
+    <image src='/images/sp.jpg' class='pingluntu'></image>
+    <image src='/images/sp.jpg' class='pingluntu'></image>
+    <image src='/images/sp.jpg' class='pingluntu'></image>
+  </view>
+  <view class='goumaitimediv'>购买日期：2018-07-20</view>
+</view>
+

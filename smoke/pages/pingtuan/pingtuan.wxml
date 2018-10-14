@@ -1,0 +1,177 @@
+<!--轮播图-->
+<view class="banner">
+  <swiper  class="swiper" duration="500" indicatorDots="true" interval="3000" style="height:750rpx">
+    <swiper-item class="swiper-goods">
+      <image class='lunbotuimg' bindtap="" data-idx="" mode="widthFix" src="http://wechat.threemall.jianfengweb.com/{{goods.shop_image}}"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!--商品信息-->
+<view class='pintuaninfo'  >
+  <view class='dollor1'>￥</view>
+  <view class='money1'>{{goods.spell.group_price}}</view>
+  <view class='tiaojian'>
+    <view class='renshu'>{{goods.spell.order_size}}人团·五折拼团优惠券</view>
+    <view class='yuanjia'>
+      <view class='yuanjia-text'>价格</view>
+      <view class='yuanjia-num'>${{price}}</view>
+    </view>
+  </view>
+  <view class='yishou'>剩余时间：{{goods.spell.day}}天</view>
+</view>
+<view class='shangpinxinxi' >
+  <view class='detainfo'>
+    <view class='shangpinmiaosu'>{{name}}</view>
+    <view class='beizhu'>{{introduce}}</view>
+  </view>
+  <button class="share_button" open-type="share" plain='true'>
+    <image class='share' src='/images/share1.png'></image>
+  </button>
+</view> 
+<view class='kg'></view>
+<view class='cantuan'>
+  <view class='info'>
+      <image class='touxiang'></image>
+      <view class='cantuan-text'>
+        <view class='name'>深海鳕鱼</view>
+        <view class='time1'>2018-08-03 14:53</view>
+        </view>
+      <view class='canjiaanniu'>参加拼团</view>
+    </view>
+</view>
+<view class='style'>
+  <view class='choose'>
+    <text class='text-1' >规则</text>
+    <text class='text-2' >邀请好友参团或者参与已开团，即享拼团价</text>
+  </view>
+</view>
+<view class='style'>
+  <view class='kg'></view>
+   <view class='choose' >
+    <text class='text-1' >服务</text>
+    <text class='text-2' >正品保证·极速退款·赠送运费险</text>
+  </view>
+</view>
+
+<view class='kg'></view>
+<view class='yonghupingjia' >
+  <view class='choose'  bindtap='gopingjia'>
+    <text class='text-1'>用户评价</text>
+    <image class='right' src='/images/right.png'></image>
+  </view>
+  <view class='pingjia1'>
+    <view class='info'>
+      <image class='touxiang'></image>
+      <view class='name'>深海鳕鱼</view>
+      <view class='time'>2018-08-03 14:53</view>
+    </view>
+    <view class='neirong'>非常好用</view>
+    <view class='color'>颜色随机</view>
+  </view>
+</view>
+<view class='kg'></view>
+<view class='hot'>热门拼团</view>
+<scroll-view scroll-x="true"  class='hengxiangshoufa'>
+  <view class='zhanshi-div' bindtap='gospxiangqing' >
+    <image class='shangpin-image' src='/images/lunbo2.png'></image>
+    <view class='zhanshi-name'>24件套发圈</view>
+    <view class='zhanshi-name1'>拼团价</view>
+    <view class='zhanshi-price'>￥7.8</view>
+  </view>
+
+  <view class='zhanshi-div' bindtap='gospxiangqing' >
+    <image class='shangpin-image' src='/images/lunbo2.png'></image>
+    <view class='zhanshi-name'>24件套发圈</view>
+    <view class='zhanshi-name1'>拼团价</view>
+    <view class='zhanshi-price'>￥7.8</view>
+  </view>
+
+  <view class='zhanshi-div' bindtap='gospxiangqing' >
+    <image class='shangpin-image' src='/images/lunbo2.png'></image>
+    <view class='zhanshi-name'>24件套发圈</view>
+    <view class='zhanshi-name1'>拼团价</view>
+    <view class='zhanshi-price'>￥7.8</view>
+  </view>
+
+  <view class='zhanshi-div' bindtap='gospxiangqing' >
+    <image class='shangpin-image' src='/images/lunbo2.png'></image>
+    <view class='zhanshi-name'>24件套发圈</view>
+    <view class='zhanshi-name1'>拼团价</view>
+    <view class='zhanshi-price'>￥7.8</view>
+  </view>
+
+  <view class='zhanshi-div' bindtap='gospxiangqing' >
+    <image class='shangpin-image' src='/images/lunbo2.png'></image>
+    <view class='zhanshi-name'>24件套发圈</view>
+    <view class='zhanshi-name1'>拼团价</view>
+    <view class='zhanshi-price'>￥7.8</view>
+  </view>
+</scroll-view>
+<image class='changtu'></image>
+<!-- 底部 -->
+<view class='goumaidiv'>
+  <view class='anniudiv'>
+    <image src='/images/kefu(1).png' class='homeimg'></image>
+  </view>
+
+  <view class='jiaru1'   catchtap='showModal2' data-st='{{goods.id}}'>单独购买￥{{price}}</view>
+
+  <view class='jiaru2' catchtap='showModal' data-st='{{goods.id}}'>发起拼团￥{{goods.spell.group_price}}</view>
+</view>
+<!--屏幕背景变暗的背景  -->
+<view class="commodity_screen" bindtap="hideModal" wx:if="{{showModalStatus}}"></view>
+<!--弹出框  -->
+<view animation="{{animationData}}" class="commodity_attr_box" wx:if="{{showModalStatus}}">
+  <view class='infomation'>
+    <image class='info-picture'src='/images/lunbo2.png'></image>
+    <view class='info-text'>
+      <view class='info-price'>拼团价￥{{goods.spell.group_price}}</view>
+      <view class='info-num'>剩余：{{leixing[0]['num']}}</view>
+    </view>
+  </view>
+  <view class='xuanxiang'>
+    <view class='div'>
+      <view class='color-title'>类型</view>
+      <view wx:for="{{leixing}}" wx:key="{{key}}" class='items' bindtap='selectColor' data-color="{{item}}" data-index="{{index}}" style="{{selected_color==index?'background:#1296db;color:#fff':''}}" data-sst="{{item.type}}">{{item.type}}</view>
+    </view>
+    <view class="div">
+      <view class='color-title'>数量</view>
+      <view class='stepper'>
+        <text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+        <input type="number" bindchange="bindManual" value="{{num2}}" />
+        <text class="normal" bindtap="bindPlus">+</text>
+      </view>
+    </view>
+  </view>
+  < view class='anniu'>
+    <view class='jiaru' bindtap='goqueren' data-st="{{goods.id}}">确定下单</view>
+  </view>
+</view>
+
+<!--屏幕背景变暗的背景  -->
+<view class="commodity_screen" bindtap="hideModal2" wx:if="{{showModalStatus2}}"></view>
+<!-- 单独购买弹出框 -->
+<view animation="{{animationData2}}" class="commodity_attr_box" wx:if="{{showModalStatus2}}">
+  <view class='infomation'>
+    <image class='info-picture'src='/images/lunbo2.png'></image>
+    <view class='info-price'>原价￥{{price}}</view>
+  </view>
+  <view class='xuanxiang'>
+    <view class='div'>
+      <view class='color-title'>类型</view>
+      <!-- <view class='items' catchtap='bered4'>硬壳</view> -->
+      <view wx:for="{{leixing}}" wx:key="{{key}}" class='items' bindtap='selectColor' data-color="{{item}}" data-index="{{index}}" style="{{selected_color==index?'background:#1296db;color:#fff':''}}" data-sst="{{item.type}}">{{item.type}}</view>
+    </view>
+    <view class="div">
+      <view class='color-title'>数量</view>
+      <view class='stepper'>
+        <text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+        <input type="number" bindchange="bindManual" value="{{num2}}" />
+        <text class="normal" bindtap="bindPlus">+</text>
+      </view>
+    </view>
+  </view>
+  < view class='anniu'>
+    <view class='jiaru' bindtap='goqueren' data-com="{{goods.id}}" data-num="{{num}}" data-price="{{goods.spell.group_price}}" data-num="{{num}}">确定下单</view>
+  </view>
+</view>

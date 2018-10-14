@@ -1,0 +1,564 @@
+[ 2018-08-16T10:01:42+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=011Mv3521jgsqO1QY4521tk4521Mv35e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.027002s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534384902 WHERE ( `id` = 50 ) [ RunTime:0.073004s ]
+
+[ 2018-08-16T10:03:05+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=001WHhA60SVNxJ1cZfx601FgA60WHhAa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.030001s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534384985 WHERE ( `id` = 50 ) [ RunTime:0.052003s ]
+
+[ 2018-08-16T10:06:08+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=001EsLP51XiDTL1ZaAM51g6LP51EsLPg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.057004s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534385168 WHERE ( `id` = 50 ) [ RunTime:0.070004s ]
+
+[ 2018-08-16T10:06:52+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=001sxhaC1ymfK30QHybC13pfaC1sxha-
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.030002s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534385212 WHERE ( `id` = 50 ) [ RunTime:0.157009s ]
+
+[ 2018-08-16T10:07:38+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=061Q2Qme1iAsur0Q5Soe1JqFme1Q2QmS
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.001000s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534385258 WHERE ( `id` = 50 ) [ RunTime:0.070004s ]
+
+[ 2018-08-16T10:07:54+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=061cIT1P0VoEHb2pYl4P0i8J1P0cIT1S
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534385274 WHERE ( `id` = 50 ) [ RunTime:0.097005s ]
+
+[ 2018-08-16T10:08:44+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=061KFjAe0waQxB1O4aAe0BgjAe0KFjAC
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.034002s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534385324 WHERE ( `id` = 50 ) [ RunTime:0.056003s ]
+
+[ 2018-08-16T11:15:53+08:00 ] 127.0.0.1 /Size/getAllSize?commodity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+
+[ 2018-08-16T11:16:08+08:00 ] 127.0.0.1 /Size/getAllSize?commodity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+SQL: SELECT * FROM `size` WHERE ( commodity_id=1 ) GROUP BY size  [ RunTime:0.027001s ]
+
+[ 2018-08-16T11:17:29+08:00 ] 127.0.0.1 /Size/getAllSize?commodity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE size [ RunTime:0.002000s ]
+SQL: SELECT * FROM `size` WHERE ( commodity_id=1 ) GROUP BY size  [ RunTime:0.001000s ]
+
+[ 2018-08-16T11:21:06+08:00 ] 127.0.0.1 /Size/getAllSize?commodity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+SQL: SELECT * FROM `size` WHERE ( commodity_id=1 ) GROUP BY size  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `size` WHERE ( commodity_id=1 ) GROUP BY color  [ RunTime:0.001000s ]
+
+[ 2018-08-16T11:21:26+08:00 ] 127.0.0.1 /Size/getAllSize?commodity_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE size [ RunTime:0.002001s ]
+SQL: SELECT * FROM `size` WHERE ( commodity_id=1 ) GROUP BY size  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `size` WHERE ( commodity_id=1 ) GROUP BY color  [ RunTime:0.001000s ]
+
+[ 2018-08-16T11:26:42+08:00 ] 127.0.0.1 /Size/getColor?commodity_id=1&color=blue
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: size D:\Projects\ThreeMall\Wechat\Application\Home\Model\SizeModel.class.php 第 37 行.
+SQL: SELECT * FROM `size` WHERE ( `commodity_id` = 1 ) AND ( `size` = null )  [ RunTime:0.001000s ]
+
+[ 2018-08-16T11:27:03+08:00 ] 127.0.0.1 /Size/getColor?commodity_id=1&size=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE size [ RunTime:0.002000s ]
+SQL: SELECT * FROM `size` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 )  [ RunTime:0.001000s ]
+
+[ 2018-08-16T11:28:54+08:00 ] 127.0.0.1 /Size/getColor?commodity_id=1&size=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+SQL: SELECT `color`,`num` FROM `size` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 )  [ RunTime:0.000000s ]
+
+[ 2018-08-16T11:34:24+08:00 ] 127.0.0.1 /Size/getColor?commodity_id=1&size=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+SQL: SELECT `color`,`num` FROM `size` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 )  [ RunTime:0.000000s ]
+
+[ 2018-08-16T11:56:40+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE cart [ RunTime:0.001000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`create_time`) VALUES (50,1,0,'蓝色',1,1534391800) [ RunTime:0.090005s ]
+
+[ 2018-08-16T14:03:10+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE cart [ RunTime:0.001000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`create_time`) VALUES (50,1,0,'蓝色',1,1534399390) [ RunTime:0.083004s ]
+
+[ 2018-08-16T14:03:50+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.001000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`create_time`) VALUES (50,1,0,'蓝色',1,1534399430) [ RunTime:0.116007s ]
+SQL: DESCRIBE size [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: reduce_num D:\Projects\ThreeMall\Wechat\Application\Home\Model\SizeModel.class.php 第 50 行.
+SQL: UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )' at line 1
+ [ SQL语句 ] : UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )
+
+[ 2018-08-16T14:06:00+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.001000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`create_time`) VALUES (50,1,0,'蓝色',1,1534399560) [ RunTime:0.010001s ]
+SQL: DESCRIBE size [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: reduce_num D:\Projects\ThreeMall\Wechat\Application\Home\Model\SizeModel.class.php 第 50 行.
+SQL: UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )' at line 1
+ [ SQL语句 ] : UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )
+
+[ 2018-08-16T14:06:38+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE cart [ RunTime:0.002000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`create_time`) VALUES (50,1,0,'蓝色',1,1534399597) [ RunTime:0.032002s ]
+SQL: DESCRIBE size [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: reduce_num D:\Projects\ThreeMall\Wechat\Application\Home\Model\SizeModel.class.php 第 50 行.
+SQL: UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )' at line 1
+ [ SQL语句 ] : UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )
+
+[ 2018-08-16T14:07:22+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.001000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`create_time`) VALUES (50,1,0,'蓝色',1,1534399642) [ RunTime:0.013000s ]
+SQL: DESCRIBE size [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: reduce_num D:\Projects\ThreeMall\Wechat\Application\Home\Model\SizeModel.class.php 第 50 行.
+SQL: UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )' at line 1
+ [ SQL语句 ] : UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )
+NOTIC: [8] Array to string conversion D:\Projects\ThreeMall\Wechat\Application\Home\Model\SizeModel.class.php 第 51 行.
+
+[ 2018-08-16T14:07:35+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.002000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`create_time`) VALUES (50,1,0,'蓝色',1,1534399655) [ RunTime:0.029002s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: reduce_num D:\Projects\ThreeMall\Wechat\Application\Home\Model\SizeModel.class.php 第 50 行.
+SQL: UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )' at line 1
+ [ SQL语句 ] : UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )
+
+[ 2018-08-16T14:07:44+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.001000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`create_time`) VALUES (50,1,0,'蓝色',1,1534399664) [ RunTime:0.001000s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: reduce_num D:\Projects\ThreeMall\Wechat\Application\Home\Model\SizeModel.class.php 第 50 行.
+SQL: UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )' at line 1
+ [ SQL语句 ] : UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )
+
+[ 2018-08-16T14:07:52+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.002001s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`create_time`) VALUES (50,1,0,'蓝色',1,1534399672) [ RunTime:0.037002s ]
+SQL: DESCRIBE size [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: reduce_num D:\Projects\ThreeMall\Wechat\Application\Home\Model\SizeModel.class.php 第 50 行.
+SQL: UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )' at line 1
+ [ SQL语句 ] : UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )
+
+[ 2018-08-16T14:07:59+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.002000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`create_time`) VALUES (50,1,0,'蓝色',1,1534399679) [ RunTime:0.001000s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: reduce_num D:\Projects\ThreeMall\Wechat\Application\Home\Model\SizeModel.class.php 第 50 行.
+SQL: UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.001000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )' at line 1
+ [ SQL语句 ] : UPDATE `size` SET `num`=num- WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' )
+
+[ 2018-08-16T14:09:05+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE cart [ RunTime:0.001000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`create_time`) VALUES (50,1,0,'蓝色',1,1534399745) [ RunTime:0.039003s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+SQL: UPDATE `size` SET `num`=num-1 WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.078004s ]
+SQL: DESCRIBE commodity [ RunTime:0.001000s ]
+SQL: UPDATE `commodity` SET `shop_num`=shop_num-1 WHERE ( id=1 ) [ RunTime:0.000000s ]
+
+[ 2018-08-16T14:12:22+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.002000s ]
+SQL: DESCRIBE commodity [ RunTime:0.001000s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`price`,`create_time`) VALUES (50,1,0,'蓝色',1,0,1534399942) [ RunTime:0.010001s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+SQL: UPDATE `size` SET `num`=num-1 WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.009001s ]
+SQL: UPDATE `commodity` SET `shop_num`=shop_num-1 WHERE ( id=1 ) [ RunTime:0.000000s ]
+
+[ 2018-08-16T14:14:06+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.002000s ]
+SQL: DESCRIBE commodity [ RunTime:0.002000s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`price`,`create_time`) VALUES (50,1,0,'蓝色',1,10,1534400045) [ RunTime:0.000000s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+SQL: UPDATE `size` SET `num`=num-1 WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+SQL: UPDATE `commodity` SET `shop_num`=shop_num-1 WHERE ( id=1 ) [ RunTime:0.001000s ]
+
+[ 2018-08-16T14:19:15+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cart` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `cart` SET `num`=num+1 WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+SQL: UPDATE `size` SET `num`=num-1 WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+SQL: DESCRIBE commodity [ RunTime:0.001000s ]
+SQL: UPDATE `commodity` SET `shop_num`=shop_num-1 WHERE ( id=1 ) [ RunTime:0.000000s ]
+
+[ 2018-08-16T14:22:42+08:00 ] 127.0.0.1 /Cart/getList?user_id=50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: DESCRIBE cart [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id=50 )  [ RunTime:0.001000s ]
+
+[ 2018-08-16T14:28:30+08:00 ] 127.0.0.1 /Cart/getList?user_id=50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cart` WHERE ( user_id=50 )  [ RunTime:0.001000s ]
+
+[ 2018-08-16T14:28:47+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cart` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: DESCRIBE commodity [ RunTime:0.003001s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`price`,`create_time`) VALUES (50,1,0,'蓝色',1,10,1534400927) [ RunTime:0.000000s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+SQL: SELECT * FROM `size` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-08-16T14:28:50+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: DESCRIBE cart [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cart` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: DESCRIBE commodity [ RunTime:0.002000s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`price`,`create_time`) VALUES (50,1,0,'蓝色',1,10,1534400930) [ RunTime:0.000000s ]
+SQL: DESCRIBE size [ RunTime:0.002000s ]
+SQL: SELECT * FROM `size` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-08-16T14:29:39+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cart` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: DESCRIBE commodity [ RunTime:0.001000s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`price`,`create_time`) VALUES (50,1,0,'蓝色',1,10,1534400979) [ RunTime:0.000000s ]
+SQL: DESCRIBE size [ RunTime:0.003000s ]
+SQL: SELECT * FROM `size` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.002000s ]
+
+[ 2018-08-16T14:32:35+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cart` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: DESCRIBE commodity [ RunTime:0.002000s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`price`,`create_time`) VALUES (50,1,0,'蓝色',1,10,1534401155) [ RunTime:0.000000s ]
+SQL: DESCRIBE size [ RunTime:0.002000s ]
+SQL: SELECT * FROM `size` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `size` SET `num`=num-1 WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.001000s ]
+SQL: SELECT * FROM `commodity` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `commodity` SET `shop_num`=shop_num-1 WHERE ( id=1 ) [ RunTime:0.000000s ]
+
+[ 2018-08-16T14:33:17+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE cart [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cart` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `cart` SET `num`=num+1 WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+SQL: SELECT * FROM `size` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `size` SET `num`=num-1 WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+SQL: DESCRIBE commodity [ RunTime:0.002000s ]
+SQL: SELECT * FROM `commodity` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: UPDATE `commodity` SET `shop_num`=shop_num-1 WHERE ( id=1 ) [ RunTime:0.000000s ]
+
+[ 2018-08-16T14:39:51+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE cart [ RunTime:0.001000s ]
+SQL: DESCRIBE commodity [ RunTime:0.001000s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `cart` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`price`,`create_time`) VALUES (50,1,0,'蓝色',1,10,1534401591) [ RunTime:0.000000s ]
+SQL: DESCRIBE size [ RunTime:0.002000s ]
+SQL: SELECT * FROM `size` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `size` SET `num`=num-1 WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `commodity` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `commodity` SET `shop_num`=shop_num-1 WHERE ( id=1 ) [ RunTime:0.000000s ]
+
+[ 2018-08-16T14:39:58+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=0&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.002000s ]
+SQL: DESCRIBE commodity [ RunTime:0.001000s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cart` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `cart` SET `num`=num+1 WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+SQL: UPDATE `cart` SET `price`=price+10 WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.001001s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+SQL: SELECT * FROM `size` WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `size` SET `num`=num-1 WHERE ( `commodity_id` = 1 ) AND ( `size` = 0 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `commodity` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `commodity` SET `shop_num`=shop_num-1 WHERE ( id=1 ) [ RunTime:0.001000s ]
+
+[ 2018-08-16T14:40:11+08:00 ] 127.0.0.1 /Cart/adds_do?user_id=50&commodity_id=1&size=1&color=%E8%93%9D%E8%89%B2&num=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE cart [ RunTime:0.002000s ]
+SQL: DESCRIBE commodity [ RunTime:0.001000s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cart` WHERE ( `commodity_id` = 1 ) AND ( `size` = 1 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `cart` (`user_id`,`commodity_id`,`size`,`color`,`num`,`price`,`create_time`) VALUES (50,1,1,'蓝色',1,10,1534401611) [ RunTime:0.000000s ]
+SQL: DESCRIBE size [ RunTime:0.001000s ]
+SQL: SELECT * FROM `size` WHERE ( `commodity_id` = 1 ) AND ( `size` = 1 ) AND ( `color` = '蓝色' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `size` SET `num`=num-1 WHERE ( `commodity_id` = 1 ) AND ( `size` = 1 ) AND ( `color` = '蓝色' ) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `commodity` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `commodity` SET `shop_num`=shop_num-1 WHERE ( id=1 ) [ RunTime:0.000000s ]
+

@@ -1,0 +1,11 @@
+<!--pages/youhuiquan/youhuiquan.wxml-->
+<view>
+  <view bindtap="recommend" class='{{recommendclass}}'>未使用</view>
+  <view bindtap="newProduct" class='{{newProductclass}}'>已使用</view>
+  <view bindtap="livingHome" class='{{livingHomeclass}}'>已失效</view>
+</view>
+
+<view class='youhuiquan'>
+  <input class='shuru' placeholder='请输出优惠券码'></input>
+  <view class='anniu'>兑换</view>
+</view>

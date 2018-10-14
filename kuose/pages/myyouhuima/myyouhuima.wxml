@@ -1,0 +1,23 @@
+<!--pages/myyouhuiquan/myyouhuiquan.wxml-->
+<view class='dingdan1'>
+  <view class='dingdan' wx:for="{{tabBar}}" bindtap='change_tab' data-index="{{index}}" style='{{select_index == index?"color:red;border-bottom:2rpx solid red":""}}'>{{item}}</view>
+</view>
+
+<view class='coupon'>
+  <view class='red'>
+    <view class='left'>
+      <view class='money'>￥</view>
+      <view class='tiaojian'>满0.01元可用</view>
+    </view>
+    <view class='center'>
+      <view>1分钱优惠券</view>
+      <view>2018.07.31-2018.08.04</view>
+    </view>
+    <view class='right'>
+      <view>立刻使用</view>
+    </view>
+  </view>
+  <view class='bottom'>
+    <view class='white-text'>全部商品可用，不可抵扣运费</view>
+  </view>
+</view>

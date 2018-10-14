@@ -1,0 +1,15 @@
+<!--pages/fuwu/fuwu .wxml-->
+<view class='tiaoli'>
+  <view class='title'>1. 30天无忧退换货</view>
+  <view class='neirong'>自收到商品之日起30天内，可在线申请无忧退换货服务（内裤、食品等特殊商品除外）。</view>
+</view>
+
+<view class='tiaoli'>
+  <view class='title'>1. 30天无忧退换货</view>
+  <view class='neirong'>自收到商品之日起30天内，可在线申请无忧退换货服务（内裤、食品等特殊商品除外）。</view>
+</view>
+
+<view class='tiaoli'>
+  <view class='title'>1. 30天无忧退换货</view>
+  <view class='neirong'>自收到商品之日起30天内，可在线申请无忧退换货服务（内裤、食品等特殊商品除外）。</view>
+</view>

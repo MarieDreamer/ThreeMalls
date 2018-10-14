@@ -1,0 +1,285 @@
+page{
+  background-color: rgb(241, 242, 245)
+}
+
+.tc{
+  height: 20rpx;
+  width: 100%;
+}
+
+.dingdanhaodiv{
+  width: 100%;
+  height: 76rpx;
+  background-color: #fff;
+}
+
+.dingdanhaotext{
+  float: left;
+  width: 22%;
+  text-align: center;
+  color: #bfbfbf;
+  font-size: 30rpx;
+  line-height: 74rpx;
+}
+
+.dingdanhaonumber{
+  float: left;
+  /* width: 50%; */
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 74rpx;
+}
+
+.dingdanzhuangtai{
+  float: right;
+  width: 22%;
+  text-align: center;
+  font-size: 30rpx;
+  line-height: 74rpx;
+  color: red;
+}
+
+.logisticsdiv{
+  height: 167rpx;
+  width: 100%;
+  background-color: #fff;
+}
+
+.logisticsdivimg{
+  float: left;
+  width: 10%;
+  height: 167rpx;
+}
+
+.wuliuimg{
+  width: 30rpx;
+  height: 30rpx;
+  padding: 30rpx;
+
+}
+
+.logisticsdivtext{
+  float: left;
+  height: 167rpx;
+  width: 70%;
+}
+
+.zhuangtaitext{
+  font-size: 25rpx;
+  height: 50rpx;
+  width: 100%;
+  padding: 26rpx;
+}
+
+.zhuangtaitime{
+  font-size: 25rpx;
+  height: 50rpx;
+  width: 100%;
+  color: #8a8a8a;
+  margin-left: 25rpx;
+}
+
+.logisticsjiantouimg{
+  float: right;
+  width: 100rpx;
+  height: 167rpx;
+}
+
+.jinruimg{
+  width: 30rpx;
+  height: 30rpx;
+  padding: 58rpx;
+}
+
+.collectdiv{
+  height: 235rpx;
+  width: 100%;
+  background-color: #fff;
+}
+
+.store{
+  height: 50rpx;
+  width: 100%;
+  border-bottom:1px solid #dbdbdb;
+}
+
+.namediv{
+  height: 60rpx;
+  width: 100%;
+}
+
+.touxiang{
+  float: left;
+  height: 30rpx;
+  width: 30rpx;
+  padding: 24rpx;
+}
+
+.nametext{
+  float: left;
+  font-size: 25rpx;
+  line-height: 76rpx;
+}
+
+.phonetxet{
+   float: left;
+  font-size: 25rpx;
+  line-height: 76rpx;
+  margin-left: 40rpx;
+}
+
+.dizhidiv{
+
+  height: 50rpx;
+  font-size: 25rpx;
+  margin-top: 16rpx;
+  margin-left: 78rpx;
+  color: #8a8a8a;
+}
+
+.storeimg{
+  height: 30rpx;
+  width: 30rpx;
+  float: left;
+  padding: 11rpx;
+  margin-left: 14rpx;
+}
+
+.storename{
+  float: left;
+  font-size: 25rpx;
+  padding: 11rpx;
+}
+
+.commodityimgdiv{
+  float: left;
+  height: 167rpx;
+  width: 30%;
+  margin-top: 20rpx;
+  margin-left: -164rpx;
+}
+
+.commodityimg{
+  width: 140rpx;
+  height: 140rpx;
+  /* padding: 24rpx; */
+}
+
+.commoditynamediv{
+  float: left;
+  width: 60%;
+  height: 140rpx;
+  margin-left: -66rpx;
+  margin-top: 26rpx;
+
+}
+
+.commoditydiv{
+  width: 100%;
+  height: 170rpx;
+}
+
+.commoditynametext{
+  font-size: 25rpx;
+  margin-left: 30rpx;
+}
+
+.commoditynumber{
+  font-size: 25rpx;
+  color: #8a8a8a;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+}
+
+.moneytext{
+  font-size: 25rpx;
+  text-align: center;
+  line-height: 78rpx;
+}
+
+.paydiv{
+  height: 369rpx;
+  width: 100%;
+  background-color: #fff;
+}
+
+.pay{
+  height: 60rpx;
+  width: 100%;
+}
+
+.paytitle{
+  float: left;
+  width: 200rpx;
+  color: #8a8a8a;
+  font-size: 25rpx;
+  margin-left: 40rpx;
+  line-height: 60rpx;
+
+}
+
+.tc2{
+  width: 90%;
+  margin: 0 auto;
+  border-bottom:1px solid #e6e6e6;
+}
+
+.tc3{
+  width: 100%;
+  height: 170rpx;
+}
+
+.paytext{
+  float: right;
+  width: 200rpx;
+  font-size: 25rpx;
+  margin-right: -57rpx;
+  line-height: 60rpx;
+}
+
+.shifukuan{
+  width: 200rpx;
+  font-size: 25rpx;
+  /* line-height:  */
+  float: right;
+}
+
+.red{
+  line-height: 50rpx;
+  float: left;
+  color: red;
+}
+.black{
+  line-height: 50rpx;
+  float: left;
+}
+
+.xiadantime{
+  font-size: 25rpx;
+  color: #8a8a8a;
+  float: right;
+  margin-right: 60rpx;
+}
+
+.querenanniudiv{
+  position:fixed;
+  bottom:0;
+  height: 100rpx;
+  width: 100%;
+  background-color: #fff;
+
+}
+
+.querenanniu{
+  float: right;
+  margin-top: 17rpx;
+  margin-right: 15rpx;
+  width: 150rpx;
+  height: 60rpx;
+  border:1px solid red;
+  border-radius:15rpx;
+  color: red;
+  line-height: 61rpx;
+  font-size: 25rpx;
+  text-align: center;
+}

@@ -1,0 +1,20 @@
+<!--pages/pingjia/pingjia.wxml-->
+<view class='fenlei'>
+  <view class='{{quanbu}}' bindtap='quanbu'>全部</view>
+  <view class='{{zuixin}}' bindtap='zuixin'>最新</view>
+  <view class='{{zhuijia}}' bindtap='zhuijia'>追加</view>
+  <view class='{{youtu}}' bindtap='youtu'>有图</view>
+  <view class='{{shipin}}' bindtap='shipin'>视频</view>
+</view>
+<view class='yonghupingjia' >
+  <view class='pingjia1'>
+    <view class='info'>
+      <image class='touxiang'></image>
+      <view class='name'>深海鳕鱼</view>
+      <view class='time'>2018-08-03 14:53</view>
+    </view>
+    <view class='text'>尺码：43 颜色分类：CX3945白色</view>
+    <view class='neirong'>非常好用打黑降低啊都睡觉大家 啊手机大奖的圣诞节撒多久啊时间</view>
+    <image class='baobeiimage' src='/image/qianggou.png'></image>
+  </view>
+</view>

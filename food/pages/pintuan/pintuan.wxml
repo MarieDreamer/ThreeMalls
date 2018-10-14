@@ -1,0 +1,128 @@
+<view class="banner">
+    <swiper autoplay="true" class="swiper" duration="500" indicatorDots="true"  interval="3000" style="height:750rpx">
+        <swiper-item class="swiper-list" wx:for="{{goods['shop_index_image']}}" >
+            <image class='lunbotuimg' mode="widthFix" src="http://wechat.threemall.jianfengweb.com{{item}}"></image>
+        </swiper-item>
+    </swiper>
+</view>
+<view class='spell_info' wx:if="{{goods['is_spell_group'] == 1}}">
+  <view>{{goods['spell']['order_size']}}人拼团</view>
+  <view class='spell_info_right'>
+    <view>距离{{remain_time.status?'结束仅剩':'开始还有'}}</view>
+    <view>{{remain_time.day}} 天 {{remain_time.hour}} 时 {{remain_time.minute}} 分 {{remain_time.second}} 秒</view>
+  </view>
+</view>
+<view class='shangpingxiangxi'>
+  <view class='xinxi-text'>
+    <view class='shangpingtext'>{{goods.shop_name}}</view>
+    <view class='beizhu'>￥<span style="font-size:35rpx">{{goods.shop_price}}</span></view>
+    <view class='beizhu' wx:if="{{goods['is_spell_group'] == 1}}">团购价：￥<span style="font-size:35rpx">{{goods['spell']['group_price']}}</span></view>
+    <view class='beizhu' wx:if="{{goods['is_spell_group'] == 1}}">拼团购买比单独购买便宜3.3元，约打7.9折</view>
+  </view>
+  <button class="share_button" open-type="share" plain='true'>
+  <!-- 分享 -->
+    <image class='share' src='/images/share.png'></image>
+  </button>
+</view>
+
+<view bindtap="goevaluate" class='pingjiadiv'>
+  <view class='pingjiatext'>评价(暂无)</view>
+  <image src='/images/jiantouyou.png' class='pingjiaimg'></image>
+</view>
+
+<view class='goumaidiv'>
+  <view class='anniudiv'>
+    <image src='/images/lianxi.png' class='lianxiimg'></image>
+    <view class='lianxitext'> 联系卖家</view>
+  </view>
+
+  <view class='anniudiv' bindtap='goCart'>
+    <image src='/images/gouwuche.png' class='lianxiimg'></image>
+    <view class='lianxitext' > 购物车</view>
+  </view>
+  
+  <view class='jiaruanniu' wx:if="{{goods['is_spell_group'] == 1}}">
+    <view class='jiaruanniutext' catchtap='showModal_singebuy' >单独购买</view>
+  </view>
+
+  <view class='jiaruanniu' wx:else>
+    <view class='jiaruanniutext' data-buy="0" catchtap='showModal_next' >加入购物车</view>
+  </view>
+
+  <view  class='goumaianniu' wx:if="{{goods['is_spell_group'] == 1}}">
+    <view class='jiaruanniutext'  catchtap='showModal_next' data-spell="1" data-buy="1" data-buy_type='1'>发起拼团</view>
+  </view>
+
+  <view  class='goumaianniu' wx:else>
+    <view class='jiaruanniutext' data-buy="1" data-buy_type='0' catchtap='showModal_next' >立即购买</view>
+  </view>
+
+
+</view>
+
+<view class='neirongimg'>
+  <image wx:for="{{goods['shop_image']}}" src='http://wechat.threemall.jianfengweb.com{{item}}' class='jieshaoimg' mode="widthFix" />
+</view>
+ 
+ <!--屏幕背景变暗的背景  -->
+<view class="commodity_screen" bindtap="hideModal" wx:if="{{showModalStatus}}"></view>
+<!--下一步 弹出框  -->
+<view animation="{{animationData}}" class="commodity_attr_box" wx:if="{{showModalStatus}}">
+  <view class='xuanzediv'>
+  <view class='select_items' style='margin-bottom: 20rpx;'>
+    <view class='xuanzetext'>已选</view>
+    <view class='xuanzeneirong'>{{}} {{mynum}} 件</view>
+  </view>
+  <view class='select_items' wx:if="{{size}}" style='margin-bottom: 20rpx;'>
+    <view class='xuanzetext'>规格</view>
+    <view class='guigetc'  >
+      <view class='guigediv' wx:for="{{size}}" wx:for-item="type" bindtap='select_type' data-index="{{index}}" style="{{index == select_type?'color:white;background:red':''}}">{{type['type']}}</view>
+    </view>
+    <!-- <view wx:else class='guigediv' style='color:white;background:red'>一袋装</view> -->
+    <view class='remain_num'> 剩余 {{size[select_type]['num']}} 件</view>
+  </view>
+  <view class='select_items'>
+    <view class='xuanzetextshu'>数量</view>
+    <view style='display:flex'>
+      <view class='num left' bindtap='minus'>-</view>
+      <view class='num'>{{mynum}}</view>
+      <view class='num right' bindtap='adds'>+</view>
+    </view>
+  </view>
+</view>
+  <view class='anniu'>
+    <view class='next' bindtap="{{buy == 1?'to_buy':'add_cart'}}">下一步</view>
+  </view>
+</view>
+
+<!--屏幕背景变暗的背景  -->
+<view class="commodity_screen" bindtap="hideModal2" wx:if="{{showModalStatus2}}"></view>
+<!-- 单独购买弹出框 -->
+<view animation="{{animationData2}}" class="commodity_attr_box" wx:if="{{showModalStatus2}}">
+  <view class='xuanzediv'>
+  <view class='select_items' style='margin-bottom: 20rpx;'>
+    <view class='xuanzetext'>已选</view>
+    <view class='xuanzeneirong'>{{goods['food_type'][select_type]['type']}} {{mynum}}件</view>
+  </view>
+  <view class='select_items' wx:if="{{size}}" style='margin-bottom: 20rpx;'>
+    <view class='xuanzetext'>规格</view>
+    <view class='guigetc'>
+      <view class='guigediv' wx:for="{{size}}" wx:for-item="type" bindtap='select_type' data-index="{{index}}" style="{{index == select_type?'color:white;background:red':''}}">{{type['type']}}</view>
+    </view>
+    <view class='remain_num'> 剩余 {{size[select_type]['num']}} 件</view>
+  </view>
+
+  <view class='select_items'>
+    <view class='xuanzetextshu'>数量</view>
+    <view style='display:flex'>
+      <view class='num left' bindtap='minus'>-</view>
+      <view class='num'>{{mynum}}</view>
+      <view class='num right' bindtap='adds'>+</view>
+    </view>
+  </view>
+</view>
+  <view class='anniu'>
+    <view class='jiaru' bindtap='add_cart'>加入购物车</view>
+    <view class='xiadan' bindtap='to_buy'>立即下单</view>
+  </view>
+</view>

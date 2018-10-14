@@ -1,0 +1,71 @@
+<view class="banner">
+    <swiper autoplay="true" class="swiper" duration="500" indicatorDots="true"  interval="3000" style="height:750rpx">
+        <swiper-item class="swiper-list" >
+            <image class='lunbotuimg' bindtap="" data-idx="" mode="widthFix" src="http://wechat.threemall.jianfengweb.com/{{list.shop_image}}"></image>
+        </swiper-item>
+    </swiper>
+</view>
+
+
+<view class='shangpingxiangxi'>
+  <view class='shangpingtext'>{{list.shop_name}}</view>
+  <view class='jiagetext'>￥{{list.shop_price}}</view>
+</view>
+
+<view class='xuanzediv'>
+  <view class='tc'></view>
+  <view class='xuanzetext'>已选</view>
+  <view class='xuanzeneirong'>160g 1件</view>
+  <view class='tc2'></view>
+  <view class='xuanzetext'>规格</view>
+  <view class='guigetc'><view class='guigediv'>160g</view></view>
+  <view class='guigetc'><view class='guigediv'>160g</view></view>
+  <view class='guigetc'><view class='guigediv'>160g</view></view>
+  <view class='tc2'></view>
+  <view class='xuanzetextshu'>数量</view>
+  <view class='xuanzedivanniu'>
+     <image bindtap="commodity_number_reduce" class='jiaimg' src='/images/jian.png'></image> 
+     <view class='shuliangtext'>{{commoditynumber}}</view>
+     <image bindtap="commodity_number_increase" class='jiaimg' src='/images/jia.png'></image> 
+  </view>
+  
+</view>
+
+<view bindtap="goevaluate" class='pingjiadiv'>
+  <view class='pingjiatext'>评价(1223)</view>
+  <image src='/images/jiantouyou.png' class='pingjiaimg'></image>
+</view>
+
+<view class='goumaidiv'>
+  <!-- <view class='tc3'></view> -->
+  <view class='anniudiv'>
+    <image src='/images/lianxi.png' class='lianxiimg'></image>
+    <view class='lianxitext'> 联系卖家</view>
+  </view>
+  <view class='tc3'></view>
+
+  <view class='anniudiv'>
+    <image src='/images/gouwuche.png' class='lianxiimg'></image>
+    <view class='lianxitext'> 购物车</view>
+  </view>
+  <view class='tc3'></view>
+
+  <view class='jiaruanniu'>
+    <view class='jiaruanniutext'>加入购物车</view>
+  </view>
+
+  <view bindtap="goorder" class='goumaianniu'>
+    <view class='jiaruanniutext'>立即购买</view>
+  </view>
+</view>
+
+<view class='neirongimg'>
+  <image class='jieshaoimg' src='/images/neirong.jpg'></image>
+  <image class='jieshaoimg' src='/images/neirong.jpg'></image>
+  <image class='jieshaoimg' src='/images/neirong.jpg'></image>
+  <image class='jieshaoimg' src='/images/neirong.jpg'></image>
+  <image class='jieshaoimg' src='/images/neirong.jpg'></image>
+</view>
+
+<view class='tc4'></view>
+ 

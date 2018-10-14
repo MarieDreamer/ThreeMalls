@@ -1,0 +1,34 @@
+<view class="yonghudiv">
+  <image class='tximg' src='{{userimage}}'></image>
+  <view class='nametext'>{{username}}</view>
+</view>
+
+<navigator class="item_container"  url='/pages/dingdan/dingdan'>
+  <view>我的订单</view>
+  <image class="next-image" src="/images/right.png"></image>
+</navigator> 
+
+<navigator class="item_container"  url='/pages/address/address'>
+  <view>收货地址</view>
+  <image class="next-image" src="/images/right.png"></image>
+</navigator> 
+
+<navigator class="item_container"  url='/pages/my_spell/my_spell'>
+  <view>我的拼团</view>
+  <image class="next-image" src="/images/right.png"></image>
+</navigator> 
+
+<navigator class="item_container"  url='/pages/coupon/coupon'>
+  <view>我的优惠券</view>
+  <image class="next-image" src="/images/right.png"></image>
+</navigator> 
+
+<navigator class="item_container"  url='/pages/partner/partner'>
+  <view>分销员中心</view>
+  <image class="next-image" src="/images/right.png"></image>
+</navigator> 
+
+<navigator class="item_container"  url='/pages/aftersale/aftersale'>
+  <view>售后</view>
+  <image class="next-image" src="/images/right.png"></image>
+</navigator> 

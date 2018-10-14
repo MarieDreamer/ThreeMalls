@@ -1,0 +1,61 @@
+<view class="person">
+  <view class="person_1">
+    <image src='{{userimage}}'></image>
+    <view>{{username}}</view>
+    <view>普通分销员</view>
+  </view>
+  <view class="person_2">
+    升级到初级分销员，推广佣金比高达10%邀请佣金比高达2%
+  </view>
+</view>
+
+<view class='balance'>
+  <view>当前店铺累计收益（元）</view>
+  <view>0.00</view>
+  <view>包含待结算0.00元</view>
+  <view>
+    累计推广金0.00元
+    <image src='/images/right.png'></image>
+  </view>
+  <view>
+    可体现佣金0.00元
+    <image src='/images/right.png'></image>
+  </view>
+</view>
+
+<view class='count'>
+  <view>
+    <view>1</view>
+    累计客户
+  </view>
+  <view>
+    <view>1</view>
+    累计邀请
+  </view>
+  <view>
+    <view>1</view>
+    推广订单
+  </view>
+</view>
+
+<view class='buttons'>
+  <view>
+    推广商品
+    <view>赚佣金</view>
+  </view>
+  <view>
+    邀请好友
+    <view>齐推广</view>
+  </view>
+</view>
+
+<view class='questions'>
+  常见问题
+  <image src='/images/right.png'></image>
+</view>
+
+<view class='fixed'>
+  <view>分销首页</view>
+  <view>推广商品</view>
+  <view>结算中心</view>
+</view>

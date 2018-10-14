@@ -1,0 +1,87 @@
+/* pages/welfare.wxss */
+.activity{
+  widows: 350rpx;
+}
+.activity image{
+  width: 100%;
+  height: 325rpx;
+  padding-top: 10rpx;
+}
+.about{
+  width: 100%;
+  height: 200rpx;
+}
+.about-kuose{
+  width: 100%;
+  height: 50rpx;
+}
+.about-English{
+  font-family: STHeiti;
+  font-weight: blod;
+  width: 100%;
+  height: 50rpx;
+  text-align: center;
+  margin-top: 100rpx;
+}
+.about-hongdi{
+  color: white;
+  font-weight:bold;
+  width: 25%;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  margin-top: 50rpx;
+  margin-bottom:50rpx;
+  margin-left: 288rpx;
+  background-color: red;
+}
+.about-img{
+  width: 100%;
+  height: 400rpx;
+}
+.chatu-about{
+  width: 90%;
+  height: 400rpx;
+  margin-left: 38rpx;
+}
+.about-us-1{
+  font-size: 20rpx;
+  margin-left: 38rpx;
+  padding-top: 20rpx;
+}
+.about-us-1-1{
+  padding-top: 15rpx;
+}
+.about-us-2{
+  font-size: 25rpx;
+  margin-left: 38rpx;
+  padding-top: 20rpx;
+  margin-bottom: 100rpx;
+}
+.complain{
+  font-size: 30rpx;
+  padding-top: 25rpx;
+}
+.number{
+  padding-top: 20rpx;
+}
+.wechat{
+  padding-top: 20rpx;
+}
+.dibu {
+  background-color: #FFFAFA;
+  width:100%;
+  height:150rpx;
+}
+.dibu-text1{
+  font-size: 25rpx;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30rpx;
+}
+.dibu-text2{
+  font-size:25rpx;
+  text-align: center;
+  padding-top: 20rpx;
+  color: #B0C4DE;
+}

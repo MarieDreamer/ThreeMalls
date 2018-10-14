@@ -1,0 +1,40 @@
+<!--pages/freeshichuan/freeshichuan.wxml-->
+<!-- <view class='sanjiaoxing'></view> -->
+<view class='hongdi'>小仙女还可以报名试穿活动哦！</view>
+<view class='title1'>
+  <view class='title1-1'>#</view>
+  <view class='title1-2'>免费试穿</view>
+  <view class='title1-1'>#</view>
+</view>
+<view class='title2'>申请方法</view>
+<view class='fangfa'>
+  <view class='hongfang'></view>
+  <view class='steps'>Steps1</view>
+  <view class='body'>关注公众号：kuose2012</view>
+</view>
+<view class='fangfa'>
+  <view class='hongfang'></view>
+  <view class='steps'>Steps2</view>
+  <view class='body'>关注公众号：kuose2012</view>
+</view>
+<view class='fangfa'>
+  <view class='hongfang'></view>
+  <view class='steps'>Steps3</view>
+  <view class='body'>关注公众号：kuose2012</view>
+</view>
+
+<view class='fangfa-1'>
+  <image class='fangfa-image' src='/iamge/text.jpg'></image>
+  <view class='body-1'>
+    <view class='body2'>快速关注公众号</view>
+    <view class='body1'>①点小程序商城右上角的三点</view>
+    <view class='body1'>②点【关注KUOSE阔色商城】</view>
+    <view class='body1'>③点【相关公众号】</view>
+    <view class='body1'>④点关注公众号</view>
+  </view>
+</view>
+
+<view class='dibu' >
+  <view class='dibu-text1'>KUOSE阔色</view>
+  <view class='dibu-text2'>有赞提供技术支持</view>
+</view>

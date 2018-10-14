@@ -1,0 +1,109 @@
+<!--pages/homepage/homepage.wxml-->
+<!-- 搜索框 -->
+<view bindtap="suo">
+  <view class='page_row' >
+    <icon class="searchcion" size='20' type='search'></icon>
+    <view class='text'>名创优品自营</view>
+  </view>
+</view>
+<!-- 导航栏 -->
+<scroll-view scroll-x="true"  class='hengxianggundong'>
+  <view bindtap="recommend" class='{{recommendclass}}'>推荐</view>
+  <view bindtap="newProduct" class='orderchoice' wx:for="{{tabBar}}" data-index="{{index}}" style='{{select_index == index?"border-bottom:6rpx solid #1296db":""}}'>{{item.name}}</view>
+</scroll-view>
+<view class='{{tuijian}}'>
+  <!-- 轮播图 -->
+  <view class="banner">
+    <swiper autoplay="true" class="swiper" duration="500" indicatorDots="true" interval="3000" >
+      <swiper-item class="swiper-list" wx:for="{{list}}"  wx:for-item="list" wx:key="key" >
+        <image class='lunbotuimg' bindtap="gozhonghua" data-idx="" mode="widthFix"        src="http://wechat.threemall.jianfengweb.com/{{list.img}}"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class='lunbo-text'>
+    <view class='text-div'>
+      <image class='tubiao-1'></image>
+      <text class='text-1'>名创优品自营</text>
+    </view>
+    <view class='text-div'>
+      <image class='tubiao-1'></image>
+      <text class='text-1'>名创优品自营</text>
+    </view>
+    <view class='text-div'>
+      <image class='tubiao-1'></image>
+      <text class='text-1'>名创优品自营</text>
+    </view>
+  </view>
+  <view class='kg'></view>
+  <!-- 品牌甄选 -->
+  <view class='pinpaizhenxuan'>
+    <view class='title'>拼团</view>
+    <view class='hengxiang'>
+      <view class='zhenxuan-div' bindtap='gopintuan' wx:for="{{orderinfo}}"  wx:for-item="list" wx:key="key"  data-st='{{list.id}}' data-group='{{list.is_spell_group}}' wx:if="{{list.is_spell_group == 1}}">
+        <view class='div-text'  >
+          <view class='name'>{{list.shop_name}}</view>
+          <view class='price-1'>{{list.shop_price}}元</view>
+          <view class='style'>拼团</view>
+        </view>
+        <image class='shangpin' src='http://wechat.threemall.jianfengweb.com/{{list.shop_index_image}}'></image>
+      </view>
+    </view>
+  </view>
+  <view class='kg'></view>
+  <!-- 新品首发 -->
+  <view class='xinpinshoufa'>
+    <view class='title'>新品首发</view>
+    <scroll-view scroll-x="true"  class='hengxiangshoufa'  >
+      <view class='zhanshi-div' bindtap='gospxiangqing' wx:for="{{orderinfo}}"  wx:for-item="list" wx:key="key"  data-st='{{list.id}}' wx:if="{{list.is_spell_group == 0}}">
+        <image class='shangpin-image' src='http://wechat.threemall.jianfengweb.com/{{list.shop_index_image}}'></image>
+        <view class='zhanshi-name'>{{list.shop_name}}</view>
+        <view class='zhanshi-name1'>{{list.shop_introduce}}</view>
+        <view class='zhanshi-price'>￥{{list.shop_price}}</view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class='kg'></view>
+  <!-- 人气推荐 -->barrel
+  <view class='renqituijian'>
+    <view class='title'>人气推荐</view>
+    <view class='tuijian-div' bindtap='gospxiangqing'  wx:for="{{orderinfo}}"  wx:for-item="list" wx:key="key" data-st='{{list.id}}'  wx:if="{{list.hot == 1&&list.is_spell_group == 0}}">
+      <image class='tuijian-image' src='http://wechat.threemall.jianfengweb.com/{{list.shop_index_image}}'></image>
+      <view class='tuijian-text'>
+        <view class='tuijian-name'>{{list.shop_name}}</view>
+        <view class='tuijian-shuoming'>{{list.shop_introduce}}</view>
+        <view class='zhanshi-price1'>￥{{list.shop_price}}</view>
+      </view>
+    </view>
+  </view>
+  <view class='kg'></view>
+  <!-- 猜你喜欢 -->
+  <view cainixihuan>
+    <view class='title'>猜你喜欢</view>
+    <view class='zhanshi-div1' bindtap='gospxiangqing' wx:for="{{orderinfo}}"  wx:for-item="list" wx:key="key" data-st='{{list.id}}' wx:if="{{list.is_spell_group == 0}}">
+      <image class='shangpin-image1' src='http://wechat.threemall.jianfengweb.com/{{list.shop_index_image}}'></image>
+      <view class='zhanshi-name2'>{{list.shop_name}}</view>
+      <view class='zhanshi-price'>￥{{list.shop_price}}</view>
+    </view>
+  </view>
+</view>
+<!-- 餐厨 -->
+<view class='{{canchu}}'>
+  <image class='pic'  src='/images/xinpin.png'></image>
+  <view class='kg'></view>
+  <view class='renqituijian'>
+    <view class='title'>餐厨</view>
+      <view class='tuijian-div' bindtap='gospxiangqing'  wx:for="{{orderinfo}}"  wx:for-item="list" wx:key="key" data-st='{{list.id}}'>
+      <image class='tuijian-image' src='http://wechat.threemall.jianfengweb.com/{{list.shop_index_image}}'></image>
+      <view class='tuijian-text'>
+        <view class='tuijian-name'>{{list.shop_name}}</view>
+        <view class='tuijian-shuoming'>{{list.shop_introduce}}</view>
+        <view class='zhanshi-price1'>￥{{list.shop_price}}</view>
+      </view>
+    </view>
+    <view class='zhanshi-div1' bindtap='gospxiangqing' wx:for="{{orderinfo}}"  wx:for-item="list" wx:key="key" data-st='{{list.id}}'>
+      <image class='shangpin-image1' src='http://wechat.threemall.jianfengweb.com/{{list.shop_index_image}}'></image>
+      <view class='zhanshi-name2'>{{list.shop_name}}</view>
+      <view class='zhanshi-price'>￥{{list.shop_price}}</view>
+    </view>
+  </view>
+</view>

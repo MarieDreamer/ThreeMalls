@@ -1,0 +1,35 @@
+<view class="search-bg">
+    <view class="search">
+        <view class="search-rt">
+            <image class='searchimg' src="/images/search.png"></image>
+            <input bindconfirm="SearchInput" placeholder="搜索商品" placeholderStyle="font-size:24rpx;color:#ccc" type="text"></input>
+        </view>
+    </view>
+    <!-- <view class='tc'></view> -->
+</view>
+  <view class='tc3'></view>
+  <view class='screendiv'>
+    <view bindtap="newclassfun" class='{{newtextclass}}'>最新</view>
+    <view bindtap="volumefun" class='{{volumeclass}}'>销量</view>
+    <view bindtap="priceclassfun" class='{{priceclass}}'>价格</view>
+  </view>
+
+
+ <view class='tc'></view>
+ 
+
+ <view  wx:for="{{lists}}" wx:for-item="list" wx:key="key" bindtap="gocommodity" data-id='{{list.id}}' class='spydiv'>
+  <view class='spclass'>
+    <image class='spimg' src='http://wechat.threemall.jianfengweb.com/{{list.shop_index_image[0]}}'></image>
+    <view class='spdivtextdiv'>
+      <view class='spdivtext'>{{list.shop_name}}</view>
+      <view class='spprice'>￥{{list.shop_price}}</view>
+    </view>
+  </view>
+ </view>
+
+
+
+
+
+

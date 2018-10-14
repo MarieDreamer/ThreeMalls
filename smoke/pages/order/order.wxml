@@ -1,0 +1,25 @@
+<!--pages/order/order.wxml-->
+<view>
+  <view bindtap="recommend" class='{{recommendclass}}'>全部</view>
+  <view bindtap="newProduct" class='{{newProductclass}}'>待付款</view>
+  <view bindtap="livingHome" class='{{livingHomeclass}}'>待发货</view>
+  <view bindtap="kitchen" class='{{kitchenclass}}'>已发货</view>
+  <view bindtap="cloth" class='{{clothclass}}'>待评价</view>
+</view>
+<view class='dise'></view>
+<view wx:for="{{list}}">
+  <view class='list'>
+    <view class='zhuangtaidiv'>
+      <view class='dianname'> 订单编号：1801566654865</view>
+      <image class='zhuangtaitext'></image>
+    </view>
+    <view class='commoditydiv'>
+      <image class='commodityimg' src="http://wechat.threemall.jianfengweb.com{{item.order_detail[0]['commodity_image']}}"></image>
+      <view class='commoditytext'>{{item.order_detail[0]['commodity_name']}}</view>
+    </view>
+    <view class='fukuantext'>实付款：</view>
+    <view class='jinetext'>￥{{item.order_detail[0]['price']}}</view>
+    <view bindtap="goorderdetails" class='ztanniu'>查看</view>
+  </view>
+  <view class='dise'></view>
+</view>

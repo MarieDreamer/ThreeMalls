@@ -1,0 +1,30 @@
+<!--pages/text/text.wxml-->
+<!-- <view class='pic'>
+  <image class='new1' src='/image/new1.png'></image>
+  <image class='new1' src='/image/new2.png'></image>
+  <image class='new1' src='/image/new3.png'></image>
+  <image class='new1' src='/image/new3.png'></image>
+  <image class='new1' src='/image/new5.png'></image>
+  <image class='new1' src='/image/new6.png'></image>
+</view>  -->
+<swiper vertical='true' next-margin='50rpx' class='new' display-multiple-items='1'>
+  <swiper-item class="swiper-list" >
+    <image class='lunbotuimg'   mode="widthFix" src="/image/new1.png"></image>
+  </swiper-item>
+
+  <swiper-item class="swiper-list" >
+    <image class='lunbotuimg'   mode="widthFix" src="/image/new2.png"></image>
+  </swiper-item>
+
+  <swiper-item class="swiper-list" >
+    <image class='lunbotuimg'   mode="widthFix" src="/image/new3.png"></image>
+  </swiper-item>
+
+  <swiper-item class="swiper-list" >
+    <image class='lunbotuimg'   mode="widthFix" src="/image/new5.png"></image>
+  </swiper-item>
+
+  <swiper-item class="swiper-list" >
+    <image class='lunbotuimg'   mode="widthFix" src="/image/new6.png"></image>
+  </swiper-item>
+</swiper>

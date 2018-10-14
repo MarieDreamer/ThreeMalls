@@ -1,0 +1,148 @@
+/* pages/myyouhuiquan/myyouhuiquan.wxss */
+page{
+  background-color: #eee;
+}
+.dingdan1{
+  width: 100%;
+  height: 80rpx;
+  background-color: white;
+}
+
+.dingdan{
+  width: 25%;
+  height: 80rpx;
+  float: left;
+  text-align: center;
+  line-height: 75rpx;
+  font-size: 29rpx;
+  color: #707070;
+}
+.youhuiquan{
+  width: 690rpx;
+  height: 180rpx;
+  background-color: red;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-bottom: 20rpx;
+  margin-top: 110rpx;
+  padding-top: 20rpx;
+  border-radius: 2%;
+}
+.youhuiquan-white{
+  background-color: white;
+  height: 100rpx;
+  width: 80%;
+  margin-left: 20rpx;
+  padding-top:40rpx;
+  padding-bottom: 25rpx;
+  float: left;
+}
+.xuxian{
+  float: left;
+  width: 40%;
+  height: 80rpx;
+  border-right: 1px dashed red;
+}
+.renminbi{
+  float: left;
+  height: 80rpx;
+  font-size: 30rpx;
+  padding-top:30rpx;
+  padding-left: 50rpx;
+  padding-right: 5rpx;
+  color: red;
+}
+.renminbi-num{
+  float:left;
+  height: 80rpx;
+  font-size: 65rpx;
+  line-height: 80rpx;
+  color:red;
+}
+
+.tiaojian-name{
+  color: red;
+  font-size: 25rpx;
+
+}
+.tiaojian-num{
+  color: red;
+  font-size: 25rpx;
+}
+.lingqu{
+  width: 8%;
+  font-size: 30rpx;
+  color:white;
+  float: left;
+  padding-left: 43rpx;
+  padding-top: 5rpx;
+}
+.dibu {
+  position: fixed;
+  bottom: 0rpx;
+  background-color: #FFFAFA;
+  width:100%;
+  height:150rpx;
+}
+.dibu-text1{
+  font-size: 25rpx;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30rpx;
+}
+.dibu-text2{
+  font-size:25rpx;
+  text-align: center;
+  padding-top: 20rpx;
+  color: #B0C4DE;
+}
+.coupon{
+  width: 700rpx;
+  padding: 25rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.red{
+  background-color: red;
+  width: 660rpx;
+  height: 100rpx;
+  color: white;
+  font-size: 25rpx;
+  padding: 20rpx;
+}
+.red > view{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100rpx;
+}
+.left{
+  border-right: 2rpx dashed #fff;
+  padding-right:20rpx;
+  margin-right: 20rpx;
+  float: left;
+}
+.center{
+  float: left;
+  
+}
+.right{
+  float: right;
+}
+.right > view{
+  background-color: white;
+  width: 140rpx;
+  border-radius: 10rpx;
+  color: red;
+  line-height: 50rpx;
+  text-align: center
+}
+.bottom{
+  font-size: 25rpx;
+  background-color: white;
+  padding: 20rpx;
+  color: #707070;
+  width: 660rpx;
+}

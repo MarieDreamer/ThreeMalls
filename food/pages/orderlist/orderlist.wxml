@@ -1,0 +1,60 @@
+<view class='dingdanxuanze'>
+  <view class='{{quanbu}}' bindtap='quanbu'>全部</view>
+  <view class='{{daifukuan}}' bindtap='daifukuan'>待付款</view>
+<view class='{{daishouhuo}}' bindtap='daishouhuo'>待收货</view>
+  <view class='{{yiwancheng}}'bindtap="yiwancheng">已完成</view>
+</view>
+
+<view class='tc2'></view>
+<view>
+  <view class='listdiv'>
+    <view class='zhuangtaidiv'>
+      <image class='shangdianimg' src='/images/dian.png'></image>
+      <view class='dianname'> XX旗舰店</view>
+      <view class='zhuangtaitext'>待收货</view>
+    </view>
+    <view class='commoditydiv'>
+      <image class='commodityimg' src='/images/sp.jpg'></image>
+      <view class='commoditytext'>果果果果果果果果果果果果果果果果果果果果果果果果</view>
+    </view>
+    <view class='fukuantext'>实付款：</view>
+    <view class='jinetext'>￥22.50</view>
+    <view bindtap="goorderdetails" class='ztanniu'>查看</view>
+  </view>
+  <view class='tc'></view>
+
+  <view class='listdiv'>
+    <view class='zhuangtaidiv'>
+      <image class='shangdianimg' src='/images/dian.png'></image>
+      <view class='dianname'> XX旗舰店</view>
+      <view class='zhuangtaitext'>已完成</view>
+    </view>
+    <view class='commoditydiv'>
+      <image class='commodityimg' src='/images/sp.jpg'></image>
+      <view class='commoditytext'>果果果果果果果果果果果果果果果果果果果果果果果果</view>
+    </view>
+    <view class='fukuantext'>实付款：</view>
+    <view class='jinetext'>￥22.50</view>
+    <view class='ztanniu'>查看</view>
+  </view>
+  <view class='tc'></view>
+
+  <view class='listdiv'>
+    <view class='zhuangtaidiv'>
+      <image class='shangdianimg' src='/images/dian.png'></image>
+      <view class='dianname'> XX旗舰店</view>
+      <view class='zhuangtaitext'>已完成</view>
+    </view>
+    <view class='commoditydiv'>
+      <image class='commodityimg' src='/images/sp.jpg'></image>
+      <view class='commoditytext'>果果果果果果果果果果果果果果果果果果果果果果果果</view>
+    </view>
+    <view class='fukuantext'>实付款：</view>
+    <view class='jinetext'>￥22.50</view>
+    <view class='ztanniu'>查看</view>
+  </view>
+  <view class='tc'></view>
+  
+</view>
+
+

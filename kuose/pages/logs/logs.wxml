@@ -1,0 +1,11 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>
+</view>
+
+<view class='dibu' >
+  <view class='dibu-text1'>KUOSE阔色</view>
+  <view class='dibu-text2'>有赞提供技术支持</view>
+</view>

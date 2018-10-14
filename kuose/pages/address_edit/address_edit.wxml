@@ -1,0 +1,29 @@
+
+<form bindsubmit="formSubmit" class='content'>
+  <view class="section">
+    <input name="name" class="input" value="{{name}}" placeholder='收货人' />
+  </view>
+  <view class="section">
+    <view class='area' bindtap="translate">
+      <input name="province" class="input" style='width:620rpx;border-bottom:0' value="{{province}}{{province?' ':''}}{{city}}{{city?' ':''}}{{county}}" placeholder='所在地区' disabled="true" />
+      <image src='/image/right.png' class='right_image'/>
+    </view>
+      
+  </view>
+  <view class="section">
+    <input name="address" class="input" value="{{address}}" placeholder='详细地址：如道路、门牌号、小区等'/>
+  </view>
+  <view class="section">
+    <input name="phone" class="input" value="{{phone}}" placeholder='手机号码'/>
+  </view>
+  <view class="section" class='default_item'>
+    <view class='default_text'>设为默认</view>
+    <switch name="def" checked='{{def}}' />
+  </view>
+  <view class="btn-area">
+    <button formType="submit">提交</button>
+  </view>
+</form>
+
+<import src="../../model/model.wxml"/>
+<template is="areaData" data="{{...item}}"/>

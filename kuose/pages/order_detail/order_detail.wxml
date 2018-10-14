@@ -1,0 +1,34 @@
+<!--pages/queren/queren.wxml-->
+<view class='personal'>
+  <view class='mid'>
+  <view class='top_addr'>
+    <view class='personal-name'>收货地址：</view>
+  </view>
+    <view class='personal-addres'>{{detail.address}}</view>
+  </view>
+  <image class='right' src='/image/right.png'></image>
+</view>
+
+<view class='carmode' wx:for="{{detail.order_detail}}" wx:for-item="list" wx:key="key" >
+  <view class='mode-img'><image class='picture' src='http://system.threemall.jianfengweb.com{{list.commodity_image}}'></image></view>
+  <view class='mode-div'>
+    <view class='mode-info'>{{list.commodity_name}}</view>
+    <view class='mode-type'>{{list.color}}，{{list.size}}</view>
+    <view class='mode-time'>￥{{list.price}}</view>
+  </view>
+  <view class='mode-quantity'>*{{list.num}}</view>
+</view>
+
+<view class="order">
+  <text class="myorder-text">优惠券</text>
+  <text class="myorderlook-text">0 张</text>
+  <image class="item-image" src="/image/right.png"></image>
+</view>
+<view class="order">
+  <text class="message" style="width:'';">留言：{{detail.message}}</text>
+</view>
+<view class="order">
+  <text class="myorder-text">商品合计：</text>
+  <text class="myorderlook-text">￥{{detail.total_fee}}</text>
+</view>
+

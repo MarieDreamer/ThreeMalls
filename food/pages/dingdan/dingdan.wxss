@@ -1,0 +1,173 @@
+/* pages/dingdan/dingdan.wxss */
+page{
+  background-color: #eee;
+}
+.btns{
+  padding: 10rpx 20rpx;
+  font-size: 25rpx;
+  border-radius: 10rpx;
+}
+.btn1{
+  border: 1rpx solid gray;
+  margin-right: 20rpx;
+  color: gray;
+}
+.btn2{
+  border: 1rpx solid red;
+  color: red;
+}
+.dingdan1{
+  width: 100%;
+  height: 80rpx;
+  background-color:white;
+}
+
+.dingdan{
+  width: 25%;
+  height: 80rpx;
+  float: left;
+  text-align: center;
+  line-height: 75rpx;
+  font-size: 29rpx;
+  color: #707070;
+}
+
+.list{
+  width: 100%;
+  background-color: #fff;
+  margin-top: 10rpx;
+}
+
+.zhuangtaidiv{
+  width: 700rpx;
+  padding: 20rpx 25rpx;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.shangdianimg{
+  width: 50rpx;
+  height: 50rpx;
+  float:left;
+}
+
+.dianname{
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  float:left;
+  line-height: 50rpx;
+}
+
+.zhuangtaitext{
+  float: right;
+  font-size: 30rpx;
+  color: red;
+  line-height: 53rpx;
+}
+
+.commoditydiv{
+  width: 700rpx;
+  padding: 20rpx 25rpx;
+  background-color: #F8F8F8;
+  display: flex;
+  height:150rpx;
+}
+.commodityprice{
+  font-size: 25rpx;
+  float: right;
+}
+.commodityimg{
+  width: 150rpx;
+  height:150rpx;
+}
+
+.order_bottom{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 700rpx;
+  padding: 15rpx 25rpx;
+}
+.order_bottom.buttons{
+  padding: 15rpx 25rpx;
+  border-top: 1rpx solid #eee;
+}
+
+.order_detail_num{
+  display: flex;
+  justify-content: center;
+  width: 750rpx;
+  font-size: 25rpx;
+  padding: 20rpx 0;
+  color: red;
+  border-bottom: 2rpx solid #eee;
+}
+
+.commoditytext{
+  font-size: 25rpx;
+  width:400rpx;
+  float:left;
+}
+.detail_type{
+  color: gray;
+  font-size: 25rpx;
+  float: left;
+}
+.detail_num{
+  font-size: 25rpx;
+  float: right;
+}
+.detail_spell{
+  background-color: red;
+  font-size: 25rpx;
+  color: white;
+  border-radius: 5rpx;
+  width: 80rpx;
+  text-align: center;
+}
+.commodity_right{
+  display:flex;flex-direction:column;
+  width: 525rpx;
+  margin-left: 25rpx;
+  justify-content:space-between;
+}
+.fukuantext{
+  margin-left: 19rpx;
+  font-size: 30rpx;
+}
+
+.jinetext{
+  font-size: 30rpx;
+  color: red;
+}
+
+.ztanniu{
+  height:51rpx;
+  width:114rpx;
+  border:1px solid red;
+  border-radius:13rpx;
+  color:red;
+  font-size:28rpx;
+  text-align:center;
+  line-height:48rpx;
+}
+.dibu {
+  position: fixed;
+  bottom: 0rpx;
+  background-color: #FFFAFA;
+  width:100%;
+  height:150rpx;
+}
+.dibu-text1{
+  font-size: 25rpx;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30rpx;
+}
+.dibu-text2{
+  font-size:25rpx;
+  text-align: center;
+  padding-top: 20rpx;
+  color: #B0C4DE;
+}

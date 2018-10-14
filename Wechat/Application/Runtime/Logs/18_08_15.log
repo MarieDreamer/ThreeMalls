@@ -1,0 +1,242 @@
+[ 2018-08-15T13:20:05+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=081Bg9yX0Irh222XMvxX0CiryX0Bg9yH
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+
+[ 2018-08-15T14:04:18+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=001gXjZa1iqUUu0uDb1b1GBnZa1gXjZL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+
+[ 2018-08-15T14:10:06+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=081p2PeZ0G9tA12xAYaZ02SPeZ0p2PeX
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-15T14:10:16+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=021jh9Y118vczO1zPJY11AZNX11jh9Yg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-15T14:13:23+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=071Yq4G02vri901dv3D02OnSF02Yq4G2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.043003s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.039002s ]
+SQL: INSERT INTO `wechat_user_clothmail` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES ('o9JDS5A8idkjn3iMpkNyYPjlVNbU',1,1534313602,1534313602) [ RunTime:0.042003s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `id` = 46 ) LIMIT 1   [ RunTime:0.078004s ]
+
+[ 2018-08-15T15:32:09+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=061WySgH0My3qi2IZYdH0OHehH0WySgK
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.036002s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.036002s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534318329 WHERE ( `id` = 46 ) [ RunTime:0.034002s ]
+ERR: 1142:UPDATE command denied to user 'ThreeMailAll'@'183.157.76.209' for table 'wechat_user_clothmail'
+ [ SQL语句 ] : UPDATE `wechat_user_clothmail` SET `login_time`=1534318329 WHERE ( `id` = 46 )
+
+[ 2018-08-15T15:32:37+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=001o8LzZ0HI15021oYxZ0RwyzZ0o8LzF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.054003s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.040002s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534318357 WHERE ( `id` = 46 ) [ RunTime:0.039002s ]
+ERR: 1142:UPDATE command denied to user 'ThreeMailAll'@'183.157.76.209' for table 'wechat_user_clothmail'
+ [ SQL语句 ] : UPDATE `wechat_user_clothmail` SET `login_time`=1534318357 WHERE ( `id` = 46 )
+
+[ 2018-08-15T15:43:16+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=021iUsc51F4ipL1qbBa51Mcnc51iUscd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-08-15T15:43:56+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=061L3Ijr0MnKCe1StXir0bUsjr0L3Ijp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.020001s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `wechat_user_clothmail` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES ('o9JDS5A8idkjn3iMpkNyYPjlVNbU',1,1534319036,1534319036) [ RunTime:0.089006s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `id` = 47 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2018-08-15T15:44:11+08:00 ] 127.0.0.1 /WechatUserClothmail/save_do?id=47&nickname=%E6%AD%A2%E6%B0%B4&imageurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg%2F132&gender=1&province=%E6%B5%99%E6%B1%9F&city=%E6%9D%AD%E5%B7%9E&country=%E4%B8%AD%E5%9B%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.013001s ]
+SQL: UPDATE `wechat_user_clothmail` SET `nickname`='止水',`imageurl`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg/132',`gender`=1,`province`='浙江',`city`='杭州',`country`='中国' WHERE ( `id` = 47 ) [ RunTime:0.118007s ]
+
+[ 2018-08-15T15:59:14+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=021b69bS0q4Mz82gFJaS0Fn0bS0b69b8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.020001s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `wechat_user_clothmail` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES ('o9JDS5A8idkjn3iMpkNyYPjlVNbU',1,1534319954,1534319954) [ RunTime:0.074005s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `id` = 48 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2018-08-15T15:59:18+08:00 ] 127.0.0.1 /WechatUserClothmail/save_do?id=48&nickname=%E6%AD%A2%E6%B0%B4&imageurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg%2F132&gender=1&province=%E6%B5%99%E6%B1%9F&city=%E6%9D%AD%E5%B7%9E&country=%E4%B8%AD%E5%9B%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.001000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `nickname`='止水',`imageurl`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg/132',`gender`=1,`province`='浙江',`city`='杭州',`country`='中国' WHERE ( `id` = 48 ) [ RunTime:0.100005s ]
+
+[ 2018-08-15T16:02:19+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=021daD1r0Jxn8p1WCa2r0Kpl1r0daD1U
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534320139 WHERE ( `id` = 48 ) [ RunTime:0.058003s ]
+
+[ 2018-08-15T16:02:34+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=0717v0Pt1AiUfd0El6Pt1ryLOt17v0Pn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534320154 WHERE ( `id` = 48 ) [ RunTime:0.099006s ]
+
+[ 2018-08-15T16:02:52+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=0817ZCZs1kbqSc0Jth0t1XaNZs17ZCZq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.002000s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `wechat_user_clothmail` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES ('o9JDS5A8idkjn3iMpkNyYPjlVNbU',1,1534320172,1534320172) [ RunTime:0.088005s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `id` = 49 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2018-08-15T16:02:56+08:00 ] 127.0.0.1 /WechatUserClothmail/save_do?id=49&nickname=%E6%AD%A2%E6%B0%B4&imageurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg%2F132&gender=1&province=%E6%B5%99%E6%B1%9F&city=%E6%9D%AD%E5%B7%9E&country=%E4%B8%AD%E5%9B%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.023001s ]
+SQL: UPDATE `wechat_user_clothmail` SET `nickname`='止水',`imageurl`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg/132',`gender`=1,`province`='浙江',`city`='杭州',`country`='中国' WHERE ( `id` = 49 ) [ RunTime:0.068004s ]
+
+[ 2018-08-15T16:06:03+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=021GjYzg0qYPxz1LwJzg0YzTzg0GjYzu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.015001s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534320363 WHERE ( `id` = 49 ) [ RunTime:0.079004s ]
+
+[ 2018-08-15T16:06:21+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=071U6HG60AMUoJ1on5G60AK2H60U6HGZ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.029002s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: INSERT INTO `wechat_user_clothmail` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES ('o9JDS5A8idkjn3iMpkNyYPjlVNbU',1,1534320381,1534320381) [ RunTime:0.069004s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `id` = 50 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2018-08-15T16:06:28+08:00 ] 127.0.0.1 /WechatUserClothmail/save_do?id=50&nickname=%E6%AD%A2%E6%B0%B4&imageurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg%2F132&gender=1&province=%E6%B5%99%E6%B1%9F&city=%E6%9D%AD%E5%B7%9E&country=%E4%B8%AD%E5%9B%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.002000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `nickname`='止水',`imageurl`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg/132',`gender`=1,`province`='浙江',`city`='杭州',`country`='中国' WHERE ( `id` = 50 ) [ RunTime:0.077004s ]
+
+[ 2018-08-15T16:28:01+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=061AdLMe0UxsaA1CsrLe0QCuMe0AdLMU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.016001s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534321681 WHERE ( `id` = 50 ) [ RunTime:0.055003s ]
+
+[ 2018-08-15T16:36:20+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=021o86ag0hNzRy1i3S9g0kheag0o86af
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.004001s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534322180 WHERE ( `id` = 50 ) [ RunTime:0.083004s ]
+

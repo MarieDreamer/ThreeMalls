@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/homepage/homepage",
+    "pages/pintuanlist/pintuanlist",
+    "pages/pingtuan/pingtuan",
+    "pages/spxiangqing/spxiangqing",
+    "pages/login/login",
+    "pages/search/search",
+    "pages/addres/addres",
+    "pages/youhuiquan/youhuiquan",
+    "pages/order/order",
+    "pages/queren/queren",
+    "pages/fuwu/fuwu",
+    "pages/pingjia/pingjia",
+    "pages/shopcar/shopcar",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/dingdanxiangqing/dingdanxiangqing",
+    "pages/wuliuxinxi/wuliuxinxi",
+    "pages/address_edit/address_edit"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#1296db",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "/images/homepage_blue.png",
+        "iconPath": "/images/homepage_black.png",
+        "pagePath": "pages/homepage/homepage",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "/images/shopcar_blue.png",
+        "iconPath": "/images/shopcar_black.png",
+        "pagePath": "pages/shopcar/shopcar",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "/images/mine_blue.png",
+        "iconPath": "/images/mine_black.png",
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+      }
+    ]
+  }
+}

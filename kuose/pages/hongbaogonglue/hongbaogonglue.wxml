@@ -1,0 +1,66 @@
+<!--pages/hongbaogonglue/hongbaogonglue.wxml-->
+<!--优惠券-->
+<view class='youhuiquan'>
+  <view class='youhuiquan-white'>
+    <view class='xuxian'>
+      <view class='renminbi'>￥</view>
+      <view class='renminbi-num'>0.01</view>
+    </view>
+    <view class='tiaojian'>
+      <view class='tiaojian-name'>优惠券</view>
+      <view class='tiaojian-num'>满0.01元可用</view>
+    </view>
+  </view>
+  <view class='lingqu'>立刻领取</view>
+</view>
+<!--红包领取规则-->
+<view class='gonglue-rulr'>
+  <view class='rule-title'>红包领取规则</view>
+  <view class='rule-body'>
+    <view class='body'>嘿~~小可爱 无门蓝优惠券是拼团优惠券</view>
+    <view class='body'>亲需要把拼团连接分享给朋友</view>
+    <view class='body'>拼团成功后找到客服领取优惠券的哈</view>
+    <view class='body'>由于后台不能设置0元拼团</view>
+    <view class='body'>小可爱记得先领取1分钱优惠券哈</view>
+  </view>
+</view>
+<!--红包领取步骤-->
+<view class='step'>
+  <view class='step-1'>
+    <image class='stepimg-1' src='/image/text.jpg'></image>
+    <view class='steptext-1'>1、点开首页的优惠券</view>
+  </view>
+   <view class='step-1'>
+    <image class='stepimg-1' src='/image/text.jpg'></image>
+    <view class='steptext-1'>2、点0.01开团</view>
+  </view>
+   <view class='step-1'>
+    <image class='stepimg-1' src='/image/text.jpg'></image>
+    <view class='steptext-1'>3、由于领取了优惠券支付便是1分钱</view>
+  </view>
+   <view class='step-1'>
+    <image class='stepimg-1' src='/image/text.jpg'></image>
+    <view class='steptext-1'>4、支付把链接分享给朋友</view>
+  </view>
+   <view class='step-1'>
+    <image class='stepimg-1' src='/image/text.jpg'></image>
+    <view class='steptext-1'>5、在“我的订单”页面可以查看“拼团详情”拼团成功后截图下来</view>
+  </view>
+   <view class='step-1'>
+    <image class='stepimg-1' src='/image/text.jpg'></image>
+    <view class='steptext-1'>6、把拼团成功的图片发给客服</view>
+  </view>
+</view>
+<!--快速进店攻略-->
+<view class='ksjdgl'>
+  <view class='ksjdgl-title'>快速进店攻略</view>
+  <image class='ksjdgl-image' src='/image/text.jpg'></image>
+  <image class='ksjdgl-image' src='/image/text.jpg'></image>
+  <image class='ksjdgl-image' src='/image/text.jpg'></image>
+  <image class='ksjdgl-image' src='/image/text.jpg'></image>
+</view>
+
+<view class='dibu' >
+  <view class='dibu-text1'>KUOSE阔色</view>
+  <view class='dibu-text2'>有赞提供技术支持</view>
+</view>

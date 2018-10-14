@@ -1,0 +1,166 @@
+
+/* pages/mine/mine.wxss */
+page{
+  background-color: #eee;
+}
+.userinfo {
+  width: 100%;
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  margin-bottom: 10rpx;
+}
+
+.account-bg {
+  width: 100%;
+  height: 150rpx;
+}
+.userinfo-avatar {
+  width: 230rpx;
+  height: 230rpx;
+  margin:45rpx;
+  border-radius: 50%;
+}
+.iphone{
+  background-color: white;
+  white-space:nowrap;
+  display: flex;
+  align-items: center;
+  width: 700rpx;
+  padding: 25rpx;
+  margin-bottom: 10rpx
+}
+.iphone-text{
+  font-size: 30rpx;
+}
+.iphone-button{
+  width: 100rpx;
+  height: 55rpx;
+  border: 2rpx solid #707070;
+  border-radius: 10rpx;
+  line-height: 55rpx;
+  text-align: center;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+/* 订单 */
+.order {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 90rpx;
+  background-color: white;
+  border-bottom: 4rpx #F0EFF5 solid;
+}
+.dise{
+  height: 8px;
+}
+.item_container {
+  font-size: 30rpx;
+  width: 700rpx;
+  padding: 25rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin-bottom: 2rpx;
+}
+.myorderlook-text {
+  font-size: 30rpx;
+  color: gray;
+  position: relative;
+  right: 20rpx;
+  width: 60%;
+  text-align: right;
+}
+.next-image {
+  width: 20rpx;
+  height: 25rpx;
+}
+.orderinfo{
+  background-color: white;
+  margin-bottom:10rpx;
+  display: flex;
+}
+.orderinfo navigator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  height:160rpx;
+  justify-content:center;
+}
+.orderinfo navigator image{
+  width:70rpx;
+  height: 70rpx;
+}
+
+.orgerinfo-view-text{
+  font-size: 25rpx;
+  text-align: center;
+}
+/* 列表 */
+.person-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-color: white;
+}
+.list-item {
+ display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 90rpx;
+  background-color: white;
+  border-bottom: 4rpx #F0EFF5 solid;
+}
+.list-item-1{
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 90rpx;
+  background-color: white;
+  border-bottom: 4rpx #FFFAFA solid;
+}
+.item-text {
+  font-size: 30rpx;
+  color: gray;
+  margin: 20rpx;
+  width: 100%;
+}
+.item-image{
+  width: 20rpx;
+  height: 25rpx;
+  position: relative;
+  right: 10rpx;
+}
+.person-line {
+  width: 100%;
+  height: 2rpx;
+  background: lightgray;
+  margin-left: 10rpx;
+}
+.dibu {
+  background-color: #FFFAFA;
+  width:700rpx;
+  padding: 25rpx;
+  height:150rpx;
+}
+.dibu-text1{
+  font-size: 25rpx;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30rpx;
+}
+.dibu-text2{
+  font-size:25rpx;
+  text-align: center;
+  padding-top: 20rpx;
+  color: #B0C4DE;
+}

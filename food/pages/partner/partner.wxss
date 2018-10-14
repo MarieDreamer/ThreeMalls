@@ -1,0 +1,153 @@
+page{
+  background-color: #eee;
+}
+.person{
+  width: 750rpx;
+  background: linear-gradient(black, gray);
+  color: white;
+  padding-top: 25rpx;
+}
+.person_1{
+  font-size: 35rpx;
+  display: flex;
+  align-items: center;
+}
+.person_1 image{
+  flex-shrink: 0;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 100%;
+  margin: 0 20rpx;
+}
+.person_1 view:nth-child(2){
+  flex-basis: 100%;
+}
+.person_1 view:nth-child(3){
+  flex-shrink: 0;
+  background-color: peru;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-radius: 40rpx 0 0 40rpx;
+  padding: 0 20rpx;
+  font-size: 30rpx;
+}
+
+.person_2{
+  border-top: 1rpx solid gray;
+  font-size: 25rpx;
+  margin: 25rpx 25rpx 0 25rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+
+.balance{
+  background-color: white;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}
+.balance view{
+  width: 100%;
+  text-align: center;
+}
+.balance view:first-child{
+  padding-top: 25rpx;
+  color: gray;
+}
+.balance view:nth-child(2){
+  font-size: 60rpx;
+  margin: 20rpx 0;
+}
+.balance view:nth-child(3){
+  color: gray;
+  padding-bottom: 25rpx;
+}
+.balance view:nth-child(4),.balance view:nth-child(5){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 700rpx;
+  padding: 25rpx;
+  border-top: 1rpx solid #eee;
+}
+.balance view:nth-child(4) image,.balance view:nth-child(5) image{
+  width: 20rpx;
+  height: 20rpx;
+}
+.count{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}
+.count > view{
+  flex-grow: 1;
+  padding: 50rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.count > view > view{
+  color: blue;
+  font-size: 45rpx;
+  margin-bottom: 20rpx;
+}
+.buttons{
+  background-color: white;
+  display: flex;
+  font-size: 35rpx;
+  color: white;
+  margin-bottom: 20rpx;
+}
+.buttons>view{
+  border-radius: 10rpx;
+  margin: 25rpx;
+  width: 200rpx;
+  padding: 20rpx;
+}
+.buttons>view:first-child{
+  background-color: peru;
+  margin-right: 0;
+}
+.buttons>view:nth-child(2){
+  background-color: pink;
+}
+.buttons>view>view{
+  font-size: 30rpx;
+}
+.questions{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:700rpx;
+  padding:25rpx;
+  font-size: 30rpx;
+  border-top:1rpx solid #eee;
+  border-bottom:1rpx solid #eee;
+  background-color: white;
+  margin-bottom: 150rpx;
+}
+.questions image{
+  width: 20rpx;
+  height: 20rpx;
+}
+.fixed{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  border-top: 1rpx solid #ccc;
+}
+.fixed > view{
+  flex-grow: 1;
+  padding: 25rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+.fixed > view:first-child{
+  border-right: 1rpx solid #ccc;
+}
+.fixed>view:nth-child(2){
+  border-right: 1rpx solid #ccc;
+}

@@ -1,0 +1,89 @@
+<view class='headchoice'>
+  <view class='{{availableclass}}' bindtap="availablefun">可用优惠券</view>
+  <view class='{{unavailableclass}}'bindtap="unavailablefun">不可用优惠券</view>
+</view>
+
+<view class='tc'></view>
+<view class='coupondiv'>
+  <view class='coupondivleft'>
+    <view class='money'>￥20</view>
+    <view class='couponattribute'>满200元可用</view>
+  </view>
+  <view class='coupondivright'>
+    <view class='coupontitle'>
+    <view class='bluetitle'>优惠券</view>
+    仅可购买跨店铺活动商品
+    </view>
+    <view class='coupontime'>2018.07.24-2018.07.27</view> 
+  </view>
+</view>
+
+<view class='coupondiv'>
+  <view class='coupondivleft'>
+    <view class='money'>￥20</view>
+    <view class='couponattribute'>满200元可用</view>
+  </view>
+  <view class='coupondivright'>
+    <view class='coupontitle'>
+    <view class='bluetitle'>优惠券</view>
+    仅可购买跨店铺活动商品
+    </view>
+    <view class='coupontime'>2018.07.24-2018.07.27</view> 
+  </view>
+</view>
+
+<view class='coupondiv'>
+  <view class='coupondivleft'>
+    <view class='money'>￥20</view>
+    <view class='couponattribute'>满200元可用</view>
+  </view>
+  <view class='coupondivright'>
+    <view class='coupontitle'>
+    <view class='bluetitle'>优惠券</view>
+    仅可购买跨店铺活动商品
+    </view>
+    <view class='coupontime'>2018.07.24-2018.07.27</view> 
+  </view>
+</view>
+
+<view class='coupondiv'>
+  <view class='coupondivleft'>
+    <view class='money'>￥20</view>
+    <view class='couponattribute'>满200元可用</view>
+  </view>
+  <view class='coupondivright'>
+    <view class='coupontitle'>
+    <view class='bluetitle'>优惠券</view>
+    仅可购买跨店铺活动商品
+    </view>
+    <view class='coupontime'>2018.07.24-2018.07.27</view> 
+  </view>
+</view>
+
+<view class='coupondiv'>
+  <view class='coupondivleft'>
+    <view class='money'>￥20</view>
+    <view class='couponattribute'>满200元可用</view>
+  </view>
+  <view class='coupondivright'>
+    <view class='coupontitle'>
+    <view class='bluetitle'>优惠券</view>
+    仅可购买跨店铺活动商品
+    </view>
+    <view class='coupontime'>2018.07.24-2018.07.27</view> 
+  </view>
+</view>
+
+<view class='coupondiv'>
+  <view class='coupondivleft'>
+    <view class='money'>￥20</view>
+    <view class='couponattribute'>满200元可用</view>
+  </view>
+  <view class='coupondivright'>
+    <view class='coupontitle'>
+    <view class='bluetitle'>优惠券</view>
+    仅可购买跨店铺活动商品
+    </view>
+    <view class='coupontime'>2018.07.24-2018.07.27</view> 
+  </view>
+</view>

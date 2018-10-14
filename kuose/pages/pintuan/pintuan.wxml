@@ -1,0 +1,60 @@
+<!--pages/pintuan/pintuan.wxml-->
+<!--优惠券-->
+<!-- <view class='youhuiquan'>
+  <view class='youhuiquan-white'>
+    <view class='xuxian'>￥0.01</view>
+    <text class='tiaojian'>优惠券
+      满0.01元可用
+    </text>
+  </view>
+  <view class='lingqu'>立刻领取</view>
+</view> -->
+
+<view class='baobei' wx:for="{{list}}" bindtap='goinfo' data-id="{{item.id}}">
+  <image class='baobei-image' src='http://wechat.threemall.jianfengweb.com{{item.shop_index_image}}'></image>
+  <view class='baobei-wenan'>
+    <view class='baobei-name'>{{item.shop_name}}</view>
+    <view style='display:flex;margin-top:30rpx'>
+      <view class='baobei-pintuanjia'>{{item.order_size}}人拼团价</view>
+      <view class='baobei-renminbi'>￥{{item.group_price}}</view>
+    </view>
+    <view style='width:480rpx;'>
+      <view class='baobei-danmaijia'>单买价￥{{item.shop_price}}</view>
+      <view class='baobei-qukaituan'>去开团</view>
+    </view>
+  </view>
+</view>
+
+<view class='rule'>
+  <view class="rule-title">0元拼团</view>
+  <view class="rule-rule">抽奖规则</view>
+  <view class='rule-time'>第16期抽奖（2018.7.21-2018.7.28）</view>
+  <text>
+    小仙女们注意哦，这是抽奖活动
+    每30个人抽一个人
+    团长要发起拼团拼邀请朋友成团
+    成团后每个人都有抽奖的资格
+    多次拼团可提高中奖概率
+    2017.7.28  13：30在官方商城发布的中奖名单
+    并会以短信的方式通知中奖者
+    中奖者凭短信截图找客服提供发货地址
+    PS：拼团成功后显示的已发货仅代表拼图成功
+    并非真的发货，以开奖时间为准
+    不中奖的用户会全额退款拼团金额
+  </text>
+</view>
+<!--中奖名单-->
+<view class='mingdan'>
+  <view class='mingdan-title'>第十六期中奖名单</view>
+  <view class='mingdan-vx'>以下订单号的小仙女</view>
+  <view class='mingdan-vx'>凭中奖短信联系运营小姐姐哦</view>
+  <view class='mingdan-vx'>加微信：kuose2018</view>
+</view>
+<view class='mingdanimg'>
+  <view class='mingdanimg-kuang1'>
+    <image class='mingdanimg-hd' src='/image/text.jpg'></image>
+  </view>
+  <view class='mingdanimg-kuang2'>
+    <image class='mingdanimg-name' src='/image/text.jpg'></image>
+  </view>
+</view>

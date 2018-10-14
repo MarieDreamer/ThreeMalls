@@ -1,0 +1,23 @@
+<view class='headchoice'>
+  <view class='headchoiceleft' wx:for="{{tab}}" style="{{select_tab == index?'color:#f4ea2a':''}}" bindtap='select_tab' data-index="{{index}}">{{item}}</view>
+</view>
+<view style='margin-top:10rpx;'></view>
+
+<view wx:for="{{list}}" style='margin-bottom:10rpx'>
+  <view class='dingdandiv'>
+    <view class='dingdantext'>订单编号：123156456444  下单时间：2018-7-20 11:20:20</view>
+  </view>
+  <view class='shangping'>
+  <view class='shangpingimgdiv'>
+    <image class='shangpingimg' src='/images/sp.jpg'></image>
+  </view>
+  <view class='shangpingtext'>
+    <view class='shangpingtitle'>果果果果果果果果果果果果果果果果果果果果果果果果果果果果果果</view>
+    <view class='shangpingshu'>数量：1</view>
+  </view>
+  </view>
+  <view class='querendiv'>
+    <view class='querentext'>该订单需要确认收货以后才可申请售后</view>
+    <view class='anniu'>申请退款</view>
+  </view>
+</view>

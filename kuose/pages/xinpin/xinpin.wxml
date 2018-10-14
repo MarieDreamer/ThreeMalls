@@ -1,0 +1,19 @@
+<!--pages/xinpin/xinpin.wxml-->
+<scroll-view scroll-x="true"  class='hengxianggundong'>
+  <view class='hot'>7.21新品</view>
+  <view class='hot'>7.16新品</view>
+  <view class='hot'>7.04新品</view>
+  <view class='hot'>6.24新品</view>
+  <view class='hot'>6.16新品</view>
+  <view class='hot'>6.08新品</view>
+  <view class='hot'>6.01新品</view>
+</scroll-view>
+<image class='new-1' src='/image/xinpin-1.png' ></image>
+<image class='new-2' src='/image/xinpin-2.png' ></image>
+<image class='new-3' src='/image/xinpin-3.png' bindtap='goinfo'></image>
+<image class='new-3' src='/image/xinpin-4.png' bindtap='goinfo'></image>
+
+<view class='dibu' >
+  <view class='dibu-text1'>KUOSE阔色</view>
+  <view class='dibu-text2'>有赞提供技术支持</view>
+</view>

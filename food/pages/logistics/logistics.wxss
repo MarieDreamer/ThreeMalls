@@ -1,0 +1,83 @@
+page{
+  background-color: rgb(241, 242, 245)
+}
+
+.kuaididiv{
+  height: 160rpx;
+  width: 100;
+  background-color: #fff;
+  border-top:1px solid #e6e6e6;
+  border-bottom:1px solid #e6e6e6;
+}
+
+.kuaidi{
+  height: 80rpx;
+  width: 100;
+}
+
+.kuaidititle{
+  float: left;
+  width: 119rpx;
+  font-size: 25rpx;
+  color: #bfbfbf;
+  margin-left: 20rpx;
+  line-height: 69rpx;
+}
+
+.kuaiditext{
+  float: left;
+  /* width: 100rpx; */
+  font-size: 25rpx;
+  /* color: #bfbfbf; */
+  margin-left: 20rpx;
+  line-height: 69rpx;
+
+}
+
+.tc{
+  width: 100%;
+  height: 30rpx;
+}
+
+.jiludiv{
+  width: 100%;
+  background-color: #fff;
+  height: 160rpx;
+  border-bottom:1px solid #e6e6e6;
+  
+}
+
+.leftdiv{
+  float: left;
+  width: 20%;
+  height: 100rpx;
+}
+
+.reddian{
+  width: 30rpx;
+  height: 30rpx;
+  padding: 40rpx;
+}
+
+.jingdutext{
+  font-size: 25rpx;
+  /* padding: 20rpx; */
+  margin-top: 20rpx;
+  width: 80%;
+  height: 54rpx;
+}
+
+.rightdiv{
+  float: left;
+  height: 160rpx;
+  width: 80%;
+}
+
+.timetext{
+    font-size: 25rpx;
+  /* padding: 20rpx; */
+  margin-top: 20rpx;
+  width: 80%;
+  height: 70rpx;
+  color: #bfbfbf;
+}

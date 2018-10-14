@@ -1,0 +1,47 @@
+<!--pages/welfare.wxml-->
+<!--福利专区-->
+<view wx:for="{{broadcastimglists}}" wx:for-item="broadcastimglists" wx:key="key" class='activity' bindtap="{{broadcastimglists.url}}">
+  <image src="http://wechat.threemall.jianfengweb.com{{broadcastimglists.img}}"></image>
+</view>
+<!-- 
+<view class='activity' bindtap="gopintuan">
+  <image src="/image/pintuan.png"></image>
+</view>
+
+<view class='activity' bindtap="gomiaosha">
+  <image src="/image/miaosha.png"></image>
+</view>
+
+<view class='activity' bindtap='gofree'>
+  <image src="/image/shichuan.png"></image>
+</view>
+
+<view class='activity' bindtap='goxinpin'>
+  <image src="/image/xinpin.png"></image>
+</view> -->
+
+<view class='about'>
+  <view class='about-kuose'>
+    <view class='about-English'>ABOUT KUOSE</view>
+    <view class='about-hongdi'>关于阔色</view>
+  </view>
+</view>
+
+<view class='chatu'>
+  <image class='chatu-about 'src='/image/about.png'></image>  
+</view>
+
+<view class='about-us-1'>
+  <view class='about-us-1-1'>小仙女们，微信的官方商城是阔色公司唯一的官方商城</view>
+  <view class='about-us-1-1'>致力于为小仙女们提供更钢鞭的社交型购物体验</view>
+  <view class='about-us-1-1'>所以在官方上称会有比较多的社交型优惠活动</view>
+  <view class='about-us-1-1'>在建立初期，很多地方做的不够好，希望小仙女们多多担待</view>
+  <view class='about-us-1-1'>有对阔色不满的地方希望小仙女们可以给我们建议</view>
+  <view class='about-us-1-1'>我们一起进步一起成长</view>
+</view>
+
+<view class='about-us-2'>
+  <view class='complain'>投诉与建议</view>
+  <view class='number'>售后服务热线：4000350360</view>
+  <view class='wechat'>运营小姐姐微信：kuose2018</view>
+</view>

@@ -1,0 +1,36 @@
+
+  <view class='carmode'  wx:for="{{cartarray}}" wx:for-item="list" wx:key="key">
+    <image bindtap="choicefun" data-id="{{list.id}}" class='gouxuan-1' src='/images/xuanzhong.png' wx:if="{{list.selected==1}}"></image>
+    <image bindtap="choicefun" data-id="{{list.id}}" class='gouxuan-1' src='/images/weixuanzhong.png' wx:else></image>
+    <view class='neirong'  bindtap='goxiangqing'  data-id='{{list.commodity_id}}'>
+      <view class='mode-img'><image bindtap='goinfo' class='picture' src='http://system.threemall.jianfengweb.com{{list.commodity_image}}'></image></view>
+      <view class='mode-div'>
+        <view bindtap='goinfo' class='mode-info'>{{list.commodity_name}}</view>
+        <view class='mode-type'>{{list.type}}</view>
+        <view class='mode-time'>单价：￥{{list.single_price}}</view>
+        <view class='mode-quantity'>数量：{{list.num}}</view>
+      </view>
+    </view>
+  </view>
+
+<view style='height:200rpx;color:#808080;font-size:25rpx;width:100%;text-align:center;margin-top:25rpx;'>木有了~</view>
+
+
+
+
+<view class='jiesuan'>
+  <view class='quanxuananniu'>
+    <image class='gouxuan' bindtap="SelectAll" src='/images/xuanzhong.png' wx:if="{{select_all==1}}"></image>
+    <image class='gouxuan' bindtap="SelectAll" src='/images/weixuanzhong.png' wx:else></image>
+    <view class='quanxuan'>全选</view>
+  </view>
+  <view class='jiesuan-1' bindtap='goqueren'>结算</view>
+  <view class='jiesuan-text'>
+    <view class='heji'>合计:</view>
+    <view class='moneydiv'>
+      <view class='money'>￥{{total_price}}</view>
+      <view class='yunfei'>不含运费</view>
+    </view>
+  </view>
+</view>
+

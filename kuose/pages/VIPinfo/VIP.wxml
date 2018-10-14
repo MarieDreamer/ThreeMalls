@@ -1,0 +1,41 @@
+<!--pages/VIPinfo/VIP.wxml-->
+<view class='infolist'>
+  <view class='li'>
+    <view class='li-text'>姓名</view>
+    <input class="input" name="userName" placeholder="请输入姓名" bindinput="userNameInput"/>
+  </view>
+
+    <view class='li'>
+    <view class='li-text'>性别</view>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+      <view class="picker">{{array[index]}}</view>
+   </picker>
+  </view>
+
+  <view class='li'>
+    <view class='li-text'>生日</view>
+    <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+      <view class="picker">{{date}}</view>
+    </picker>
+  </view>
+
+    <view class='li'>
+    <view class='li-text'>微信号</view>
+    <input class="input" name="userName" placeholder="请输入微信号" bindinput="userNameInput"/>
+  </view>
+
+    <view class='li'>
+    <view class='li-text'>手机号</view>
+    <input class="input" name="userName" placeholder="请输入手机号" bindinput="userNameInput"/>
+  </view>
+
+    <view class='li'>
+    <view class='li-text'>所在地</view>
+    <input class="input" name="userName" placeholder="请输入所在地" bindinput="userNameInput"/>
+  </view>
+</view>
+<view class='save'>保存</view>
+<view class='dibu' >
+  <view class='dibu-text1'>KUOSE阔色</view>
+  <view class='dibu-text2'>有赞提供技术支持</view>
+</view>

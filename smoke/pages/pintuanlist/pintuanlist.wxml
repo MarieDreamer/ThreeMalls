@@ -1,0 +1,39 @@
+<!--pages/pintuanlist/pintuanlist.wxml-->
+<view class='bar'>
+  <view class="bar-item" wx:for="{{bar}}" bindtap='select_bar' data-index="{{index}}">
+    <view class="{{item.selected?'selected':''}}">{{item.name}}</view>
+  </view>
+</view>
+
+  <view class='list' wx:for="{{list}}">
+    <view class='zhuangtaidiv' bindtap='godingdanxiangqing'>
+      <view>
+        <view class='shangdianimg'>订单号:</view>
+        <view class='dianname'> 1565464856548654</view>
+      </view>
+      <view class='zhuangtaitext'>{{item.status == 0?'待付款':(item.status == 1?'待收货':(item.status == 2?'交易成功':'拼团失败'))}}</view>
+    </view>
+    <view class='commoditydiv'>
+      <image class='commodityimg' src="http://wechat.threemall.jianfengweb.com{{item.order_detail[0]['commodity_image']}}"></image>
+      <view class='commodity_right'>
+        <view>
+          <view class='commoditytext'>{{item.order_detail[0]['commodity_name']}}</view>
+          <view class='commodityprice'>￥{{item.order_detail[0]['price']}}</view>
+        </view>
+        <view>
+          <view class='detail_type'>{{item.order_detail[0]['color']}} {{item.order_detail[0]['size']}}</view>
+          <view class='detail_num'>X{{item.order_detail[0]['num']}}</view>
+        </view>
+        <view>
+          <view wx:if="{{item['group_id']}}" class='detail_spell'>{{item.order_size}}人拼团</view>
+          <view wx:if="{{item['group_id']}}" style='float:right;'></view>
+        </view>
+      </view>
+    </view>
+      <view wx:if="{{item.total_num != 1}}" class='order_detail_num'>查看全部{{item.total_num}}个商品</view>
+    <view class='order_bottom'>
+      <view wx:if="{{item['spell_detail'].group_status != 2}}" class='remain'>还差<span style="color:#1296db"> {{item.order_size-item['spell_detail'].group_num}} </span>人参团</view>
+      <view class='fukuantext'>合计：<span style="color:red">￥{{item.final_fee}}</span></view>
+    </view>
+    
+  </view>

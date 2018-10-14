@@ -1,0 +1,27 @@
+<!--pages/jifen/jifen.wxml-->
+<view class='dingbu'>
+  <view class='keyongjifen'>
+    <view class='keyongjifen-text'>可用积分</view>
+    <view class='keyongjifen-num'>0</view>
+</view>
+<view class='zhongbu'>
+  <view class='left'>
+    <view class='jifenjilu'>积分记录</view>
+    <image class='r-right' src='/image/right.png'></image>
+  </view>
+  <view class='right'>
+    <view class='jifenjilu'>兑换记录</view>
+    <image class='r-right' src='/image/right.png'></image>
+  </view>
+</view>
+</view>
+<view class='dibu1'>
+  <view class='pic'></view>
+  <view class='youhuiquan-name'>100元无门槛优惠券</view>
+  <view class='youhuiquan-num'>400积分</view>
+</view>
+
+<view class='dibu' >
+  <view class='dibu-text1'>KUOSE阔色</view>
+  <view class='dibu-text2'>有赞提供技术支持</view>
+</view>

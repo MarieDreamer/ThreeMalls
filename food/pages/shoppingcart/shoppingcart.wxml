@@ -1,0 +1,46 @@
+<!--pages/shoppingcart/shoppingcart.wxml-->
+<view class='anit {{show == 1?"show":(show == 2?"hide":"")}}'>请选择商品</view>
+<view wx:for="{{list}}" class='items'>
+
+  <view style='{{item.txtStyle}}' bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" data-index='{{index}}' class='carmode'>
+
+    <view class="gou" bindtap='select' data-id="{{item.id}}" data-index="{{index}}">
+      <image class='gouxuan-1' src="/images/gouxuan{{select[index] == 1?'':'2'}}.png" />
+    </view>
+
+    <image class='picture' src='http://wechat.threemall.jianfengweb.com{{item.commodity_image}}'  bindtap='goinfo' data-id="{{item.commodity_id}}"/>
+
+    <view class='mode-div'  bindtap='goinfo' data-id="{{item.commodity_id}}">
+      <view class='mode-info'>{{item.commodity_name}}</view>
+      <view class='mode-type'>{{item.type}}</view>
+      <view class='price_num'>
+        <view class='mode-time'>￥{{item.single_price}}</view>
+        <view class='mode-quantity'>X{{item.num}}</view>
+      </view>
+    </view>
+    
+  </view>
+
+  <view data-id="{{item.id}}" data-index='{{index}}' bindtap="delItem" class="inner">删除</view>
+</view>
+<view style='height:200rpx;color:#808080;font-size:25rpx;width:100%;text-align:center;margin-top:25rpx;'>木有了~</view>
+
+<view class='jiesuan'>
+  <view class='quanxuananniu'>
+    <image class='gouxuan' src="/images/gouxuan{{all_select?'':'2'}}.png" bindtap='select_all'/>
+    <view class='quanxuan'>全选</view>
+  </view>
+  
+  <view class='jiesuan-text'>
+  <view class="aaa">
+    <view class='moneydiv'>
+      <view class='heji'>合计:</view>
+      <view class='money'>￥{{total_fee}}</view>
+    </view>
+    <view class='yunfei'>免运费</view>
+  </view>
+    
+    <view class='jiesuan-1' bindtap='toSettle'>结算</view>
+  </view>
+  
+</view>

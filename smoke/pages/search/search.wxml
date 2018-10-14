@@ -1,0 +1,14 @@
+<!--pages/search/search.wxml-->
+<!-- 搜索框 -->
+<view class='kuang' >
+  <view class='page_row' >
+    <icon class="searchcion" size='20' type='search'></icon>
+    <input class='text' placeholder='名创优品自营' value="{{key}}" bindinput='input'  bindconfirm="search" auto-focus/>
+     <icon class="clearicon" size='15' type='clear' bindtap='clear'></icon>  
+  </view>
+</view>
+<view class='zhanshi-div1' bindtap='gospxiangqing' wx:for="{{list}}" style="padding-top:{{index != 0?'0':''}}">
+  <image class='shangpin-image1' src='http://wechat.threemall.jianfengweb.com/{{item.shop_index_image[0]}}' ></image>
+  <view class='zhanshi-name2' >{{item.shop_name}}</view>
+  <view class='zhanshi-price'>{{item.shop_price}}</view>
+</view>

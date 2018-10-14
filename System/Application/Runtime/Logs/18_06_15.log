@@ -1,0 +1,942 @@
+[ 2018-06-15T10:17:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.028122s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034638s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.048980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.083849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.043812s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.043983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.088013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017000s ]
+
+[ 2018-06-15T10:17:56+08:00 ] 127.0.0.1 /Index/view
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004320s ]
+SQL: DESCRIBE client [ RunTime:0.036716s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : DESCRIBE client
+SQL: SELECT * FROM `client`  [ RunTime:0.037386s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `client` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: DESCRIBE car_info [ RunTime:0.035153s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : DESCRIBE car_info
+SQL: SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526486400 AND 1528992000 ) )  [ RunTime:0.036306s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526486400 AND 1528992000 ) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.043727s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.039734s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined variable: client_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: car_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 177 行.
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 178 行.
+NOTIC: [8] Undefined offset: 1 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 179 行.
+NOTIC: [8] Undefined offset: 2 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.156997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.157185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002630s ]
+
+[ 2018-06-15T10:17:56+08:00 ] 127.0.0.1 /fonts/fontawesome-webfont.woff2?v=4.4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-15T10:17:59+08:00 ] 127.0.0.1 /PhotoAlbum/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002082s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004538s ]
+ERR: 无法加载控制器:PhotoAlbum
+
+[ 2018-06-15T10:18:02+08:00 ] 127.0.0.1 /Photo/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007755s ]
+SQL: DESCRIBE photo [ RunTime:0.035805s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : DESCRIBE photo
+NOTIC: [8] Undefined variable: class D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 127 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `photo` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.035833s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `photo` WHERE ( `status_delete` = 1 ) LIMIT 1  
+SQL: SELECT * FROM `photo` ORDER BY id desc LIMIT 0,20   [ RunTime:0.047192s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` ORDER BY id desc LIMIT 0,20  
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 150 行.
+NOTIC: [8] Undefined variable: value D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 154 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005679s ]
+
+[ 2018-06-15T10:18:02+08:00 ] 127.0.0.1 /WechatUser/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001675s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003579s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.032098s ]
+NOTIC: [8] Undefined variable: class D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 127 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wechat_user` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.036106s ]
+SQL: SELECT * FROM `wechat_user` ORDER BY id desc LIMIT 0,20   [ RunTime:0.038490s ]
+NOTIC: [8] Undefined index: content D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 154 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 156 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 63 行.
+NOTIC: [8] Undefined index: user_address D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\9fe60bb415a348d7c30b80657ac13d4c.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.133203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.133332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002031s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001741s ]
+
+[ 2018-06-15T10:18:03+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003704s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019077s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-15T10:18:04+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007094s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010188s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-15T10:19:32+08:00 ] 127.0.0.1 /PhotoAlbum/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004848s ]
+ERR: 无法加载控制器:PhotoAlbum
+
+[ 2018-06-15T10:19:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.007811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002574s ]
+
+[ 2018-06-15T10:19:35+08:00 ] 127.0.0.1 /Index/view
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002558s ]
+SQL: DESCRIBE client [ RunTime:0.042775s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : DESCRIBE client
+SQL: SELECT * FROM `client`  [ RunTime:0.039488s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `client` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: DESCRIBE car_info [ RunTime:0.040245s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : DESCRIBE car_info
+SQL: SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526486400 AND 1528992000 ) )  [ RunTime:0.039924s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526486400 AND 1528992000 ) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.040718s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.042298s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined variable: client_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: car_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 177 行.
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 178 行.
+NOTIC: [8] Undefined offset: 1 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 179 行.
+NOTIC: [8] Undefined offset: 2 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2018-06-15T10:19:35+08:00 ] 127.0.0.1 /fonts/fontawesome-webfont.woff2?v=4.4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001873s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005035s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-15T10:19:38+08:00 ] 127.0.0.1 /PhotoAlbum/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005350s ]
+ERR: 无法加载控制器:PhotoAlbum
+
+[ 2018-06-15T10:19:41+08:00 ] 127.0.0.1 /Photo/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008848s ]
+SQL: DESCRIBE photo [ RunTime:0.386636s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : DESCRIBE photo
+NOTIC: [8] Undefined variable: class D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 114 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `photo` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.035169s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `photo` WHERE ( `status_delete` = 1 ) LIMIT 1  
+SQL: SELECT * FROM `photo` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20   [ RunTime:0.038667s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20  
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 140 行.
+NOTIC: [8] Undefined variable: value D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 144 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 146 行.
+ERR: 模板不存在:../Application/Home/View/Photo/lists.html
+
+[ 2018-06-15T10:19:42+08:00 ] 127.0.0.1 /WechatUser/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004304s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.095509s ]
+NOTIC: [8] Undefined variable: class D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 127 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wechat_user` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.042485s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20   [ RunTime:0.043259s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 153 行.
+NOTIC: [8] Undefined variable: value D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 159 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2018-06-15T10:19:53+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2018-06-15T10:19:54+08:00 ] 127.0.0.1 /fonts/fontawesome-webfont.woff2?v=4.4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003738s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-15T10:19:54+08:00 ] 127.0.0.1 /Index/view
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.006021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007422s ]
+SQL: DESCRIBE client [ RunTime:0.034788s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : DESCRIBE client
+SQL: SELECT * FROM `client`  [ RunTime:0.034457s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `client` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: DESCRIBE car_info [ RunTime:0.034084s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : DESCRIBE car_info
+SQL: SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526486400 AND 1528992000 ) )  [ RunTime:0.035091s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526486400 AND 1528992000 ) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.037019s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.035708s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined variable: client_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: car_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 177 行.
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 178 行.
+NOTIC: [8] Undefined offset: 1 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 179 行.
+NOTIC: [8] Undefined offset: 2 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2018-06-15T10:19:56+08:00 ] 127.0.0.1 /PhotoAlbum/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002448s ]
+ERR: 无法加载控制器:PhotoAlbum
+
+[ 2018-06-15T10:24:26+08:00 ] 127.0.0.1 /Photo/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003291s ]
+SQL: DESCRIBE photo [ RunTime:0.041165s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : DESCRIBE photo
+NOTIC: [8] Undefined variable: class D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 114 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `photo` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.041357s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `photo` WHERE ( `status_delete` = 1 ) LIMIT 1  
+SQL: SELECT * FROM `photo` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20   [ RunTime:0.040237s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20  
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 140 行.
+NOTIC: [8] Undefined variable: value D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 144 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 146 行.
+ERR: 模板不存在:../Application/Home/View/Photo/lists.html
+
+[ 2018-06-15T10:24:28+08:00 ] 127.0.0.1 /WechatUser/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003083s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.035950s ]
+NOTIC: [8] Undefined variable: class D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 127 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wechat_user` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.040785s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20   [ RunTime:0.032526s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 153 行.
+NOTIC: [8] Undefined variable: value D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 159 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
+
+[ 2018-06-15T10:24:28+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003134s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-15T10:24:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2018-06-15T10:24:33+08:00 ] 127.0.0.1 /Index/view
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003134s ]
+SQL: DESCRIBE client [ RunTime:0.039968s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : DESCRIBE client
+SQL: SELECT * FROM `client`  [ RunTime:0.038857s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `client` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: DESCRIBE car_info [ RunTime:0.041071s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : DESCRIBE car_info
+SQL: SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526486400 AND 1528992000 ) )  [ RunTime:0.041646s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526486400 AND 1528992000 ) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.039085s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.039616s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined variable: client_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: car_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 177 行.
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 178 行.
+NOTIC: [8] Undefined offset: 1 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 179 行.
+NOTIC: [8] Undefined offset: 2 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003577s ]
+
+[ 2018-06-15T10:24:34+08:00 ] 127.0.0.1 /fonts/fontawesome-webfont.woff2?v=4.4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000187s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002339s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-15T10:24:36+08:00 ] 127.0.0.1 /WechatUser/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002460s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005203s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.039983s ]
+NOTIC: [8] Undefined variable: class D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 127 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wechat_user` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.040450s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20   [ RunTime:0.040637s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 153 行.
+NOTIC: [8] Undefined variable: value D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\WechatUserModel.class.php 第 159 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.004116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001192s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2018-06-15T10:24:36+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002521s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-15T14:13:17+08:00 ] 127.0.0.1 /Photo/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020672s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.016461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037470s ]
+SQL: DESCRIBE photo [ RunTime:0.042697s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : DESCRIBE photo
+NOTIC: [8] Undefined variable: class D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 114 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `photo` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.040424s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `photo` WHERE ( `status_delete` = 1 ) LIMIT 1  
+SQL: SELECT * FROM `photo` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20   [ RunTime:0.041000s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20  
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 140 行.
+NOTIC: [8] Undefined variable: value D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 144 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 146 行.
+ERR: 模板不存在:../Application/Home/View/Photo/lists.html
+
+[ 2018-06-15T14:13:17+08:00 ] 127.0.0.1 /PhotoAlbum/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003515s ]
+ERR: 无法加载控制器:PhotoAlbum
+
+[ 2018-06-15T14:13:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002927s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.046428s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.036828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.083463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013977s ]
+
+[ 2018-06-15T14:13:34+08:00 ] 127.0.0.1 /Index/view
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002759s ]
+SQL: DESCRIBE client [ RunTime:0.080069s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : DESCRIBE client
+SQL: SELECT * FROM `client`  [ RunTime:0.044097s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `client` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: DESCRIBE car_info [ RunTime:0.043697s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : DESCRIBE car_info
+SQL: SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526486400 AND 1528992000 ) )  [ RunTime:1.280987s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526486400 AND 1528992000 ) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.043572s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.043995s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined variable: client_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: car_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 177 行.
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 178 行.
+NOTIC: [8] Undefined offset: 1 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 179 行.
+NOTIC: [8] Undefined offset: 2 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2018-06-15T14:13:34+08:00 ] 127.0.0.1 /fonts/fontawesome-webfont.woff2?v=4.4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002961s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-15T14:13:35+08:00 ] 127.0.0.1 /Photo/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002793s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004786s ]
+SQL: DESCRIBE photo [ RunTime:0.041345s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : DESCRIBE photo
+NOTIC: [8] Undefined variable: class D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 114 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `photo` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.044706s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `photo` WHERE ( `status_delete` = 1 ) LIMIT 1  
+SQL: SELECT * FROM `photo` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20   [ RunTime:0.042964s ]
+ERR: 1146:Table 'square.photo' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20  
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 140 行.
+NOTIC: [8] Undefined variable: value D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 144 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\PhotoModel.class.php 第 146 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003588s ]
+
+[ 2018-06-15T14:13:35+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006443s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009108s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-15T14:13:36+08:00 ] 127.0.0.1 /PhotoAlbum/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002707s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006491s ]
+SQL: DESCRIBE photo_album [ RunTime:0.034166s ]
+ERR: 1146:Table 'square.photo_album' doesn't exist
+ [ SQL语句 ] : DESCRIBE photo_album
+SQL: SELECT COUNT(*) AS tp_count FROM `photo_album` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.034109s ]
+ERR: 1146:Table 'square.photo_album' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `photo_album` WHERE ( `status_delete` = 1 ) LIMIT 1  
+SQL: SELECT * FROM `photo_album` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20   [ RunTime:0.032202s ]
+ERR: 1146:Table 'square.photo_album' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo_album` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20  
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\PhotoAlbumModel.class.php 第 151 行.
+NOTIC: [8] Undefined variable: value D:\Projects\Tyxc\System\Application\Home\Model\PhotoAlbumModel.class.php 第 155 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Model\PhotoAlbumModel.class.php 第 157 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2018-06-15T14:13:36+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001483s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004391s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-15T15:56:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.025479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026439s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.190070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018710s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.017404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013507s ]
+
+[ 2018-06-15T15:56:02+08:00 ] 127.0.0.1 /Index/view
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+SQL: DESCRIBE client [ RunTime:0.040453s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : DESCRIBE client
+SQL: SELECT * FROM `client`  [ RunTime:0.044535s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `client` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: DESCRIBE car_info [ RunTime:0.039277s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : DESCRIBE car_info
+SQL: SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526486400 AND 1528992000 ) )  [ RunTime:0.039160s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526486400 AND 1528992000 ) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.039450s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.041212s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined variable: client_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: car_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 177 行.
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 178 行.
+NOTIC: [8] Undefined offset: 1 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 179 行.
+NOTIC: [8] Undefined offset: 2 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2018-06-15T15:56:02+08:00 ] 127.0.0.1 /fonts/fontawesome-webfont.woff2?v=4.4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+ERR: 无法加载控制器:Fonts
+

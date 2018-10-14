@@ -1,0 +1,19 @@
+
+<view wx:for="{{address}}" style='position: relative;'>
+
+  <view class='personal' style='{{item.txtStyle}}' bindtouchstart="touchS" bindtouchmove="touchM" bindtouchend="touchE" data-index='{{index}}'>
+    <view class='mid' bindtap='select_addr' data-id="{{item.id}}">
+      <view class='personal-name'>{{item.name}} 
+      <span style="color:gray;font-size:30rpx;margin-left:20rpx;">{{item.phone}}</span>
+      </view>
+      <view class='personal-addres'><span wx:if="{{item.default == 1}}" class='def'>默认</span>{{item.province}} {{item.address}}</view>
+    </view>
+    <view style='padding:40rpx;' bindtap='edit' data-id='{{item.id}}' data-name="{{item.name}}" data-province="{{item.province}}" data-address="{{item.address}}" data-phone="{{item.phone}}" data-default="{{item.default}}">
+      <image class='right' src='/images/right.png'></image>
+    </view>
+  </view>
+  
+  <view data-id="{{item.id}}" data-index='{{index}}' bindtap="delItem" class="inner">删除</view>
+</view>
+
+<view class='add' bindtap='add'>添加地址</view>

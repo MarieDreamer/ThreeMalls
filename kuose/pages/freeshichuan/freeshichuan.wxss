@@ -1,0 +1,111 @@
+/* pages/freeshichuan/freeshichuan.wxss */
+.sanjiaoxing{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+}
+.hongdi{
+  width: 100%;
+  color: white;
+  height: 160rpx;
+  background-color: red;
+  line-height: 160rpx;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30rpx;
+}
+.title1{
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  padding-top: 70rpx;
+  margin-left: 200rpx;
+}
+.title1-1{
+  float: left;
+  width: 5%;
+  text-align: center;
+  font-size: 50rpx;
+}
+.title1-2{
+  float: left;
+  width: 32%;
+  text-align: center;
+  font-size: 60rpx;
+}
+.title2{
+  background-color: red;
+  font-size: 30rpx;
+  color: white;
+  text-align: center;
+  width: 150rpx;
+  margin-left: 280rpx;
+}
+.fangfa{
+   margin-top: 50rpx;
+   padding-bottom:30rpx;
+}
+.hongfang{
+  float:left;
+  width: 25rpx;
+  height: 25rpx;
+  background-color: red;
+  margin-left: 150rpx;
+}
+.steps{
+  float: left;
+  width: 80rpx;
+  font-size: 25rpx;
+  font-weight: bold;
+  margin-left: 20rpx;
+}
+.body{
+  width: 40%;
+  float:left;
+  font-size: 25rpx;
+  margin-left: 20rpx;
+}
+.fangfa-image{
+  float: left;
+  width: 50%;
+  height: 250rpx;
+}
+.body2{
+  text-align: center;
+  font-size: 35rpx;
+  float:left;
+  background-color: red;
+  color: white;
+  width: 35%;
+  margin-bottom: 20rpx;
+}
+.body1{
+  float: left;
+  width: 50%;
+  font-size:20rpx;
+  padding-bottom: 15rpx;
+}
+.fangfa-1{
+  padding-top: 150rpx;
+  height: 300rpx;
+  border-bottom: 1rpx red solid;
+}
+.dibu {
+  background-color: #FFFAFA;
+  width:100%;
+  height:150rpx;
+}
+.dibu-text1{
+  font-size: 25rpx;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30rpx;
+}
+.dibu-text2{
+  font-size:25rpx;
+  text-align: center;
+  padding-top: 20rpx;
+  color: #B0C4DE;
+}

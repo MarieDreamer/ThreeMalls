@@ -1,0 +1,40 @@
+@import '../../model/model.wxss';
+/* pages/addres/addres.wxss */
+.content{
+  width: 700rpx;
+  padding: 25rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  font-size: 30rpx;
+}
+.input{
+  width: 660rpx;
+  border-bottom: 2rpx solid #eee;
+  padding: 30rpx 20rpx;
+}
+.right_image{
+  width: 30rpx;
+  height: 30rpx;
+}
+.btn-area{
+  width: 700rpx;
+}
+.gouxuan{
+  width: 30rpx;
+  height: 30rpx;
+}
+.default_item{
+  width: 660rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+  padding: 30rpx;
+}
+.area{
+  display: flex;
+  align-items: center;
+  border-bottom: 2rpx solid #eee;
+}

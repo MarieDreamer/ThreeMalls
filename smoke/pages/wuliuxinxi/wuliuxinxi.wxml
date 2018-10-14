@@ -1,0 +1,22 @@
+
+<!--pages/order/order_wl.wxml-->
+<view class='page_row_top'>
+  <image class='goods' ></image>
+  <view class='page_clu logistics'>
+    <view class='text'>物流公司: 申通快递</view>
+    <view class='text'>物流单号: 4326665981311546542</view>
+    <view class='text'>官方电话: 95533</view>
+  </view>
+</view>
+<view class='br'></view>
+<block wx:for="{{wuliu}}" wx:key="index">
+  <view class='order'>
+    <view class='icon {{0==index?"in":"no_in"}}'></view>
+    <view class='logistics_centent page_clu'>
+      <text>{{item}},发往深圳太远客运中转部</text>
+      <text> {{wuliu.phone}}2017-12-11 23:16:12</text>
+    </view>
+    <view class='on'></view>
+  </view>
+</block>
+<view class='icon no_in'></view>

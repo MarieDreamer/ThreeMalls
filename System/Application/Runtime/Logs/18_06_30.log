@@ -1,0 +1,26 @@
+[ 2018-06-30T19:47:36+08:00 ] 127.0.0.1 /Broadcastimg/raedit?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015326s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.018293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033838s ]
+SQL: DESCRIBE category [ RunTime:0.030634s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 0 )  [ RunTime:0.030709s ]
+SQL: DESCRIBE broadcastimg [ RunTime:0.030742s ]
+SQL: SELECT * FROM `broadcastimg` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.030498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012625s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.011805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008315s ]
+

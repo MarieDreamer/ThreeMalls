@@ -1,0 +1,70 @@
+<!--pages/queren/queren.wxml-->
+<view class='personal' bindtap='my_address'>
+  <view wx:if="{{address}}">
+    <view class='top_addr'>
+      <view class='personal-name'>收货人：{{address.name}}</view>
+      <view class='personal-phone'>{{address.phone}}</view>
+    </view>
+    <view class='personal-addres'>收货地址：{{address.province}} {{address.address}}</view>
+  </view>
+  <view wx:else="{{address}}" class='mention'>
+    请添加收货地址
+  </view>
+  <image class='right' src='/images/right.png'></image>
+</view>
+
+<!-- 购物车来的 -->
+<view class='carmode' wx:if="{{cartList}}" wx:for="{{cartList}}" wx:for-item="list" wx:key="key" >
+  <view class='mode-img'><image class='picture' src='http://system.threemall.jianfengweb.com{{list.commodity_image}}'></image></view>
+  <view class='mode-div'>
+    <view class='mode-info'>{{list.commodity_name}}</view>
+    <view class='mode-type'>{{list.type}}</view>
+    <view class='mode-time'>￥{{list.single_price}}</view>
+  </view>
+  <view class='mode-quantity'>*{{list.num}}</view>
+</view>
+
+<!-- 立即购买来的 -->
+<view class='carmode' wx:if="{{goods}}">
+  <view class='mode-img'>
+    <image class='picture' src='http://system.threemall.jianfengweb.com{{goods.commodity_image}}' />
+  </view>
+  <view class='mode-div'>
+    <view class='mode-info'>{{goods.commodity_name}}</view>
+    <view class='mode-type'>{{goods.type}}</view>
+    <view class='mode-time' style='color:red'>{{buy_type == 1?'团购价':''}}￥{{goods.price}}</view>
+  </view>
+  <view class='mode-quantity'>X{{goods.num}}</view>
+</view>
+
+<view class="order">
+  <text class="myorder-text">优惠券</text>
+  <text class="myorderlook-text">0 张</text>
+  <image class="item-image" src="/images/right.png"></image>
+</view>
+<view class="order">
+  <text class="message" style="width:'';">留言：</text>
+  <input class="mess" bindinput='message' />
+</view>
+<view class="order">
+  <text class="myorder-text">商品合计：</text>
+  <text wx:if="{{cartList}}" class="myorderlook-text">￥{{total_fee}}</text>
+  <text wx:else class="myorderlook-text">￥{{goods.price*goods.num}}</text>
+</view>
+<!-- <navigator class="order"  url='/pages/dingdan/dingdan'>
+  <text class="myorder-text">运费：</text>
+  <text class="myorderlook-text">￥0</text>
+</navigator> -->
+<!-- <navigator class="order"  url='/pages/dingdan/dingdan'>
+  <text class="myorder-text">活动优惠</text>
+  <text class="myorderlook-text">-￥49.9</text>
+</navigator> -->
+
+<view class='jiesuan'>
+  <view class='quanxuananniu'>
+    <view class='quanxuan'>应付：</view>
+    <view wx:if="{{cartList}}" class='quanxuan-red'>￥{{total_fee}}</view>
+    <view wx:else class='quanxuan-red'>￥{{goods.price*goods.num}}</view>
+  </view>
+  <view class='jiesuan-1' bindtap='order'>去付款</view>
+</view>

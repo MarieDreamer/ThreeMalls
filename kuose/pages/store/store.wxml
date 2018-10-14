@@ -1,0 +1,71 @@
+<!--pages/store/store.wxml-->
+<view class="banner">
+  <swiper autoplay="true" class="swiper" duration="500" indicatorDots="true" interval="3000" >
+    <swiper-item class="swiper-list"  wx:for="{{broadcastimglists}}" wx:for-item="broadcastimglists" wx:key="key" >
+      <image class='lunbotuimg' bindtap="" data-idx="" mode="widthFix" bindtap="lunbo1"    src="http://wechat.threemall.jianfengweb.com{{broadcastimglists.img}}"></image>
+    </swiper-item>
+<!-- 
+    <swiper-item class="swiper-list" >
+      <image class='lunbotuimg' bindtap="" data-idx="" mode="widthFix" bindtap="lunbo2" src="/image/lunbo2.png"></image>
+    </swiper-item>
+
+    <swiper-item class="swiper-list" >
+      <image class='lunbotuimg' bindtap="" data-idx="" mode="widthFix" bindtap="lunbo3" src="/image/lunbo3.png"></image>
+    </swiper-item>
+
+    <swiper-item class="swiper-list" >
+      <image class='lunbotuimg' bindtap="" data-idx="" mode="widthFix" bindtap="lunbo4" src="/image/lunbo4.png"></image>
+    </swiper-item> -->
+  </swiper>
+</view>
+
+<view class='youhui'>
+  <view class='youhuijuan'>
+    <image class='youhuijuan-image' src='/image/hongbao.png' bindtap="lingquyouhuijuan"></image>
+    <image class='youhuijuan-image' src='/image/hongbao.png' bindtap="lingquyouhuijuan"></image>
+    <image class='youhuijuan-image' src='/image/hongbao.png' bindtap="lingquyouhuijuan"></image>
+    <image class='youhuijuan-image' src='/image/hongbao.png' bindtap="lingquyouhuijuan"></image>
+  </view>
+  <view id="qianghongbao"><image src='/image/hongbaogonglue.png' style="width:400rpx;height:150rpx" bindtap="hongbaogonglue"></image></view>
+</view>
+
+<view bindtap="goclass" >
+   <view class='zhanshi'><image src='/image/zhanshi.png' ></image></view>
+</view>
+<!--搜索框-->
+<view class='page_row'>
+  <view class="search">
+      <icon class="searchcion" size='15' type='search'></icon>
+      <input class="search_input" placeholder="请输入关键字" bindinput='input'/>
+   </view>
+  <view class='sousuo' bindtap='search'>搜索</view>
+</view>
+
+<view class='fenleiima' style="text-align:center">
+  <view class='fenlei'>类目分类</view>
+  <view class='category_container'>
+
+    <view class='category' bindtap="gofenlei" data-id="{{item.id}}" wx:for="{{category}}">
+      <image src='http://wechat.threemall.jianfengweb.com{{item.category_img[0]}}' mode='widthFix'></image>
+      <view>{{item.name}}</view>
+    </view>
+
+  </view>
+</view>
+
+<view class='summerhot'>
+  <view class='summerhot1'>夏季爆款</view>
+  <view class='summerhot2'>----------------------</view>
+  <view class='summerhot3'>SUMMER SALE-NEW ISSUE</view>
+</view>
+
+<view class='baokuan_container'>
+  <view wx:for="{{baokuan}}" class='card' bindtap='toDetail' data-id='{{item.id}}'>
+    <view class='card_image'>
+      <image class='baokuan_image' src='http://wechat.threemall.jianfengweb.com{{item.shop_index_image[0]}}'/>
+    </view>
+    <view class='card_content'>
+      <span style="font-size:30rpx;">￥</span>{{item.shop_price}}
+    </view>
+  </view>
+</view>

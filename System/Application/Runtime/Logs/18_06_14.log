@@ -1,0 +1,280 @@
+[ 2018-06-14T14:03:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024396s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.019227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.044101s ]
+ERR: 无法加载控制器:Index
+
+[ 2018-06-14T14:04:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.186114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.186237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.033655s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.017484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.051347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014605s ]
+
+[ 2018-06-14T14:04:23+08:00 ] 127.0.0.1 /Index/view
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+SQL: DESCRIBE client [ RunTime:0.036254s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : DESCRIBE client
+SQL: SELECT * FROM `client`  [ RunTime:0.038525s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `client` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: DESCRIBE car_info [ RunTime:0.039293s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : DESCRIBE car_info
+SQL: SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526400000 AND 1528905600 ) )  [ RunTime:0.039456s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526400000 AND 1528905600 ) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.043849s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.041615s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined variable: client_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: car_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 177 行.
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 178 行.
+NOTIC: [8] Undefined offset: 1 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 179 行.
+NOTIC: [8] Undefined offset: 2 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2018-06-14T14:04:23+08:00 ] 127.0.0.1 /fonts/fontawesome-webfont.woff2?v=4.4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-14T14:04:58+08:00 ] 127.0.0.1 /EmployeeSystem/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002836s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2018-06-14T14:05:20+08:00 ] 127.0.0.1 /EmployeeSystem/login_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003330s ]
+SQL: DESCRIBE employee_system [ RunTime:0.032080s ]
+SQL: SELECT * FROM `employee_system` WHERE ( `account` = 'zuituzi' ) LIMIT 1   [ RunTime:0.035942s ]
+
+[ 2018-06-14T14:06:48+08:00 ] 127.0.0.1 /EmployeeSystem/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2018-06-14T14:06:56+08:00 ] 127.0.0.1 /EmployeeSystem/login_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+SQL: DESCRIBE employee_system [ RunTime:0.039280s ]
+SQL: SELECT * FROM `employee_system` WHERE ( `account` = 'zuituzi' ) LIMIT 1   [ RunTime:0.040603s ]
+NOTIC: [8] Undefined variable: password D:\Projects\Tyxc\System\Application\Home\Model\EmployeeSystemModel.class.php 第 11 行.
+NOTIC: [8] Undefined variable: account D:\Projects\Tyxc\System\Application\Home\Model\EmployeeSystemModel.class.php 第 12 行.
+SQL: SELECT * FROM `employee_system` WHERE ( `account` = 'zuituzi' ) AND ( `password` = '14e1b600b1fd579f47433b88e8d85291' ) AND ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.040271s ]
+NOTIC: [8] Undefined index: username D:\Projects\Tyxc\System\Application\Home\Model\EmployeeSystemModel.class.php 第 30 行.
+NOTIC: [8] Undefined index: creator_id D:\Projects\Tyxc\System\Application\Home\Model\EmployeeSystemModel.class.php 第 31 行.
+SQL: DESCRIBE access [ RunTime:0.039234s ]
+SQL: SELECT * FROM `access` WHERE ( `role_id` = 4 )  [ RunTime:0.039825s ]
+
+[ 2018-06-14T14:07:32+08:00 ] 127.0.0.1 /EmployeeSystem/login_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+SQL: DESCRIBE employee_system [ RunTime:0.045005s ]
+SQL: SELECT * FROM `employee_system` WHERE ( `account` = 'zuituzi' ) LIMIT 1   [ RunTime:0.041938s ]
+SQL: SELECT * FROM `employee_system` WHERE ( `account` = 'zuituzi' ) AND ( `password` = '14e1b600b1fd579f47433b88e8d85291' ) AND ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.378316s ]
+NOTIC: [8] Undefined index: username D:\Projects\Tyxc\System\Application\Home\Model\EmployeeSystemModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: creator_id D:\Projects\Tyxc\System\Application\Home\Model\EmployeeSystemModel.class.php 第 29 行.
+SQL: DESCRIBE access [ RunTime:0.368116s ]
+SQL: SELECT * FROM `access` WHERE ( `role_id` = 4 )  [ RunTime:0.077797s ]
+
+[ 2018-06-14T14:07:55+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001692s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2018-06-14T14:07:55+08:00 ] 127.0.0.1 /Index/view
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002421s ]
+SQL: DESCRIBE client [ RunTime:0.045434s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : DESCRIBE client
+SQL: SELECT * FROM `client`  [ RunTime:0.044644s ]
+ERR: 1146:Table 'square.client' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `client` 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 25 行.
+SQL: DESCRIBE car_info [ RunTime:0.045344s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : DESCRIBE car_info
+SQL: SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526400000 AND 1528905600 ) )  [ RunTime:0.046302s ]
+ERR: 1146:Table 'square.car_info' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE (  (`create_time` BETWEEN 1526400000 AND 1528905600 ) ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.044969s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT * FROM `car_info` WHERE ( `user_id` IN () )  [ RunTime:0.045123s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `car_info` WHERE ( `user_id` IN () ) 
+NOTIC: [8] Undefined variable: client_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 60 行.
+NOTIC: [8] Undefined variable: car_time D:\Projects\Tyxc\System\Application\Home\Controller\IndexController.class.php 第 61 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined offset: 3 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 177 行.
+NOTIC: [8] Undefined offset: 0 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 178 行.
+NOTIC: [8] Undefined offset: 1 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 179 行.
+NOTIC: [8] Undefined offset: 2 D:\Projects\Tyxc\System\Application\Runtime\Cache\Home\a8d862fa6b2a32ef77fba93d21f576d0.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2018-06-14T14:07:55+08:00 ] 127.0.0.1 /fonts/fontawesome-webfont.woff2?v=4.4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-14T14:08:05+08:00 ] 127.0.0.1 /Photoalbum/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: DESCRIBE photo_album [ RunTime:0.032601s ]
+ERR: 1146:Table 'square.photo_album' doesn't exist
+ [ SQL语句 ] : DESCRIBE photo_album
+ERR: Think\Model:lists方法不存在！
+

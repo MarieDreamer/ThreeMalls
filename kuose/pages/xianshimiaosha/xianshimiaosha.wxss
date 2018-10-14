@@ -1,0 +1,79 @@
+/* pages/xianshimiaosha/xianshimiaosha.wxss */
+.qianggou{
+  float: left;
+  width: 50%;
+  margin-bottom: 35rpx;
+}
+.qianggou-img{
+  margin-left: 25rpx;
+}
+.qgimg-img{
+  width: 330rpx;
+  height: 320rpx;
+}
+.qgimg-text{
+  width: 330rpx;
+  text-align: center;
+  color: white;
+  background-color: red;
+  font-size: 25rpx;
+}
+.qianggou-info{
+  font-size: 25rpx;
+  margin-top: 20rpx;
+  margin-left:5rpx;
+}
+.qianggou-price{
+  margin-left: 50rpx;
+}
+.qianggou-dollor{
+  float: left;
+  color: red;
+  width: 5%;
+  font-size: 30rpx;
+  margin-top: 10rpx;
+}
+.qianggou-money{
+  float: left;
+  color: red;
+  width:40%;
+  margin-left:15rpx;
+}
+.qianggou-money-1{
+  float: left;
+  width: 10%;
+  color: #7B7B7B;
+  font-size: 50%;
+  text-decoration: line-through;
+  padding-top: 17rpx;
+}
+.qianggou-info{
+  font-size: 25rpx;
+  margin-left:5rpx;
+}
+.info{
+  margin-left: 50rpx;
+  margin-right: 35rpx;
+}
+.qianggou-shengyu{
+  margin-top: 50rpx;
+  margin-left: 50rpx;
+  float: left;
+  font-size: 20rpx;
+  width: 35%;
+  color:#696969;
+}
+.qianggou-like{
+  text-align: center;
+  float: right;
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 15rpx;
+}
+.car{
+  width: 40rpx;
+  height: 40rpx;
+  padding: 5rpx;
+  border: 2rpx red solid;
+  border-radius: 50%;
+}

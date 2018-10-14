@@ -1,0 +1,220 @@
+<!--pages/detailedinfo/detailedinfo.wxml-->
+<!--轮播图-->
+<view class="banner">
+  <swiper  class="swiper" duration="500" indicatorDots="true" interval="3000" style="height:750rpx">
+    <swiper-item class="swiper-list" wx:for="{{goods.shop_image}}">
+      <image class='lunbotuimg' mode="widthFix" src="http://wechat.threemall.jianfengweb.com{{item}}"></image>
+    </swiper-item>
+  </swiper>
+</view>
+<!--商品信息-->
+<view class='spell_info' wx:if="{{goods.is_spell_group == 1}}">
+  <view>多人拼团</view>
+  <view class='spell_info_right'>
+    <view>距离{{remain_time.status?'结束仅剩':'开始还有'}}</view>
+    <view>{{remain_time.day}} 天 {{remain_time.hour}} 时 {{remain_time.minute}} 分 {{remain_time.second}} 秒</view>
+  </view>
+</view>
+
+<view class='detainfo'>
+  <view class='shangpinmiaosu'>{{goods.shop_name}}</view>
+  <view wx:if="{{goods.is_spell_group == 1}}" class="shop_price">
+    <view class='spell_size'>{{goods['spell'].order_size}}人拼团价</view>
+    <view class='dollor'>￥</view>
+    <view class='money'>{{goods['spell'].group_price}}</view>
+  </view>
+  <view wx:else class="shop_price">
+    <view class='dollor'>￥</view>
+    <view class='money'>{{goods.shop_price}}</view>
+  </view>
+  <view class="pre_price">
+    <view style='color: #7B7B7B;font-size:25rpx'>原价 </view>
+    <view class='money-1'> ￥{{goods.shop_price}}</view>
+  </view>
+
+  <!--库存与运费-->
+  <view class='yunfeikkucun'>
+    <view>运费：免运费</view>
+    <view>剩余：{{goods.shop_num}}</view>
+    <view>销量：{{goods.shop_sale}}</view>
+  </view>
+</view>
+
+<view class='pingjia' >
+  <view class='choose1'  bindtap='gopingjia'>
+    <text class='text-1'>用户评价</text>
+    <image class='right_image' src='/image/right.png'></image>
+  </view>
+  <view class='pingjia_container'>
+    <view class='pingjia_header'>
+      <image class='touxiang' src='http://wechat.threemall.jianfengweb.com/Uploads/Tmps/2018/08/21/5b7bbe6f02ae9.jpg'></image>
+      <view class='name'>深海鳕鱼</view>
+      <view class='time'>2018-08-03 14:53</view>
+    </view>
+    <view class='neirong'>非常好用打黑降低啊都睡觉大家 啊手机大奖的圣诞节撒多久啊时间</view>
+  </view>
+</view>
+
+<view class="shouyetiaozhuan" bindtap='gohomepage'>
+  <view style='display:flex;align-items:center'> 
+    <image class='shop_avatar' src='/image/text.jpg'></image>
+    <text class="shouyetiaozhuan-text">kuose阔色官方商城</text>
+    <view class='guanfang-tubiao'>官方</view>
+  </view>
+  <image class="choose-image" src="/image/right.png"></image>
+</view>
+
+<view class='renzhen'>
+  <view class='renzheng_item'>
+    <image class="renzhen-image" src="/image/gouxuan2.png"></image>
+    <view class='renzhen-qiye'>企业认证</view>
+  </view>
+  <view class='renzheng_item'>
+    <image class="renzhen-image" src="/image/gouxuan2.png"></image>
+    <view class='renzhen-qiye'>店铺认证</view>
+  </view>
+  <view class='renzheng_item'>
+    <image class="renzhen-image" src="/image/gouxuan2.png"></image>
+    <view class='renzhen-qiye'>担保交易</view>
+  </view>
+</view>
+
+<view class='xiangqingjilu'>
+  <view bindtap="detail" class="bar">
+    <view class="{{selected_bar == 0?'bar_text':''}}">商品详情</view>
+  </view>
+  <view bindtap='record' class="bar">
+    <view class="{{selected_bar == 1?'bar_text':''}}">成交记录</view>
+  </view>
+</view>
+<view style="display:{{selected_bar == 0?'block':'none'}};margin-bottom:200rpx">
+  <image wx:for="{{goods.shop_image}}" wx:for-item="image" class='changtuimg' src='http://wechat.threemall.jianfengweb.com{{image}}' mode="widthFix"/>
+</view>
+<view style="display:{{selected_bar == 1?'block':'none'}};margin-bottom:200rpx">
+  <view class='title'>
+    <view class='name'>买家</view>
+    <view class='time'>成交时间</view>
+    <view class='time'>数量</view>
+  </view>
+  <view class='content'>
+    <view class='name'>谁谁谁</view>
+    <view class='time'>2018.12.30</view>
+    <view class='time'>5000</view>
+  </view>
+  <view class='content'>
+    <view class='name'>谁谁谁</view>
+    <view class='time'>2018.12.30</view>
+    <view class='time'>5000</view>
+  </view>
+  <view class='content'>
+    <view class='name'>谁谁谁</view>
+    <view class='time'>2018.12.30</view>
+    <view class='time'>5000</view>
+  </view>
+</view>
+<view class='goumaidiv'>
+  <view bindtap='toStore' class='anniudiv'>
+    <image src='/image/home-1.png' class='homeimg'></image>
+    <view class='shouyetext'>首页</view>
+  </view>
+  
+  <view class='anniudiv'>
+    <image src='/image/kefu.png' class='homeimg'></image>
+    <view class='shouyetext'>客服</view>
+  </view>
+
+  <view bindtap='toCart' class='anniudiv'>
+    <image src='/image/gouwuche.png' class='homeimg'></image>
+    <view class='shouyetext'>购物车</view>
+  </view>
+
+<!-- 底部栏 -->
+  <!-- 如果不是参团 -->
+  <view wx:if="{{group_id == ''}}">
+    <!-- 如果没有拼团活动 -->
+    <view wx:if="{{goods.is_spell_group == 0}}">
+      <view class='jiaru'>
+        <view class='jiaruanniutext' data-buy_now="0" bindtap='showModal'>
+          加入购物车
+        </view>
+      </view>
+      <view class='goumai'>
+        <view class='jiaruanniutext' data-buy_now="1" data-buy_type="0" bindtap='showModal'>
+          立即购买
+        </view>
+      </view>
+    </view>
+
+    <!-- 如果有拼团活动 -->
+    <view wx:if="{{goods.is_spell_group == 1}}">
+      <view class='jiaru'>
+        <view  class='jiaruanniutext' bindtap='showModal' data-single_buy="1" data-price="{{goods.shop_price}}" data-buy_type="0">
+          ￥{{goods.shop_price}}单买
+        </view>
+      </view>
+      <view class='goumai'>
+        <view class='jiaruanniutext' bindtap='showModal' data-buy_type="1" data-single_buy="0" data-price="{{goods['spell'].group_price}}">
+          ￥{{goods['spell'].group_price}}开团
+        </view>
+      </view>
+    </view>
+  </view>
+  
+  <!-- 如果是参团 -->
+  <view wx:if="{{group_id != ''}}" class='join' bindtap='showModal' data-buy_type="2" data-single_buy="0" data-price="{{goods['spell'].group_price}}">
+    ￥{{goods['spell'].group_price}} 加入团购
+  </view>
+</view>
+
+<!-- 弹出框 -->
+
+<view class="commodity_screen"bindtap="hideModal"wx:if="{{showModalStatus}}"></view>
+<view animation="{{animationData}}"class="commodity_attr_box"wx:if="{{showModalStatus}}">
+
+  <view style='padding:25rpx'>
+    <view class='my_title' style='margin-top:0;'>单价:</view>
+    <view class='my_title' style="color:red">￥{{myprice}}</view>    
+    <view class='my_title' wx:if="{{color}}">颜色:</view>
+    <view class='selectors' wx:if="{{color}}">
+      <view wx:for="{{color}}" class='items' bindtap='selectColor' data-index="{{index}}" style="{{selected_color==index?'background:red;color:#fff':''}}">{{item}}</view>
+    </view>
+    <view class='my_title' wx:if="{{size}}">尺码:</view>
+    <view class='selectors' wx:if="{{size}}">
+      <view wx:for="{{size}}" class='items' bindtap='selectSize' data-index="{{index}}" style="{{selected_size==index?'background:red;color:#fff':''}}">{{item}}</view>
+    </view>
+    
+    <view class='remain'>
+      <view style='display:flex;flex-direction:column'>
+        <view style='font-size:30rpx;'>购买数量：</view>
+        <view style='color:#808080;font-size:25rpx'>剩余{{num}}件</view>
+      </view>
+      <view style='display:flex'>
+        <view class='num left' bindtap='minus'>-</view>
+        <view class='num'>{{mynum}}</view>
+        <view class='num right' bindtap='adds'>+</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 拼团活动 -->
+  <view class='add_buttons' wx:if="{{goods.is_spell_group == 1}}">
+    <!-- 单买 -->
+    <view class='next' wx:if="{{single_buy == 1}}">
+      <view class='button1' bindtap='add_cart'>加入购物车</view>
+      <view class='button2' bindtap='to_buy' >立即购买</view>
+    </view>
+    <!-- 开团 -->
+    <view class='next' wx:if="{{single_buy == 0}}" style='display:block' bindtap='to_buy'>下一步</view>
+  </view>
+
+  <!-- 非拼团活动 -->
+  <view class='add_buttons' wx:if="{{goods.is_spell_group == 0}}">
+    <view class='next' wx:if="{{buy_now == 1}}" style='display:block' bindtap="to_buy" >下一步</view>
+    <view class='next' wx:if="{{buy_now == 0}}" style='display:block' bindtap="add_cart" >下一步</view>
+    <view class='next' wx:if="{{single_buy == 1}}">
+      <view class='button1' bindtap='add_cart'>加入购物车</view>
+      <view class='button2' bindtap='to_buy' >立即购买</view>
+    </view>
+  </view>
+
+</view>

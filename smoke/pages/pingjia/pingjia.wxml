@@ -1,0 +1,28 @@
+<!--pages/pingjia/pingjia.wxml-->
+<view class='orderchoicediv'>
+  <view bindtap="goneworder" class='{{choicedivclass}}'>全部</view>
+  <view bindtap="conductfun" class='{{conductclass}}'>有图</view>
+</view>
+<view class='{{all}}'>
+  <view class='pingjia1'>
+    <view class='info'>
+      <image class='touxiang'></image>
+      <view class='name'>深海鳕鱼</view>
+      <view class='time'>2018-08-03 14:53</view>
+    </view>
+    <view class='neirong'>非常好用</view>
+    <view class='color'>颜色随机</view>
+  </view>
+</view>
+<view class='{{havepic}}'>
+  <view class='pingjia1'>
+    <view class='info'>
+      <image class='touxiang'></image>
+      <view class='name'>深海鳕鱼</view>
+      <view class='time'>2018-08-03 14:53</view>
+    </view>
+    <view class='neirong'>非常好用</view>
+    <image class='picture'></image>
+    <view class='color'>颜色随机</view>
+  </view>
+</view>

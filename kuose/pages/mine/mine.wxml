@@ -1,0 +1,62 @@
+<!--pages/mine/mine.wxml-->
+<view class="userinfo">
+  <image class="userinfo-avatar" src='{{userimage}}' background-size="cover"></image>
+  <view class='username'>{{username}}</view>
+</view>
+
+<view class='iphone'>
+  <text class="iphone-text">找不到订单或者优惠券？绑定手机号试试</text>
+  <view class='iphone-button' >绑定</view>
+</view>
+
+<navigator class="item_container"  url='/pages/dingdan/dingdan?select_index=0'>
+  <view>我的订单</view>
+  <image class="next-image" src="/image/right.png"></image>
+</navigator> 
+
+<view class="orderinfo">
+  <navigator url="/pages/dingdan/dingdan?select_index=1">
+    <image src='/image/daifu.png' ></image>
+    <view class='orgerinfo-view-text'>待付款</view>
+  </navigator>
+
+  <navigator url="/pages/dingdan/dingdan?select_index=2">
+    <image src='/image/daifa.png' ></image>
+      <view class='orgerinfo-view-text'>待发货</view>
+  </navigator>
+
+  <navigator url="/pages/dingdan/dingdan?select_index=3">
+    <image src='/image/yifa.png' ></image>
+     <view class='orgerinfo-view-text'>待收货</view>
+  </navigator>
+
+  <navigator url="/pages/dingdan/dingdan?select_index=4">
+    <image src='/image/wancheng.png' ></image> 
+    <view class='orgerinfo-view-text'>已完成</view>
+  </navigator>
+</view>
+
+<navigator class="item_container"  url='/pages/address/address'>
+  <view>收货地址</view>
+  <image class="next-image" src="/image/right.png"></image>
+</navigator> 
+
+<navigator class="item_container"  url='/pages/my_spell/my_spell'>
+  <view>我的拼团</view>
+  <image class="next-image" src="/image/right.png"></image>
+</navigator> 
+
+<navigator class="item_container"  url='/pages/myyouhuiquan/myyouhuiquan'>
+  <view>我的优惠券</view>
+  <image class="next-image" src="/image/right.png"></image>
+</navigator> 
+
+<navigator class="item_container"  url='/pages/myyouhuima/myyouhuima'>
+  <view>我的优惠码</view>
+  <image class="next-image" src="/image/right.png"></image>
+</navigator>
+
+<navigator class="item_container"  url='/pages/partner/partner' style='margin-bottom:100rpx;'>
+  <view>分销员中心</view>
+  <image class="next-image" src="/image/right.png"></image>
+</navigator>

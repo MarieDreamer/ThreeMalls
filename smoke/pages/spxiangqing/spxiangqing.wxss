@@ -1,0 +1,377 @@
+.kg{
+  height: 25rpx;
+  background: #F0EFF5;
+}
+.lunbotuimg{
+width: 100%;
+height: 500rpx;
+}
+.detainfo{
+  color: black;
+  width: 65%;
+  float:left;
+  border-right: 2rpx solid #a9a9a9;
+  margin-left: 30rpx;
+  height: 190rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.shangpinmiaosu{
+  font-size: 30rpx;
+  padding-bottom: 10rpx;
+}
+.beizhu{
+  color: #a9a9a9;
+  font-size: 25rpx;
+  padding-bottom: 10rpx;
+}
+.dollor{
+  float: left;
+  color: #1296db;
+  width: 5%;
+  font-size: 30rpx;
+  margin-top: 10rpx;
+}
+.money{
+  float: left;
+  color: #1296db;
+  width:90%;
+}
+.money-1{
+  width: 100%;
+  color: #7B7B7B;
+  font-size: 50%;
+  text-decoration: line-through;
+  padding-top: 8rpx;
+}
+.pingjia{
+  float: left;
+  width: 30%;
+  height: 190rpx;
+  margin-top: 20rpx;
+}
+.number{
+  color: #1296db;
+  font-size: 30rpx;
+  text-align: center;
+  margin-top:15rpx;
+}
+.text{
+  color: #1296db;
+  font-size: 30rpx;
+  text-align: center;
+  margin-top:15rpx;
+}
+.shangpinxinxi{
+  height: 230rpx;
+}
+.look{
+  border: 2rpx solid #a9a9a9;
+  width: 30%;
+  font-size: 25rpx;
+  text-align:center;
+  margin-top:15rpx;
+  margin-left:70rpx;
+}
+.choose{
+  border-bottom: 2rpx solid #F0EFF5;
+  height: 70rpx;
+  line-height: 70rpx;
+  padding-left: 15rpx;
+}
+.text-1{
+  width: 90%;
+  float: left;
+  font-size: 35rpx;
+}
+.right{
+  width: 8%;
+  float: right;
+  height: 45rpx;
+  margin-top: 10rpx;
+}
+.right2{
+    width: 8%;
+  float: right;
+  height: 45rpx;
+  margin-top: 10rpx;
+}
+.fuwu{
+  height: 130rpx;
+  padding-left: 15rpx;
+  border-bottom:2rpx solid #F0EFF5;
+}
+.fuwu-text1{
+  font-size: 30rpx;
+  float: left;
+  margin-top: 10rpx;
+  height: 100rpx;
+}
+.fuwu-text2{
+  font-size: 30rpx;
+  float: left;
+  width: 30%;
+  margin: 10rpx 0rpx 20rpx 30rpx;
+}
+.info{
+  width: 100%;
+  height: 120rpx;
+}
+.touxiang{
+  width:100rpx; 
+  height:100rpx;
+  margin:20rpx;
+  border-radius:50%;
+  float: left;
+}
+.name{
+  float: left;
+  font-size: 30rpx;
+  width: 200rpx;
+  margin-top: 30rpx;
+}
+.time{
+  float: right;
+  font-size: 30rpx;
+  width: 250rpx;
+  margin-top: 30rpx;
+}
+.neirong{
+  width: 100%;
+  height: 100rpx;
+  font-size: 35rpx;
+  margin: 20rpx;
+}
+.color{
+  width: 100%;
+  height: 50rpx;
+  font-size: 30rpx;
+  margin: 20rpx;
+}
+.goumaidiv {
+width:100%;
+height:100rpx;
+background-color: white;
+position:fixed;
+bottom:0;
+}
+.canshukuang{
+  border-bottom: 2rpx dotted #F0EFF5;
+  height: 70rpx;
+  line-height: 70rpx;
+  padding-left: 15rpx;
+}
+.name-2{
+  width: 35%;
+  font-size: 35rpx;
+  float: left;
+}
+.number-2{
+  width: 65%;
+  font-size: 35rpx;
+  float: left;
+}
+.anniudiv{
+  float: left;
+  width: 20%;
+  height: 100rpx;
+}
+.homeimg{
+  width:70rpx;
+  height:70rpx; 
+  padding-left: 50rpx;
+  padding-top: 10rpx;
+}
+.shouyetext{
+  width: 20%;
+  font-size: 20rpx;
+  text-align: center;
+}
+.jiaru1{
+  float: left;
+  width: 30%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 30rpx;
+}
+.jiaru2{
+  float: left;
+  width: 30%;
+  height: 100rpx;
+  background-color: #1296db;
+  color: white;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 30rpx;
+}
+.goumai{
+  font-size: 30rpx;
+  float: left;
+  width: 28%;
+  height: 100rpx;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 100rpx;
+}
+/* 底部弹出框 */
+/*使屏幕变暗  */
+.commodity_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.2;
+  overflow: hidden;
+  z-index: 1000;
+  color: #fff;
+}
+/*对话框 */
+.commodity_attr_box {
+  height: 770rpx;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2000;
+  background: #fff;
+  padding-top: 20rpx;
+}
+.infomation{
+  width: 100%;
+  height: 280rpx;
+  display: flex;
+}
+.info-picture{
+  height: 200rpx;
+  width: 200rpx;
+  margin: 50rpx 10rpx 30rpx 20rpx;
+  float: left;
+}
+.info-price{
+  color:#1296db;
+  margin-top:150rpx;
+  width:400rpx;
+  margin-left:50rpx;
+}
+.info-num{
+  color:#1296db;
+  width:400rpx;
+  margin-left:50rpx;
+  font-size: 30rpx;
+}
+.info-choose{
+  width: 400rpx;
+  float: left;
+}
+.div{
+  height: 170rpx;
+}
+.color-title{
+  margin-left: 20rpx;
+  margin-bottom: 30rpx;
+}
+.items{
+  border: 2rpx solid #a9a9a9;
+  text-align: center;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-bottom: 30rpx;
+  margin-left:20rpx;
+  width: 100rpx;
+  float: left;
+}
+
+.choose-num{
+  margin-left: 20rpx;
+}
+.color-choose1{
+  border: 2rpx solid #a9a9a9;
+  text-align: center;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-bottom: 30rpx;
+  width: 100rpx;
+  float: left;
+}
+.anniu{
+  margin-top: 40rpx;
+}
+.rightnow{
+  width: 47%;
+  height: 80rpx;
+  float: left;
+  text-align: center;
+  line-height: 80rpx;
+  margin-left: 2%;
+  border: 2rpx solid #a9a9a9;
+  font-size: 30rpx;
+}
+.rightnow1{
+  width:94%;
+  height:80rpx;
+  float:left;
+  text-align:center;
+  line-height:80rpx;
+  margin-left:2%;
+  border:2rpx solid #a9a9a9;
+  font-size:30rpx;
+  background-color:#1296db;
+  color:white;
+}
+.jiaru{
+  width: 47%;
+  height: 80rpx;
+  float: left;
+  background-color: #1296db;
+  color: white;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 80rpx;
+  border: 2rpx solid red;
+}
+
+/*主容器*/
+.stepper {
+	width: 80px;
+	height: 26px;
+	/*给主容器设一个边框*/
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-left: 20rpx;
+}
+ 
+/*加号和减号*/
+.stepper text {
+	width: 19px;
+	line-height: 26px;
+	text-align: center;
+	float: left;
+}
+ 
+/*数值*/
+.stepper input {
+	width: 40px;
+	height: 26px;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+	/*给中间的input设置左右边框即可*/
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+ 
+/*普通样式*/
+.stepper .normal{
+	color: black;
+}
+ 
+/*禁用样式*/
+.stepper .disabled{
+	color: #ccc;
+}

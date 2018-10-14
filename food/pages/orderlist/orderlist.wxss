@@ -1,0 +1,124 @@
+page{
+  background-color: rgb(241, 242, 245)
+}
+
+.dingdanxuanze{
+  width: 100%;
+  height: 80rpx;
+  position: fixed;
+  top: 0;
+  background-color: rgb(241, 242, 245)
+}
+
+.dingbuanniu{
+  width: 25%;
+  height: 80rpx;
+  float: left;
+  text-align: center;
+  line-height: 75rpx;
+  font-size: 29rpx;
+  color: #707070;
+}
+.dingbuanniured{
+  width: 25%;
+  height: 80rpx;
+  float: left;
+  text-align: center;
+  line-height: 75rpx;
+  font-size: 29rpx;
+  color: red;
+}
+
+.listdiv{
+  width: 100%;
+  height: 337rpx;
+  background-color: #fff;
+}
+
+.tc{
+  height: 20rpx;
+  width: 100%;
+}
+
+.tc2{
+  height: 83rpx;
+  width: 100%;
+}
+
+.zhuangtaidiv{
+  border-bottom:1px solid rgb(241, 242, 245);
+  width: 100%;
+  height: 62rpx;
+}
+
+.shangdianimg{
+  width: 42rpx;
+  height: 42rpx;
+  float: left;
+  margin-left: 12rpx;
+  padding: 7rpx;
+}
+
+.dianname{
+  float: left;
+  margin-left: 10rpx;
+  font-size: 25rpx;
+  line-height: 53rpx;
+}
+
+.zhuangtaitext{
+  float: right;
+  font-size: 25rpx;
+  color: red;
+  line-height: 53rpx;
+  margin-right: 10rpx;
+}
+
+.commoditydiv{
+  width: 100%;
+  height: 200rpx;
+  border-bottom:1px solid rgb(241, 242, 245);
+}
+
+.commodityimg{
+  float: left;
+  width: 153rpx;
+  height: 153rpx;
+  padding: 25rpx;
+}
+
+.commoditytext{
+  font-size: 25rpx;
+  padding: 76rpx;
+
+}
+
+.fukuantext{
+  float: left;
+  margin-left: 19rpx;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  padding: 10rpx;
+}
+
+.jinetext{
+  float: left;
+  font-size: 30rpx;
+  line-height: 73rpx;
+  color: red;
+}
+
+.ztanniu{
+  float:right;
+  margin-right: 15rpx;
+  margin-top: 10rpx;
+  height:51rpx;
+  width:114rpx;
+  border:1px solid red;
+  border-radius:13rpx;
+  color:red;
+  font-size:28rpx;
+  text-align:center;
+  line-height:48rpx;
+
+}

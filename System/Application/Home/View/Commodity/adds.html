@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>后台</title>
+    <link href="/Css/bootstrap.min.css?v=3.3.5" rel="stylesheet">
+    <link href="/Css/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="/Css/animate.min.css" rel="stylesheet">
+    <link href="/Css/style.min.css?v=4.0.0" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/Css/webuploader.css">
+    <link rel="stylesheet" type="text/css" href="/Css/diyUpload.css">
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-content">
+                    <div class="form-horizontal m-t" id="commentForm">
+                        <h2><div  class="col-sm-2"></div>添加商品</h2>
+                        
+                        
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品名称</label>
+                            <div class="col-sm-8">
+                                <input type="text" size="30" name="class1" size="80" minlength="6" maxlength="60" class="form-control"  id="shop_name"/>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品名称</label>
+                            <div class="col-sm-8">
+                                <button class="btn btn-primary" type="button" id="td_replace_GO">+</button>
+                                <!-- <button class="btn btn-primary" type="button" id="daying">+</button> -->
+                                <div style="height: 40px; width: 100%; background-color: #F5F5F6 ">
+                                    <div style="height: 100%; width: 25%; float: left; text-align: left; line-height: 43px;">颜色</div>
+                                    <div style="height: 100%; width: 25%; float: left; text-align: left; line-height: 43px;">规格</div>
+                                    <div style="height: 100%; width: 25%; float: left; text-align: left; line-height: 43px;">数量</div>
+                                    <div style="height: 100%; width: 25%; float: left; text-align: left; line-height: 43px;">价格</div>
+                                </div>
+                                <div style="height: 40; width: 100%; background-color: #F5F5F6 ">
+                                    <div style="height: 100%; width: 25%; float: left; "><input type="text" size="30" name="class1" size="80" minlength="6" maxlength="60" class="form-control form_color"  id="form_price"/></div>
+                                    <div style="height: 100%; width: 25%; float: left;"><input type="text" size="30" name="class1" size="80" minlength="6" maxlength="60" class="form-control form_specifications"  id="form_specifications" guige_id='1'/></div>
+                                    <div style="height: 100%; width: 25%; float: left;"><input type="text" size="30" name="class1" size="80" minlength="6" maxlength="60" class="form-control form_number"  id="form_number"/></div>
+                                    <div style="height: 100%; width: 25%; float: left;"><input type="text" size="30" name="class1" size="80" minlength="6" maxlength="60" class="form-control form_price"  id="form_price"/></div>
+
+                                </div>
+
+                                <div id="td_replace"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-horizontal" id="step2">
+                            <div class="form-group">
+                                <label class="control-label col-sm-2">按顺序选择对应类别的图片进行上传(商品类别图片不可缺少)：</label>
+                                <div class="col-sm-10">
+                                    <div id="size_file_upload" >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                                <!-- <div id="td_replace"></div> -->
+
+                        
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">已销售商品数</label>
+                            <div class="col-sm-8">
+                                <input type="text" size="30"  size="80" minlength="6" maxlength="60" class="form-control"  id="shop_sale"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">商品详细</label>
+                            <div class="col-sm-8">
+                                <input type="text" size="30"  size="80" minlength="6" maxlength="60" class="form-control"  id="shop_introduce"/>
+                            </div>
+                        </div>
+
+                        <div class="form-horizontal" id="step2">
+                            <div class="form-group">
+                                <label class="control-label col-sm-2">封面图片上传(最多三张)：</label>
+                                <div class="col-sm-10">
+                                    <div id="file_upload" ></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-horizontal" id="step2">
+                            <div class="form-group">
+                                <label class="control-label col-sm-2">内容图片上传：</label>
+                                <div class="col-sm-10">
+                                    <div id="img_upload" ></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">选择商城</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="mail_id" >
+                                    <?php echo three_mall_show();?>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group leibie" style="display: none;">
+                            <label class="col-sm-2 control-label">选择类别</label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="categoryid" >
+                                    <option value ="0">请选择</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group pidleibie" style="display: none;">
+                            <label class="col-sm-2 control-label"></label>
+                            <div class="col-sm-8">
+                                <select class="form-control" id="categorypid" >
+                                    <option value ="0">请选择</option>
+                                </select>
+                            </div>
+                        </div>
+
+                       <!--  <div class="form-group rem" attr_value='1' >
+                            <label class="col-sm-2 control-label">商品类别：</label>
+                            <div class="col-sm-8">
+                                    <select class="form-control category categoryid" >
+                                        <option value ="-1">请选择</option>
+                                        <?php foreach ($category as $key => $value)
+                                        {?>
+                                        <option class="op" value ="<?php echo $value['id'];?>">
+                                        <?php echo $value['name'];?>
+                                        </option>
+                                    <?php } ?>
+                                    </select>
+                            </div>
+                        </div> -->
+                        
+                        
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-3">
+                                <input type="hidden" id='id' value="<?php echo I('param.id');?>">
+                                <button class="btn btn-primary" type="button" id="adds">提交</button>
+                                <a href="/Commodity/lists"><button class="btn btn-white" type="button">取消</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // alert($ajaxReturnData['data'])
+    
+</script>
+<script src="/Js/jquery.min.js?v=2.1.4"></script>
+<script type="text/javascript" src="/Js/webuploader.html5only.min.js"></script>
+<script type="text/javascript" src="/Js/diyUpload.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.js"></script>
+
+<!-- Latest compiled and minified Locales -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/locale/bootstrap-table-zh-CN.min.js"></script>
+
+<script type="text/javascript">
+
+
+    $('#daying').on('click',function(){
+        // console.log(size_group_img_url.length);
+        // console.log(tdclass);
+
+    })
+    var size_group_img_url=[];
+    $('#size_file_upload').on('click',function(){
+        // console.log(size_group_img_url.length);
+        // console.log(tdclass);
+
+        if(size_group_img_url.length == tdclass){
+            alert("提示：您选择类别图片数量已经和类别数量相同！")
+        }
+
+        if(size_group_img_url.length > tdclass){
+            alert("提示：您选择类别图片数量已经多于类别数量！")
+        }
+
+    })
+
+    var size_group_img_url=[];
+    $('#size_file_upload').diyUpload({
+
+        url:'/Commodity/upload_do',
+        success:function( data ) {
+            size_group_img_url.push(data._raw);
+            // console.log(size_group_img_url);
+        },
+        error:function( err ) {
+            console.info( err );    
+        },
+        buttonText : '选择文件',
+        chunked:true,
+        // 分片大小
+        chunkSize:1024 * 1024,
+        //最大上传的文件数量, 总文件大小,单个文件大小(单位字节);
+        fileNumLimit:1,
+        fileSizeLimit:500000 * 1024,
+        fileSingleSizeLimit:50000 * 1024,
+        accept: {}
+    });
+
+    //表格增加
+    var tdclass = 1;
+    $('#td_replace_GO').on('click',function(){
+        var replacediv = "";
+        tdclass++;
+
+        replacediv = replacediv
+        +'<div style="height: 40; width: 100%; background-color: #F5F5F6 "><div style="height: 100%; width: 25%; float: left; "><input type="text" size="30" name="class1" size="80" minlength="6" maxlength="60" class="form-control form_color"  id="form_price"/></div><div style="height: 100%; width: 25%; float: left;"><input type="text" size="30" name="class1" size="80" minlength="6" maxlength="60" class="form-control form_specifications"  id="form_specifications" guige_id='+tdclass+'/></div><div style="height: 100%; width: 25%; float: left;"><input type="text" size="30" name="class1" size="80" minlength="6" maxlength="60" class="form-control form_number"  id="form_number"/></div><div style="height: 100%; width: 25%; float: left;"><input type="text" size="30" name="class1" size="80" minlength="6" maxlength="60" class="form-control form_price"  id="form_price"/></div></div>';
+
+        $("#td_replace").append(replacediv);
+    })
+
+    $(document).on('change','#mail_id',function(){
+        var checkText=$("#mail_id").find("option:selected").text(); 
+        var checkValue=$("#mail_id").val();
+        if(checkValue!=0){
+            $.ajax({
+                url:'/Category/listsmail_id', 
+                data:{
+                    "mall_id":checkValue,
+                },
+                type:'post',
+                dataType:"json",
+                success:function(data){
+                    console.log(data.lists)
+                    if(data.lists){
+                        $('.leibie').show();
+                        var listsmail_idsnumber = (data.lists.length);
+                        var classhtml='';
+                        var classhtml0= '';
+                        for (var i=0; i<listsmail_idsnumber; i++){
+                            console.log(i);
+                            classhtml = classhtml
+                            +'<option value ="'+data.lists[i].id+'">'+data.lists[i].name+'</option>'
+                        }
+                        classhtml0 = classhtml0
+                        +'<option value ="0">请选择</option>'
+                        $("#categoryid").html(classhtml0+classhtml)
+                    }else{
+                        $('.leibie').hide();
+                        $('.pidleibie').hide();
+                    }
+                },
+            });
+        }else{
+            $('.leibie').hide();
+            $('.pidleibie').hide();
+        }
+    });
+
+    $(document).on('change','#categoryid',function(){
+        var checkText=$("#categoryid").find("option:selected").text(); 
+        var checkValue=$("#categoryid").val();
+
+        if(checkValue!=0){
+
+            $.ajax({
+                url:'/Category/listscategory_id', 
+                data:{
+                    "category_id":checkValue,
+                },
+                type:'post',
+                dataType:"json",
+                success:function(data){
+                    console.log(data.lists)
+                    if(data.lists){
+                        $('.pidleibie').show();
+                        var listsmail_idsnumber = (data.lists.length);
+                        var classhtml='';
+                        var classhtml0= '';
+                        for (var i=0; i<listsmail_idsnumber; i++){
+                            console.log(i);
+                            classhtml = classhtml
+                            +'<option value ="'+data.lists[i].id+'">'+data.lists[i].name+'</option>'
+                        }
+                        classhtml0 = classhtml0
+                        +'<option value ="0">请选择</option>'
+                        $("#categorypid").html(classhtml0+classhtml)
+                    }else{
+                        $('.pidleibie').hide();
+                    }
+                },
+            });
+
+        }else{
+            $('.pidleibie').hide();
+        }
+    });
+
+
+
+
+    $(document).on('change','.category',function(){
+        var that=$(this)
+        var attr_value=that.parent().parent('.form-group').attr('attr_value');
+        console.log(attr_value);
+        
+        $(".rem").each(function(){
+            attrvalue=$(this).attr("attr_value");
+            // console.log(attrvalue);
+            if (attrvalue>attr_value) {
+                $(this).remove();
+            };
+        });
+        var category_id=$(this).val();
+        // var mail_id=$(this).val();
+        // console.log(category_id);
+        attr_value++;
+        $.ajax({
+            url:'/Category/get_do', 
+            data:{
+                "category_id":category_id,
+                // "mail_id":mail_id,
+            },
+            type:'post',
+            dataType:"json",
+            success:function(data){
+                if(data.status){
+                    if (data.results) {
+                        console.log(data);
+                        var html_de='<div class="form-group rem" attr_value='+attr_value+'><label class="col-sm-2 control-label"></label><div class="col-sm-8"><select class="form-control category categorypid"><option value ="0">请选择</option>';
+                        for (var i = 0; i < data.results.length; i++) {
+                            html_de+='<option class="op" value ="'+data.results[i].id+'">'+data.results[i].name+'</option>'
+                        }
+                        html_de+='</select></div></div>';
+                        that.parent().parent('.form-group').after(html_de);
+                    }
+                }else{
+                    
+                } 
+            },
+        });
+    })
+    var image_url=[];
+    var img_url=[];
+    $('#file_upload').diyUpload({
+        url:'/Commodity/upload_do',
+        success:function( data ) {
+            image_url.push(data._raw);
+            console.log(image_url);
+        },
+        error:function( err ) {
+            console.info( err );    
+        },
+        buttonText : '选择文件',
+        chunked:true,
+        // 分片大小
+        chunkSize:1024 * 1024,
+        //最大上传的文件数量, 总文件大小,单个文件大小(单位字节);
+        fileNumLimit:3,
+        fileSizeLimit:500000 * 1024,
+        fileSingleSizeLimit:50000 * 1024,
+        accept: {}
+    });
+
+    $('#img_upload').diyUpload({
+        url:'/Commodity/upload_do',
+        success:function( data ) {
+            img_url.push(data._raw);
+            console.log(img_url);
+        },
+        error:function( err ) {
+            console.info( err );    
+        },
+        buttonText : '选择文件',
+        chunked:true,
+        // 分片大小
+        chunkSize:1024 * 1024,
+        //最大上传的文件数量, 总文件大小,单个文件大小(单位字节);
+        fileNumLimit:50,
+        fileSizeLimit:500000 * 1024,
+        fileSingleSizeLimit:50000 * 1024,
+        accept: {}
+    });
+
+    $("#adds").click(function(){
+    });
+
+    $(document).on('click','#adds',function(){
+        // console.log(tdclass);
+        // console.log(size_group_img_url.length);
+        var size_group_a = new Array();
+        var size_group_b = new Array();
+        var size_group_c = new Array();
+        var size_group_d = new Array();
+        $(".form_color").each(function(){
+            size_group_a.push($(this).val());
+        });
+        console.log(size_group_a);
+        $(".form_specifications").each(function(){
+            size_group_b.push($(this).val());
+        });
+        $(".form_number").each(function(){
+            size_group_c.push($(this).val());
+        });
+        $(".form_price").each(function(){
+            size_group_d.push($(this).val());
+        });
+
+        var mail_id=$("#mail_id").val();
+        var categoryid=$('#categoryid').val();
+        var shop_type=$('#categorypid').val();
+        var shop_name=$('#shop_name').val();
+        
+        var shop_sale=$('#shop_sale').val();
+        var shop_introduce=$('#shop_introduce').val();
+        if(!shop_type){
+            shop_type = categoryid;
+        }
+        if(shop_type==0){
+            shop_type = categoryid;
+        }
+        if(tdclass == size_group_img_url.length){
+            if(image_url[3]){
+                alert("封面只允许上传3张图片")
+            }else{
+
+                $.ajax({
+                    url:'/Commodity/adds_do',
+                    data:{
+                        "mall_id":mail_id,
+                        "image_url":image_url,
+                        "img_url":img_url,
+                        "shop_name":shop_name,
+                        "main_class":categoryid,
+                        "shop_type":shop_type,
+                        "shop_sale":shop_sale,
+                        "shop_introduce":shop_introduce,
+                        "size_group_a":size_group_a,
+                        "size_group_b":size_group_b,
+                        "size_group_c":size_group_c,
+                        "size_group_d":size_group_d,
+                        "size_group_img_url":size_group_img_url,
+                    },
+                    type:'post',
+                    dataType:"json",
+                    success:function(data){
+                        if(data.status){
+                            
+                            alert('添加成功');
+                            window.location="/Commodity/lists";
+                        }else{
+                            alert(data.message)
+                        }
+                    }
+                });
+
+            }
+        }else{
+            alert("错误！类别图片数量和你添加的类别数量不一致！请重新选择！")
+        }
+        
+        
+        
+    })
+</script>
+</body>
+</html>

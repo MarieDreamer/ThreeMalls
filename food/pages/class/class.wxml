@@ -1,0 +1,13 @@
+<view class='tc'></view>
+
+<!-- <view bindtap="gocommoditylist" class='choicediv'>
+  <view class='choicetext'>全部商品</view>
+  <image class='jiantouimg' src="/images/jiantouyou.png"></image>
+</view>
+
+<view class='tc'></view> -->
+
+<view wx:for="{{lists}}" wx:for-item="list" wx:key="key" bindtap="gocommoditylist" data-categoryID='{{list.id}}'  class='classificationdiv'>
+  <view class='classificationtext'>{{list.name}}</view>
+  <image class='jiantouimg' src="/images/jiantouyou.png"></image>
+</view>

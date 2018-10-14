@@ -1,0 +1,108 @@
+/* pages/fenlei/fenlei.wxss */
+.bar{
+  background: black;
+  white-space: nowrap;
+  display: flex;
+}
+.bar view{
+  width: 200rpx;
+  height: 80rpx;
+  display: inline-block;
+  color: white;
+  font-size: 25rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.fenlei-name{
+  color: white;
+  margin: 15rpx auto;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  width:140rpx;
+  background-color: red;
+  border-radius: 30rpx;
+  font-size:30rpx;
+}
+.card_container{
+  border-top: 2rpx solid #eee;
+  padding: 25rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  width: 335.5rpx;
+  margin-bottom: 25rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border:1rpx solid #eee;
+  border-radius: 10rpx;
+}
+.card view{
+  margin: 10rpx;
+  width: 315.5rpx;
+}
+.qgimg-img{
+  width: 100%;
+  border-radius: 10rpx 10rpx 0 0;
+}
+.qgimg-text{
+  width: 330rpx;
+  text-align: center;
+  color: white;
+  background-color: red;
+  font-size: 25rpx;
+}
+.qianggou-info{
+  font-size: 25rpx;
+  min-height: 65rpx;
+}
+
+.qianggou-dollor{
+  color: red;
+  font-size: 30rpx;
+  margin-top: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.qianggou-money{
+  float: left;
+  color: red;
+  width:40%;
+  margin-left:15rpx;
+}
+.qianggou-money-1{
+  float: left;
+  width: 10%;
+  color: #7B7B7B;
+  font-size: 50%;
+  text-decoration: line-through;
+  padding-top: 17rpx;
+}
+
+.qianggou-shengyu{
+  margin-top: 50rpx;
+  margin-left: 50rpx;
+  float: left;
+  font-size: 20rpx;
+  width: 35%;
+  color:#696969;
+}
+.qianggou-like{
+  text-align: center;
+  float: right;
+  width: 80rpx;
+  height: 80rpx;
+  margin-right: 15rpx;
+}
+.car{
+  width: 40rpx;
+  height: 40rpx;
+  padding: 5rpx;
+  /* border: 1rpx red solid; */
+  border-radius: 50%;
+}
+

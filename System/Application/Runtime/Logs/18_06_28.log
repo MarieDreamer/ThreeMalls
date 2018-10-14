@@ -1,0 +1,1783 @@
+[ 2018-06-28T09:26:47+08:00 ] 127.0.0.1 /WechatUser/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015889s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.017894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034008s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Controller\WechatUserController.class.php 第 23 行.
+SQL: DESCRIBE wechat_user [ RunTime:0.041957s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Model\WechatUserModel.class.php 第 70 行.
+NOTIC: [8] Undefined variable: class D:\Projects\cdd\System\Application\Home\Model\WechatUserModel.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wechat_user` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.039431s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20   [ RunTime:0.040354s ]
+NOTIC: [8] Undefined index: content D:\Projects\cdd\System\Application\Home\Model\WechatUserModel.class.php 第 103 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Home\Model\WechatUserModel.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008146s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.009625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009450s ]
+
+[ 2018-06-28T09:26:48+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-28T09:27:00+08:00 ] 127.0.0.1 /WechatUser/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Controller\WechatUserController.class.php 第 23 行.
+SQL: DESCRIBE wechat_user [ RunTime:0.043929s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Model\WechatUserModel.class.php 第 70 行.
+NOTIC: [8] Undefined variable: class D:\Projects\cdd\System\Application\Home\Model\WechatUserModel.class.php 第 73 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `wechat_user` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.044978s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20   [ RunTime:0.043806s ]
+NOTIC: [8] Undefined index: content D:\Projects\cdd\System\Application\Home\Model\WechatUserModel.class.php 第 103 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Home\Model\WechatUserModel.class.php 第 105 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2018-06-28T09:27:00+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002560s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-28T09:28:41+08:00 ] 127.0.0.1 /Coupon/lists?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: DESCRIBE coupon [ RunTime:0.044034s ]
+NOTIC: [8] Undefined variable: class D:\Projects\cdd\System\Application\Home\Model\CouponModel.class.php 第 42 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `coupon` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.041092s ]
+SQL: SELECT * FROM `coupon` WHERE ( `status_delete` = 1 ) ORDER BY create_time desc LIMIT 0,20   [ RunTime:0.040215s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.041042s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.042362s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.044269s ]
+NOTIC: [8] Undefined index: album_id D:\Projects\cdd\System\Application\Home\Model\CouponModel.class.php 第 80 行.
+SQL: DESCRIBE photo_album [ RunTime:0.043292s ]
+ERR: 1146:Table 'cdd.photo_album' doesn't exist
+ [ SQL语句 ] : DESCRIBE photo_album
+SQL: SELECT * FROM `photo_album` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.043679s ]
+ERR: 1146:Table 'cdd.photo_album' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo_album` WHERE ( `id` = null ) LIMIT 1  
+NOTIC: [8] Undefined index: album_id D:\Projects\cdd\System\Application\Home\Model\CouponModel.class.php 第 80 行.
+SQL: SELECT * FROM `photo_album` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.044120s ]
+ERR: 1146:Table 'cdd.photo_album' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `photo_album` WHERE ( `id` = null ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044819s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2018-06-28T09:28:41+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-28T11:04:57+08:00 ] 127.0.0.1 /Coupon/raedit?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003132s ]
+SQL: DESCRIBE coupon [ RunTime:0.034507s ]
+SQL: SELECT * FROM `coupon` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.035051s ]
+NOTIC: [8] Undefined index: content D:\Projects\cdd\System\Application\Home\Controller\CouponController.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2018-06-28T11:35:30+08:00 ] 127.0.0.1 /Commodity/adds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001856s ]
+SQL: DESCRIBE category [ RunTime:0.035822s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 0 )  [ RunTime:0.035803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001542s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:139) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:139) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:139) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001413s ]
+
+[ 2018-06-28T11:36:59+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T11:37:03+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T11:37:05+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+SQL: DESCRIBE category [ RunTime:0.038421s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 1 )  [ RunTime:0.038417s ]
+
+[ 2018-06-28T11:37:06+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: DESCRIBE category [ RunTime:0.035350s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 6 )  [ RunTime:0.034556s ]
+
+[ 2018-06-28T11:37:08+08:00 ] 127.0.0.1 /Commodity/adds_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: DESCRIBE commodity [ RunTime:0.045658s ]
+SQL: INSERT INTO `commodity` (`shop_index_image`,`shop_image`,`pid`,`shop_name`,`shop_id`,`shop_type`,`shop_num`,`shop_sale`,`shop_introduce`,`shop_price`,`status_delete`,`create_time`) VALUES ('[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b3457dbcbc90.jpg\"]','[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b3457df76dc4.jpg\"]',1,'i7 8700k',23123123,5,10,12,'cpu',2500,1,1530157028) [ RunTime:0.046758s ]
+
+[ 2018-06-28T11:37:10+08:00 ] 127.0.0.1 /Commodity/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 24 行.
+SQL: DESCRIBE commodity [ RunTime:0.044718s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Model\CommodityModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.045833s ]
+SQL: SELECT * FROM `commodity` WHERE ( `status_delete` = 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.042699s ]
+SQL: DESCRIBE category [ RunTime:0.045051s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043522s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.043470s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043599s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.044869s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.044091s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.044959s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.043947s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.045848s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.046598s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.044037s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043488s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.043610s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043489s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.042205s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.044742s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.043516s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.043562s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.043477s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.044072s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.044477s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.044583s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.046157s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.045860s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.043879s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.043520s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043451s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Runtime\Cache\Home\a6ed8ee6d791a903f750b98e10a5260f.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2018-06-28T11:37:11+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002525s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-28T15:30:18+08:00 ] 127.0.0.1 /Commodity/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001642s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 24 行.
+SQL: DESCRIBE commodity [ RunTime:0.035040s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Model\CommodityModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.033413s ]
+SQL: SELECT * FROM `commodity` WHERE ( `status_delete` = 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.032128s ]
+SQL: DESCRIBE category [ RunTime:0.032510s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.032583s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.033615s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.033188s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.033324s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.033453s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.031937s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.033261s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.034622s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.032620s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.033662s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.033370s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.029754s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.033302s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.032331s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.032730s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.031631s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.032866s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.032927s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.033754s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.033221s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.033108s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.031955s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.033359s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.033133s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.032363s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.033319s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Runtime\Cache\Home\a6ed8ee6d791a903f750b98e10a5260f.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2018-06-28T15:30:18+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005214s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-28T15:31:10+08:00 ] 127.0.0.1 /Commodity/raedit?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+SQL: DESCRIBE category [ RunTime:0.032492s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 0 )  [ RunTime:0.033491s ]
+SQL: DESCRIBE commodity [ RunTime:0.032966s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.032390s ]
+NOTIC: [8] Undefined index: content D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001551s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2018-06-28T15:31:16+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:31:21+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:31:25+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+SQL: DESCRIBE category [ RunTime:0.043698s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 4 )  [ RunTime:0.044509s ]
+
+[ 2018-06-28T15:31:28+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: DESCRIBE category [ RunTime:0.045535s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 13 )  [ RunTime:0.046704s ]
+
+[ 2018-06-28T15:31:31+08:00 ] 127.0.0.1 /Commodity/raedit_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
+SQL: DESCRIBE commodity [ RunTime:0.039408s ]
+SQL: UPDATE `commodity` SET `shop_index_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b348ec49ef30.jpg\"]',`shop_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b348ec91be17.jpg\"]',`pid`=4,`shop_name`='饰品',`shop_id`=6,`shop_type`=13,`shop_num`=6,`shop_sale`=6,`shop_introduce`='6',`shop_price`=6,`status_delete`=1 WHERE ( `id` = 9 ) [ RunTime:0.048849s ]
+
+[ 2018-06-28T15:31:33+08:00 ] 127.0.0.1 /Commodity/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001692s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 24 行.
+SQL: DESCRIBE commodity [ RunTime:0.038373s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Model\CommodityModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.038744s ]
+SQL: SELECT * FROM `commodity` WHERE ( `status_delete` = 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.038909s ]
+SQL: DESCRIBE category [ RunTime:0.037799s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.039028s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.037925s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.038759s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.037870s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.037620s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.037466s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.037745s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.038898s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.038135s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.037197s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.037813s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.038826s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.037735s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.037478s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.037492s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.037432s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.037495s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.037561s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.037720s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.036960s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.037468s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037479s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037460s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037653s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.038988s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.040211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Runtime\Cache\Home\a6ed8ee6d791a903f750b98e10a5260f.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2018-06-28T15:31:33+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-28T15:31:40+08:00 ] 127.0.0.1 /Commodity/raedit?id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: DESCRIBE category [ RunTime:0.090494s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 0 )  [ RunTime:0.084876s ]
+SQL: DESCRIBE commodity [ RunTime:0.081854s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.064702s ]
+NOTIC: [8] Undefined index: content D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001770s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2018-06-28T15:32:07+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:32:11+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001736s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:32:14+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+SQL: DESCRIBE category [ RunTime:0.034828s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 2 )  [ RunTime:0.035107s ]
+
+[ 2018-06-28T15:32:18+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: DESCRIBE category [ RunTime:0.041114s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 10 )  [ RunTime:0.045466s ]
+
+[ 2018-06-28T15:32:20+08:00 ] 127.0.0.1 /Commodity/raedit_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+SQL: DESCRIBE commodity [ RunTime:0.032791s ]
+SQL: UPDATE `commodity` SET `shop_index_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b348efb5cd84.jpg\"]',`shop_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b348ef771f31.jpg\"]',`pid`=2,`shop_name`='毛巾',`shop_id`=62,`shop_type`=10,`shop_num`=63,`shop_sale`=63,`shop_introduce`='6',`shop_price`=78,`status_delete`=1 WHERE ( `id` = 8 ) [ RunTime:0.036282s ]
+
+[ 2018-06-28T15:32:22+08:00 ] 127.0.0.1 /Commodity/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 24 行.
+SQL: DESCRIBE commodity [ RunTime:0.044050s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Model\CommodityModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.043355s ]
+SQL: SELECT * FROM `commodity` WHERE ( `status_delete` = 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.044425s ]
+SQL: DESCRIBE category [ RunTime:0.042841s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.044505s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.042998s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043517s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043915s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.044594s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.042646s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.042885s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043451s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.042553s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.043247s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.042700s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.048399s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.042729s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.043360s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043451s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.041896s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.043178s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.042024s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.043225s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.043312s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.044418s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.044974s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.046074s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.044452s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.043976s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Runtime\Cache\Home\a6ed8ee6d791a903f750b98e10a5260f.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2018-06-28T15:32:22+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002704s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-28T15:32:50+08:00 ] 127.0.0.1 /Commodity/raedit?id=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+SQL: DESCRIBE category [ RunTime:0.267769s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 0 )  [ RunTime:0.033535s ]
+SQL: DESCRIBE commodity [ RunTime:0.036296s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.036981s ]
+NOTIC: [8] Undefined index: content D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001599s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2018-06-28T15:32:54+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:32:57+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001752s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:33:01+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+SQL: DESCRIBE category [ RunTime:0.037286s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 2 )  [ RunTime:0.037298s ]
+
+[ 2018-06-28T15:33:04+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+SQL: DESCRIBE category [ RunTime:0.043418s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 10 )  [ RunTime:0.044650s ]
+
+[ 2018-06-28T15:33:06+08:00 ] 127.0.0.1 /Commodity/raedit_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: DESCRIBE commodity [ RunTime:0.043470s ]
+SQL: UPDATE `commodity` SET `shop_index_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b348f26d01f2.jpg\"]',`shop_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b348f29ee25a.jpg\"]',`pid`=2,`shop_name`='牙刷',`shop_id`=63,`shop_type`=10,`shop_num`=6,`shop_sale`=6,`shop_introduce`='6',`shop_price`=253,`status_delete`=1 WHERE ( `id` = 7 ) [ RunTime:0.046806s ]
+
+[ 2018-06-28T15:33:08+08:00 ] 127.0.0.1 /Commodity/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 24 行.
+SQL: DESCRIBE commodity [ RunTime:0.033387s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Model\CommodityModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.032029s ]
+SQL: SELECT * FROM `commodity` WHERE ( `status_delete` = 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.032456s ]
+SQL: DESCRIBE category [ RunTime:0.028769s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.032467s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.028406s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.032571s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.033417s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.033345s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.033426s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.033670s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.033436s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.033531s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.033509s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.033588s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.033402s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.031744s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.033485s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.031611s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.031351s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.033265s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.033645s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.033446s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.031719s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.033175s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.031825s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.033099s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.031860s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.033339s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.033631s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Runtime\Cache\Home\a6ed8ee6d791a903f750b98e10a5260f.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011465s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2018-06-28T15:33:08+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003627s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-28T15:33:58+08:00 ] 127.0.0.1 /Commodity/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 24 行.
+SQL: DESCRIBE commodity [ RunTime:0.043699s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Model\CommodityModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.045119s ]
+SQL: SELECT * FROM `commodity` WHERE ( `status_delete` = 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.044821s ]
+SQL: DESCRIBE category [ RunTime:0.041646s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043328s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.043278s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043724s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043164s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.043382s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.043235s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.043932s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043612s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.043614s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.043353s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043469s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.043277s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043538s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.043389s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043464s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.043724s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.043591s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.043808s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.043049s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.043358s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.043655s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.043363s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.043205s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.043570s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.043700s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Runtime\Cache\Home\a6ed8ee6d791a903f750b98e10a5260f.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2018-06-28T15:33:58+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-28T15:34:01+08:00 ] 127.0.0.1 /Commodity/raedit?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: DESCRIBE category [ RunTime:0.037248s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 0 )  [ RunTime:0.038463s ]
+SQL: DESCRIBE commodity [ RunTime:0.038092s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.039017s ]
+NOTIC: [8] Undefined index: content D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001562s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2018-06-28T15:34:06+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:34:09+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001753s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:34:12+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+SQL: DESCRIBE category [ RunTime:0.045253s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 2 )  [ RunTime:0.044431s ]
+
+[ 2018-06-28T15:34:16+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: DESCRIBE category [ RunTime:0.037713s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 10 )  [ RunTime:0.038369s ]
+
+[ 2018-06-28T15:34:18+08:00 ] 127.0.0.1 /Commodity/raedit_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: DESCRIBE commodity [ RunTime:0.034748s ]
+SQL: UPDATE `commodity` SET `shop_index_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b348f6e2c804.jpg\"]',`shop_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b348f7159365.jpg\"]',`pid`=2,`shop_name`='杯子',`shop_id`=64,`shop_type`=10,`shop_num`=11,`shop_sale`=11,`shop_introduce`='6',`shop_price`=106,`status_delete`=1 WHERE ( `id` = 6 ) [ RunTime:0.040345s ]
+
+[ 2018-06-28T15:34:20+08:00 ] 127.0.0.1 /Commodity/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 24 行.
+SQL: DESCRIBE commodity [ RunTime:0.035110s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Model\CommodityModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.034934s ]
+SQL: SELECT * FROM `commodity` WHERE ( `status_delete` = 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.036088s ]
+SQL: DESCRIBE category [ RunTime:0.033953s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.035154s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.035470s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.033733s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.035380s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.035348s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.035025s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.034123s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.035288s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.035209s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.033953s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.035122s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.033918s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.035080s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.033799s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.035010s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.034040s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.035225s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.033863s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.035212s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.033671s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.033936s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.034830s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.033688s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.033957s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.035546s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.034796s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Runtime\Cache\Home\a6ed8ee6d791a903f750b98e10a5260f.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2018-06-28T15:34:20+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003385s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-28T15:34:52+08:00 ] 127.0.0.1 /Commodity/raedit?id=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+SQL: DESCRIBE category [ RunTime:0.032572s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 0 )  [ RunTime:0.034736s ]
+SQL: DESCRIBE commodity [ RunTime:0.032613s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.033746s ]
+NOTIC: [8] Undefined index: content D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001738s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2018-06-28T15:34:55+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:34:58+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:35:02+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+SQL: DESCRIBE category [ RunTime:0.033922s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 2 )  [ RunTime:0.034705s ]
+
+[ 2018-06-28T15:35:06+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: DESCRIBE category [ RunTime:0.038353s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 7 )  [ RunTime:0.039105s ]
+
+[ 2018-06-28T15:35:09+08:00 ] 127.0.0.1 /Commodity/raedit_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002560s ]
+SQL: DESCRIBE commodity [ RunTime:0.037819s ]
+SQL: UPDATE `commodity` SET `shop_index_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b348f9fce380.jpg\"]',`shop_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b348fa2d7bd1.jpg\"]',`pid`=2,`shop_name`='床单',`shop_id`=2,`shop_type`=7,`shop_num`=2,`shop_sale`=2,`shop_introduce`='2',`shop_price`=2,`status_delete`=1 WHERE ( `id` = 5 ) [ RunTime:0.041392s ]
+
+[ 2018-06-28T15:35:10+08:00 ] 127.0.0.1 /Commodity/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 24 行.
+SQL: DESCRIBE commodity [ RunTime:0.032434s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Model\CommodityModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.034271s ]
+SQL: SELECT * FROM `commodity` WHERE ( `status_delete` = 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.034325s ]
+SQL: DESCRIBE category [ RunTime:0.032178s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.032785s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.031734s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.028241s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.032425s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.032080s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.032998s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.031744s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.033238s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.032075s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.032946s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.028283s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.028458s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.032297s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.033062s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.032072s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.032842s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.032038s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.033075s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.032021s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.033244s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.033105s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.031921s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.031625s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.031927s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.032760s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.031909s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Runtime\Cache\Home\a6ed8ee6d791a903f750b98e10a5260f.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2018-06-28T15:35:10+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.004228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005335s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-28T15:35:57+08:00 ] 127.0.0.1 /Commodity/raedit?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+SQL: DESCRIBE category [ RunTime:0.044450s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 0 )  [ RunTime:0.040802s ]
+SQL: DESCRIBE commodity [ RunTime:0.041251s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.044867s ]
+NOTIC: [8] Undefined index: content D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001523s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2018-06-28T15:36:01+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:36:05+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:36:07+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+SQL: DESCRIBE category [ RunTime:0.043768s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 2 )  [ RunTime:0.043583s ]
+
+[ 2018-06-28T15:36:09+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: DESCRIBE category [ RunTime:0.038278s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 7 )  [ RunTime:0.039811s ]
+
+[ 2018-06-28T15:36:11+08:00 ] 127.0.0.1 /Commodity/raedit_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+SQL: DESCRIBE commodity [ RunTime:0.038845s ]
+SQL: UPDATE `commodity` SET `shop_index_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b348fe18c931.jpg\"]',`shop_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b348fe52cc19.jpg\"]',`pid`=2,`shop_name`='床垫',`shop_id`=3213,`shop_type`=7,`shop_num`=213,`shop_sale`=213,`shop_introduce`='131',`shop_price`=3132,`status_delete`=1 WHERE ( `id` = 4 ) [ RunTime:0.041072s ]
+
+[ 2018-06-28T15:36:14+08:00 ] 127.0.0.1 /Commodity/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 24 行.
+SQL: DESCRIBE commodity [ RunTime:0.039526s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Model\CommodityModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.038807s ]
+SQL: SELECT * FROM `commodity` WHERE ( `status_delete` = 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.038491s ]
+SQL: DESCRIBE category [ RunTime:0.046211s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.038845s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.034706s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.038482s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.038579s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.040035s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.039101s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.039351s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.038954s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.038748s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.038814s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.035124s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.034585s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.039293s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.039330s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.039218s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.037944s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.039450s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.040192s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.038679s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.043502s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.298537s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037467s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.253094s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.039219s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.039319s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.555462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Runtime\Cache\Home\a6ed8ee6d791a903f750b98e10a5260f.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2018-06-28T15:36:14+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004454s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-28T15:36:50+08:00 ] 127.0.0.1 /Commodity/raedit?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: DESCRIBE category [ RunTime:0.035600s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 0 )  [ RunTime:0.036332s ]
+SQL: DESCRIBE commodity [ RunTime:0.046513s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.035252s ]
+NOTIC: [8] Undefined index: content D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003074s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2018-06-28T15:36:54+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:36:57+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002174s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:36:59+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001742s ]
+SQL: DESCRIBE category [ RunTime:0.035201s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 2 )  [ RunTime:0.038324s ]
+
+[ 2018-06-28T15:37:01+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+SQL: DESCRIBE category [ RunTime:0.040160s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 7 )  [ RunTime:0.045247s ]
+
+[ 2018-06-28T15:37:04+08:00 ] 127.0.0.1 /Commodity/raedit_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+SQL: DESCRIBE commodity [ RunTime:0.038448s ]
+SQL: UPDATE `commodity` SET `shop_index_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b34901653539.jpg\"]',`shop_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b34901907f4a.jpg\"]',`pid`=2,`shop_name`='床架',`shop_id`=22,`shop_type`=7,`shop_num`=5,`shop_sale`=6,`shop_introduce`='7',`shop_price`=8,`status_delete`=1 WHERE ( `id` = 3 ) [ RunTime:0.041846s ]
+
+[ 2018-06-28T15:37:06+08:00 ] 127.0.0.1 /Commodity/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 24 行.
+SQL: DESCRIBE commodity [ RunTime:0.038671s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Model\CommodityModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.039075s ]
+SQL: SELECT * FROM `commodity` WHERE ( `status_delete` = 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.040397s ]
+SQL: DESCRIBE category [ RunTime:0.036219s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.038510s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.038359s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.038506s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.037560s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.035861s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.038744s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.038363s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.038753s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.034057s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.038962s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.038064s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.039000s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.037691s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.039051s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.037868s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.037472s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.037691s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.038772s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.038048s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.037055s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.037666s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037484s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037566s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037428s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.038112s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.038910s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Runtime\Cache\Home\a6ed8ee6d791a903f750b98e10a5260f.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2018-06-28T15:37:06+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002337s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-28T15:37:20+08:00 ] 127.0.0.1 /Commodity/raedit?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: DESCRIBE category [ RunTime:0.034439s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 0 )  [ RunTime:0.036910s ]
+SQL: DESCRIBE commodity [ RunTime:0.035600s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.030464s ]
+NOTIC: [8] Undefined index: content D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001544s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2018-06-28T15:37:54+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003043s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:37:57+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:38:00+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+SQL: DESCRIBE category [ RunTime:0.032547s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 4 )  [ RunTime:0.032792s ]
+
+[ 2018-06-28T15:38:02+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: DESCRIBE category [ RunTime:0.039339s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 13 )  [ RunTime:0.039256s ]
+
+[ 2018-06-28T15:38:04+08:00 ] 127.0.0.1 /Commodity/raedit_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: DESCRIBE commodity [ RunTime:0.035286s ]
+SQL: UPDATE `commodity` SET `shop_index_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b349052e36d8.jpg\"]',`shop_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b349055ece80.jpg\"]',`pid`=4,`shop_name`='手表',`shop_id`=3,`shop_type`=13,`shop_num`=5,`shop_sale`=6,`shop_introduce`='7',`shop_price`=8,`status_delete`=1 WHERE ( `id` = 2 ) [ RunTime:0.041219s ]
+
+[ 2018-06-28T15:38:06+08:00 ] 127.0.0.1 /Commodity/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 24 行.
+SQL: DESCRIBE commodity [ RunTime:0.038720s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Model\CommodityModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.038763s ]
+SQL: SELECT * FROM `commodity` WHERE ( `status_delete` = 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.038389s ]
+SQL: DESCRIBE category [ RunTime:0.034245s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.038723s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.038839s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.038387s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.037704s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.037409s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.035339s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.037618s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.037180s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.037373s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.037643s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.039158s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.038543s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.039580s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.038849s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.037538s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.037295s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.037867s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.038766s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.038073s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.038647s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.037813s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.038631s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037758s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.037474s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.037606s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.040359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Runtime\Cache\Home\a6ed8ee6d791a903f750b98e10a5260f.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2018-06-28T15:38:07+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002091s ]
+ERR: 无法加载控制器:Fonts
+
+[ 2018-06-28T15:38:13+08:00 ] 127.0.0.1 /Commodity/raedit?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+SQL: DESCRIBE category [ RunTime:0.042604s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 0 )  [ RunTime:0.042523s ]
+SQL: DESCRIBE commodity [ RunTime:0.043189s ]
+SQL: SELECT * FROM `commodity` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.043917s ]
+NOTIC: [8] Undefined index: content D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 77 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Runtime\Cache\Home\b277dafa5e982b73c793d6e3e1950f45.php 第 73 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\Projects\cdd\System\Application\Runtime\Cache\Home\b277dafa5e982b73c793d6e3e1950f45.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001575s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php:78) D:\Projects\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2018-06-28T15:38:41+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:38:43+08:00 ] 127.0.0.1 /Commodity/upload_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+NOTIC: [8] Undefined variable: fileName D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 186 行.
+NOTIC: [2] file(md5list.txt): failed to open stream: No such file or directory D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 255 行.
+
+[ 2018-06-28T15:38:52+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002009s ]
+SQL: DESCRIBE category [ RunTime:0.038267s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 2 )  [ RunTime:0.039321s ]
+
+[ 2018-06-28T15:38:54+08:00 ] 127.0.0.1 /Category/get_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+SQL: DESCRIBE category [ RunTime:0.033696s ]
+SQL: SELECT * FROM `category` WHERE ( `status_delete` = 1 ) AND ( `pid` = 9 )  [ RunTime:0.034256s ]
+
+[ 2018-06-28T15:38:56+08:00 ] 127.0.0.1 /Commodity/raedit_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: DESCRIBE commodity [ RunTime:0.037665s ]
+SQL: UPDATE `commodity` SET `shop_index_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b3490811ad1d.jpg\"]',`shop_image`='[\"\\/Uploads\\/Tmps\\/2018\\/06\\/28\\/5b349083ce840.jpg\"]',`pid`=2,`shop_name`='空气净化器',`shop_id`=1,`shop_type`=9,`shop_num`=1,`shop_sale`=1,`shop_introduce`='1',`shop_price`=1,`status_delete`=1 WHERE ( `id` = 1 ) [ RunTime:0.041799s ]
+
+[ 2018-06-28T15:38:58+08:00 ] 127.0.0.1 /Commodity/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Controller\CommodityController.class.php 第 24 行.
+SQL: DESCRIBE commodity [ RunTime:0.034355s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\cdd\System\Application\Home\Model\CommodityModel.class.php 第 40 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `commodity` WHERE ( `status_delete` = 1 ) LIMIT 1   [ RunTime:0.036464s ]
+SQL: SELECT * FROM `commodity` WHERE ( `status_delete` = 1 ) ORDER BY id desc LIMIT 0,20   [ RunTime:0.036006s ]
+SQL: DESCRIBE category [ RunTime:0.034084s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.034500s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.033919s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.035016s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.033889s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.034945s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.034110s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.034952s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.033844s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.033669s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.033709s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.029916s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.035050s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.036035s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.034517s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.034007s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.035094s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.034038s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.034799s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.033861s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.030055s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.034419s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.033794s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.033557s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.033762s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.033308s ]
+SQL: SELECT * FROM `category` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.033872s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2018-06-28T15:38:58+08:00 ] 127.0.0.1 /fonts/glyphicons-halflings-regular.woff2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+ERR: 无法加载控制器:Fonts
+

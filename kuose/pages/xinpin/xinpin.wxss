@@ -1,0 +1,45 @@
+/* pages/xinpin/xinpin.wxss */
+.hengxianggundong{
+  background: black;
+  white-space: nowrap;
+  display: flex;
+}
+.hot{
+  width: 250rpx;
+  height: 80rpx;
+  display: inline-block;
+  color: white;
+  font-size: 25rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+.new-1{
+  width: 100%;
+  height: 950rpx;
+}
+.new-2{
+  width: 100%;
+  height: 200rpx;
+}
+.new-3{
+  width: 100%;
+  height: 600rpx;
+}
+
+.dibu {
+  background-color: #FFFAFA;
+  width:100%;
+  height:150rpx;
+}
+.dibu-text1{
+  font-size: 25rpx;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30rpx;
+}
+.dibu-text2{
+  font-size:25rpx;
+  text-align: center;
+  padding-top: 20rpx;
+  color: #B0C4DE;
+}

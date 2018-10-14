@@ -1,0 +1,14 @@
+/* pages/fuwu/fuwu .wxss */
+.tiaoli{
+  width: 96%;
+  margin-left: 2%;
+}
+.title{
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.neirong{
+  font-size: 30rpx;
+  margin-bottom: 30rpx;
+}

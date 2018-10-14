@@ -1,0 +1,105 @@
+page{
+  background-color: rgb(241, 242, 245)
+}
+
+.coupondiv{
+  height: 200rpx;
+  width: 90%;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 20rpx;
+}
+
+.coupondivleft{
+  float: left;
+  height: 200rpx;
+  width: 35%;
+  background-color: #1296db;
+
+}
+
+.coupondivright{
+  float: left;
+   height: 200rpx;
+  width: 65%;
+}
+
+.money{
+  height: 150rpx;
+  width: 100%;
+  font-size:50rpx;
+  color: #fff;
+  font-weight:bold;
+  text-align: center;
+  line-height: 155rpx;
+  margin-left: -6rpx;
+
+}
+
+.couponattribute{
+  height: 50rpx;
+  width: 100%;
+  font-size:25rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 1rpx;
+}
+
+.coupontitle{
+  width: 80%;
+  float: left;
+  font-size:25rpx;
+  padding: 34rpx;
+  
+}
+
+.bluetitle{
+  float: left;
+  width: 77rpx;
+  height: 35rpx;
+  background-color: #1296db;
+  color: #fff;
+  text-align: center;
+}
+
+.coupontime{
+  float: left;
+  /* height: 50rpx; */
+  font-size:20rpx;
+  color: #bfbfbf;
+  padding: 42rpx;
+}
+
+.headchoice{
+  height: 75rpx;
+  width: 100%;
+  background: #fff;
+  position:fixed;
+  border-top:1px solid #f5f5f5;
+  border-bottom:1px solid #f5f5f5;
+
+}
+
+.tc{
+  height: 86rpx;
+  width: 100%;
+}
+
+.headleft{
+  float: left;
+  width: 50%;
+  font-size: 29rpx;
+  text-align: center;
+  line-height: 73rpx;
+
+}
+
+.headleftred{
+  float: left;
+  width: 50%;
+  font-size: 29rpx;
+  text-align: center;
+  line-height: 73rpx;
+  color: red;
+
+}

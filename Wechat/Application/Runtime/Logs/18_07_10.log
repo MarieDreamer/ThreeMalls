@@ -1,0 +1,2213 @@
+[ 2018-07-10T12:03:41+08:00 ] 127.0.0.1 /WechatUser/login_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\HomeDoctor\Wechat\Application\Home\Controller\WechatUserController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: code D:\Projects\HomeDoctor\Wechat\Application\Home\Controller\WechatUserController.class.php 第 19 行.
+
+[ 2018-07-10T13:59:33+08:00 ] 127.0.0.1 /WechatUser/login_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\HomeDoctor\Wechat\Application\Home\Controller\WechatUserController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: code D:\Projects\HomeDoctor\Wechat\Application\Home\Controller\WechatUserController.class.php 第 19 行.
+
+[ 2018-07-10T13:59:51+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081soNOZ1RXsDZ0jPhPZ1lHuOZ1soNOJ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.044003s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.040002s ]
+
+[ 2018-07-10T14:00:43+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.031200s ]
+
+[ 2018-07-10T14:00:56+08:00 ] 127.0.0.1 /WechatUser/login_do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] extract() expects parameter 1 to be array, null given D:\Projects\HomeDoctor\Wechat\Application\Home\Controller\WechatUserController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: code D:\Projects\HomeDoctor\Wechat\Application\Home\Controller\WechatUserController.class.php 第 19 行.
+
+[ 2018-07-10T14:01:03+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.046801s ]
+
+[ 2018-07-10T14:01:40+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.046800s ]
+
+[ 2018-07-10T14:02:24+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: ajaxReturnData D:\Projects\HomeDoctor\Wechat\Application\Home\Controller\WechatUserController.class.php 第 46 行.
+
+[ 2018-07-10T14:02:36+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-10T14:03:00+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.031200s ]
+
+[ 2018-07-10T14:03:36+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.031201s ]
+
+[ 2018-07-10T14:04:12+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.031200s ]
+
+[ 2018-07-10T14:04:26+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.046800s ]
+
+[ 2018-07-10T14:11:24+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203084,1531203084) [ RunTime:0.046801s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203084,1531203084)
+
+[ 2018-07-10T14:12:04+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203124,1531203124) [ RunTime:0.031200s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203124,1531203124)
+
+[ 2018-07-10T14:12:15+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081ytkeb22QhnO0EnNbb2PTxeb2ytkeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203134,1531203134) [ RunTime:0.047800s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203134,1531203134)
+
+[ 2018-07-10T14:12:59+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071Jp2jJ1eLsy60AIXjJ1HfXiJ1Jp2jY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031201s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203179,1531203179) [ RunTime:0.031200s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203179,1531203179)
+
+[ 2018-07-10T14:13:44+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071bU4vi2bgq1I0mWIxi2j9Rui2bU4vN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.046801s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203224,1531203224) [ RunTime:0.046800s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203224,1531203224)
+
+[ 2018-07-10T14:14:18+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001S2dJV1gA11V0ZeOJV1bKiJV1S2dJ9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.035002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.025601s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203258,1531203258) [ RunTime:0.031200s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203258,1531203258)
+
+[ 2018-07-10T14:14:24+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021XtdCX0NQjU22GvXDX0JQUBX0XtdCu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203264,1531203264) [ RunTime:0.046800s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203264,1531203264)
+
+[ 2018-07-10T14:16:35+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021QgQPF0x8hTk2apwNF0AOKPF0QgQP0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.242402s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.077004s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203395,1531203395) [ RunTime:0.367021s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203395,1531203395)
+
+[ 2018-07-10T14:16:51+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081MLafF1WhcT10prTcF1hXjfF1MLafz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.124801s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.078000s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203411,1531203411) [ RunTime:0.109200s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203411,1531203411)
+
+[ 2018-07-10T14:18:44+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.187201s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.109200s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203524,1531203524) [ RunTime:0.234000s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203524,1531203524)
+
+[ 2018-07-10T14:19:06+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.171600s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.390001s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203546,1531203546) [ RunTime:0.156000s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531203546,1531203546)
+
+[ 2018-07-10T14:19:14+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.265201s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.046800s ]
+
+[ 2018-07-10T14:38:25+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204705,1531204705) [ RunTime:0.031200s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204705,1531204705)
+
+[ 2018-07-10T14:38:28+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.140400s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.109201s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204708,1531204708) [ RunTime:0.405600s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204708,1531204708)
+
+[ 2018-07-10T14:39:14+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031201s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204753,1531204753) [ RunTime:0.046800s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204753,1531204753)
+
+[ 2018-07-10T14:39:26+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.218400s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.124800s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204766,1531204766) [ RunTime:0.078000s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204766,1531204766)
+NOTIC: [8] Undefined variable: userid D:\Projects\HomeDoctor\Wechat\Application\Home\Controller\WechatUserController.class.php 第 45 行.
+
+[ 2018-07-10T14:40:11+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.062400s ]
+
+[ 2018-07-10T14:41:11+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204871,1531204871) [ RunTime:0.031200s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204871,1531204871)
+
+[ 2018-07-10T14:41:24+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.391001s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.737201s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204884,1531204884) [ RunTime:0.171600s ]
+ERR: 1048:Column 'openid' cannot be null
+ [ SQL语句 ] : INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204884,1531204884)
+
+[ 2018-07-10T14:42:13+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.156001s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.093600s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204933,1531204933) [ RunTime:0.234000s ]
+NOTIC: [8] Undefined variable: user D:\Projects\HomeDoctor\Wechat\Application\Home\Model\WechatUserModel.class.php 第 47 行.
+
+[ 2018-07-10T14:42:49+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.078000s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.140401s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204969,1531204969) [ RunTime:0.265200s ]
+
+[ 2018-07-10T14:43:17+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531204996,1531204996) [ RunTime:0.249601s ]
+
+[ 2018-07-10T14:44:04+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531205044,1531205044) [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.046800s ]
+
+[ 2018-07-10T14:44:46+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-10T14:45:03+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-10T14:48:50+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-07-10T14:49:15+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\Projects\HomeDoctor\Wechat\Application\Home\Controller\WechatUserController.class.php 第 21 行.
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.031200s ]
+NOTIC: [8] Undefined index: openid D:\Projects\HomeDoctor\Wechat\Application\Home\Controller\WechatUserController.class.php 第 25 行.
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531205355,1531205355) [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `id` = 5 ) LIMIT 1   [ RunTime:0.046800s ]
+
+[ 2018-07-10T14:50:04+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011XrUXc24b4LE0IYJYc2uESXc2XrUX6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\Projects\HomeDoctor\Wechat\Application\Home\Controller\WechatUserController.class.php 第 21 行.
+SQL: DESCRIBE wechat_user [ RunTime:0.062400s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = null ) LIMIT 1   [ RunTime:0.062400s ]
+NOTIC: [8] Undefined index: openid D:\Projects\HomeDoctor\Wechat\Application\Home\Controller\WechatUserController.class.php 第 25 行.
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES (null,1,1531205404,1531205404) [ RunTime:0.156001s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `id` = 6 ) LIMIT 1   [ RunTime:0.109200s ]
+
+[ 2018-07-10T14:50:24+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021m4YMa07ZtYv1CSiPa0EI1Na0m4YM6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.047602s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES ('o9JDS5A8idkjn3iMpkNyYPjlVNbU',1,1531205423,1531205423) [ RunTime:0.048002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `id` = 7 ) LIMIT 1   [ RunTime:0.044003s ]
+
+[ 2018-07-10T14:50:46+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071GHc8H0pmNSj22qU7H0BwY7H0GHc8u
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.034002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.035002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531205446 WHERE ( `id` = 7 ) [ RunTime:0.034002s ]
+
+[ 2018-07-10T14:53:29+08:00 ] 127.0.0.1 /WechatUser/login_do?code=0813aa40220FjZ0VoL302KoT3023aa4R
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.048602s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.040003s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531205609 WHERE ( `id` = 7 ) [ RunTime:0.041002s ]
+
+[ 2018-07-10T14:53:37+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021YoyrR0XlB582klZqR0VPNrR0Yoyr6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.047800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046801s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531205617 WHERE ( `id` = 7 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T14:59:04+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061lYFoq0tG4Qo1tdkmq0vXqoq0lYFoc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531205944 WHERE ( `id` = 7 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T15:00:41+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081Fnimo1C2Mrq0pRHko1zQgmo1FnimU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531206041 WHERE ( `id` = 7 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T15:04:07+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061b60cl0i1mWl1nc4dl0ID8cl0b60cE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.038003s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.039002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531206247 WHERE ( `id` = 7 ) [ RunTime:0.043002s ]
+
+[ 2018-07-10T15:06:19+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071KIEAg1TBGzy0zpNCg1FwvAg1KIEAg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.049003s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531206379 WHERE ( `id` = 7 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T15:08:15+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001hEdkf2U1zxC0gNxjf2jd2kf2hEdko
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.038002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.036002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531206495 WHERE ( `id` = 7 ) [ RunTime:0.037003s ]
+
+[ 2018-07-10T15:15:58+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011T48G82bHn4S0q6HF82wCSF82T48Gh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.040003s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.040002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531206958 WHERE ( `id` = 7 ) [ RunTime:0.042002s ]
+
+[ 2018-07-10T15:16:20+08:00 ] 127.0.0.1 /WechatUser/save_do?id=7&nickname=%E6%AD%A2%E6%B0%B4&imageurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg%2F132&gender=2&province=%E6%B5%99%E6%B1%9F&city=%E6%9D%AD%E5%B7%9E&country=%E4%B8%AD%E5%9B%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046801s ]
+SQL: UPDATE `wechat_user` SET `nickname`='止水',`imageurl`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg/132',`gender`='2',`province`='浙江',`city`='杭州',`country`='中国' WHERE ( `id` = 7 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T15:21:50+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081mRABh0vfEfy14qTDh00rrBh0mRABW
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.024601s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531207310 WHERE ( `id` = 7 ) [ RunTime:0.047800s ]
+
+[ 2018-07-10T15:22:54+08:00 ] 127.0.0.1 /WechatUser/login_do?code=0212LN1R05kkU92iPd3R0Un42R02LN1H
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.408601s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531207374 WHERE ( `id` = 7 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T15:23:28+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001WwOfc0ikuBu1WQqdc0TrCfc0WwOf1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.048800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531207408 WHERE ( `id` = 7 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T15:24:06+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021vvJ0E1PuVX2008wYD19q11E1vvJ0Y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531207446 WHERE ( `id` = 7 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T15:29:14+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061KqL1615BRLL1bb7161HZ9261KqL1y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.038002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.035002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531207754 WHERE ( `id` = 7 ) [ RunTime:0.042002s ]
+
+[ 2018-07-10T15:30:44+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001DjNFA06YYGf2P4GCA0TiLFA0DjNF2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.048801s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531207844 WHERE ( `id` = 7 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T15:31:01+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081TfZYG1S7Ma80xVcZG1tJhZG1TfZY9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.032200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531207861 WHERE ( `id` = 7 ) [ RunTime:0.047800s ]
+
+[ 2018-07-10T15:37:17+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071SzgZs1PfMWc0LVHZs1lDiZs1SzgZ7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.032200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531208237 WHERE ( `id` = 7 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T15:38:27+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021G5ePV132hGV0LyAPV1iymPV1G5ePK
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.047800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.042201s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531208307 WHERE ( `id` = 7 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T15:38:44+08:00 ] 127.0.0.1 /WechatUser/login_do?code=0219vDs10PqrfE1COlt10oFks109vDsU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.032002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.033002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531208324 WHERE ( `id` = 7 ) [ RunTime:0.037002s ]
+
+[ 2018-07-10T15:39:31+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061SVeZC1n0ed407Lg0D1gogZC1SVeZP
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531208371 WHERE ( `id` = 7 ) [ RunTime:0.035601s ]
+
+[ 2018-07-10T15:40:24+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001aFcOK1ihyb50PC4QK1JecOK1aFcOE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531208424 WHERE ( `id` = 7 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T15:40:37+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011Hg0O52RlBEK0NfQQ52sJYN52Hg0Ox
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.042201s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES ('o9JDS5A8idkjn3iMpkNyYPjlVNbU',1,1531208437,1531208437) [ RunTime:0.047800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `id` = 8 ) LIMIT 1   [ RunTime:0.046800s ]
+
+[ 2018-07-10T15:40:41+08:00 ] 127.0.0.1 /WechatUser/save_do?id=8&nickname=%E6%AD%A2%E6%B0%B4&imageurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg%2F132&gender=2&province=%E6%B5%99%E6%B1%9F&city=%E6%9D%AD%E5%B7%9E&country=%E4%B8%AD%E5%9B%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `nickname`='止水',`imageurl`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg/132',`gender`='2',`province`='浙江',`city`='杭州',`country`='中国' WHERE ( `id` = 8 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T15:51:15+08:00 ] 127.0.0.1 /WechatUser/login_do?code=0713w0ml1QmEDk0MKxjl12FVll13w0mt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.033201s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES ('o9JDS5A8idkjn3iMpkNyYPjlVNbU',1,1531209075,1531209075) [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.047201s ]
+
+[ 2018-07-10T16:03:04+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061m5n9A1Q260f0LZX8A1Cho9A1m5n9O
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531209784 WHERE ( `id` = 9 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T16:03:16+08:00 ] 127.0.0.1 /WechatUser/save_do?id=9&nickname=%E6%AD%A2%E6%B0%B4&imageurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg%2F132&gender=2&province=%E6%B5%99%E6%B1%9F&city=%E6%9D%AD%E5%B7%9E&country=%E4%B8%AD%E5%9B%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `nickname`='止水',`imageurl`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg/132',`gender`='2',`province`='浙江',`city`='杭州',`country`='中国' WHERE ( `id` = 9 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T16:05:49+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061Lnnh61bXbpT1YDMg61f18h61LnnhY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531209949 WHERE ( `id` = 9 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T16:06:15+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011xIpFB1UFlfe0I8yFB1DDpFB1xIpFt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031201s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531209975 WHERE ( `id` = 9 ) [ RunTime:0.062400s ]
+
+[ 2018-07-10T16:07:25+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021n0uXZ1dblMZ0oh1WZ1gbuXZ1n0uXD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.218400s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531210045 WHERE ( `id` = 9 ) [ RunTime:0.093600s ]
+
+[ 2018-07-10T16:08:31+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011H2OgP1Ruob21dyIiP17yxgP1H2OgB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046801s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.078000s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531210111 WHERE ( `id` = 9 ) [ RunTime:0.047800s ]
+NOTIC: [8] Undefined index: is_doctor D:\Projects\HomeDoctor\Wechat\Application\Home\Controller\WechatUserController.class.php 第 39 行.
+
+[ 2018-07-10T16:09:15+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061IMrFf1mw5mz0NRTGf18ceFf1IMrFJ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.140400s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531210155 WHERE ( `id` = 9 ) [ RunTime:0.078000s ]
+
+[ 2018-07-10T16:10:12+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011Vowgh1CQDIy0h6skh1ssOgh1Vowgz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.048800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531210212 WHERE ( `id` = 9 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T16:10:45+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071zDF2h1EOI1z0Iqu0h1hzr2h1zDF2t
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.033200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: INSERT INTO `wechat_user` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES ('o9JDS5A8idkjn3iMpkNyYPjlVNbU',1,1531210245,1531210245) [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.031200s ]
+
+[ 2018-07-10T16:10:55+08:00 ] 127.0.0.1 /WechatUser/save_do?id=10&nickname=%E6%AD%A2%E6%B0%B4&imageurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg%2F132&gender=2&province=%E6%B5%99%E6%B1%9F&city=%E6%9D%AD%E5%B7%9E&country=%E4%B8%AD%E5%9B%BD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `nickname`='止水',`imageurl`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTLj7r4eb4gD8z8qnFmjZOYa2RhPMrml1MIawwibUFyQuogrBce7sdv2h7X1OWkvWbdLnl4tJZFDbRg/132',`gender`='2',`province`='浙江',`city`='杭州',`country`='中国' WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T16:16:06+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001SBG271Ng2zT1uLqZ61SVO271SBG2y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.033002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.030002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531210566 WHERE ( `id` = 10 ) [ RunTime:0.023001s ]
+
+[ 2018-07-10T16:17:28+08:00 ] 127.0.0.1 /WechatUser/login_do?code=0017hT6A1EjDXe0maG5A1BMT6A17hT60
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046801s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531210648 WHERE ( `id` = 10 ) [ RunTime:0.033200s ]
+
+[ 2018-07-10T16:20:01+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021SIWn328xolN0Kiwr32DXRn32SIWnZ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.037002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531210801 WHERE ( `id` = 10 ) [ RunTime:0.047801s ]
+
+[ 2018-07-10T16:20:29+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001oXMqg2ZdpnB0aqvpg2cayqg2oXMqQ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.038002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.039002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531210829 WHERE ( `id` = 10 ) [ RunTime:0.041003s ]
+
+[ 2018-07-10T16:22:47+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011ApXrf15KMHz0dTaqf16nOrf1ApXrp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.040002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.040201s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531210967 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T16:24:40+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011PjHqm0rf3lk1Kobsm0phMqm0PjHqc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211080 WHERE ( `id` = 10 ) [ RunTime:0.033200s ]
+
+[ 2018-07-10T16:31:18+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071GejN02gWW401zNuO02I7ZM02GejNx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211478 WHERE ( `id` = 10 ) [ RunTime:0.046801s ]
+
+[ 2018-07-10T16:31:49+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061xcQBt1BI0xd0q1Myt1GhRBt1xcQBm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211509 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T16:32:16+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061pagMo13lziq0sD2Lo1I2RLo1pagME
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211536 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T16:32:25+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071eFiD80sKDrH1fLBA80yFcD80eFiDq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.048800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211545 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T16:32:58+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081nlyeQ0Duj992jCHgQ0uOIeQ0nlyeu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211578 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T16:33:12+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081hljLD0Jhoxc20D5KD0EknLD0hljLL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211592 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T16:33:21+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071sP67T15dDy61e1x9T1nRU6T1sP67m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211601 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T16:34:02+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071kwBiO037F9b28WRfO0aVKiO0kwBiE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.044201s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211642 WHERE ( `id` = 10 ) [ RunTime:0.037002s ]
+
+[ 2018-07-10T16:34:55+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071qHPhC0OKKDf2F45gC0uj6iC0qHPhK
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211694 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T16:36:16+08:00 ] 127.0.0.1 /WechatUser/login_do?code=01107wJd0LzVbB1s26Id08rqJd007wJ1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211776 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T16:36:53+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081AH5U51cjWBL15swQ516dlU51AH5UF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.042002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.038201s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211813 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T16:37:04+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081dPFj22voT3X0FLvl220yYj22dPFjd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.032601s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.051602s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211824 WHERE ( `id` = 10 ) [ RunTime:0.043002s ]
+
+[ 2018-07-10T16:37:10+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071dRUdV1HfM4V0vAXfV1VQwdV1dRUds
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.048602s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211830 WHERE ( `id` = 10 ) [ RunTime:0.046003s ]
+
+[ 2018-07-10T16:39:03+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071FLu1x1uzpaa0i4E3x1Q5n1x1FLu1q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.040201s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211943 WHERE ( `id` = 10 ) [ RunTime:0.032200s ]
+
+[ 2018-07-10T16:39:13+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061IaenW15maVT0O9opW1VT4nW1Iaeni
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.035002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.029002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211953 WHERE ( `id` = 10 ) [ RunTime:0.036002s ]
+
+[ 2018-07-10T16:39:36+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021nRs6I1PFz370fbV6I1anu6I1nRs6c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.015600s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.035002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531211976 WHERE ( `id` = 10 ) [ RunTime:0.023601s ]
+
+[ 2018-07-10T16:41:40+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021YV8Da0i8rdv19VVDa0UoTCa0YV8Dq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531212100 WHERE ( `id` = 10 ) [ RunTime:0.046801s ]
+
+[ 2018-07-10T17:07:41+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071AIj2S1MiKM71gSO4S1kZg2S1AIj2i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.062400s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531213661 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T17:08:25+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071sxZDm15sTbk0M1uAm1e4ZDm1sxZD8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.039601s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531213705 WHERE ( `id` = 10 ) [ RunTime:0.046801s ]
+
+[ 2018-07-10T17:08:32+08:00 ] 127.0.0.1 /WechatUser/login_do?code=0216yIgT0S0DwY1lmofT0heFgT06yIgr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.041002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.041002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531213712 WHERE ( `id` = 10 ) [ RunTime:0.040602s ]
+
+[ 2018-07-10T17:08:41+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001DAQSS1dX4481ibbWS1fUvSS1DAQSX
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.041003s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.048002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531213721 WHERE ( `id` = 10 ) [ RunTime:0.040003s ]
+
+[ 2018-07-10T17:10:15+08:00 ] 127.0.0.1 /WechatUser/login_do?code=01114LlN06Xqo32cp4nN0XgXlN014LlA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.037002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.043003s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531213815 WHERE ( `id` = 10 ) [ RunTime:0.036002s ]
+
+[ 2018-07-10T17:11:31+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001VH8K71xsIZR1slAG71bPjK71VH8Kb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.051800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.024001s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531213891 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:11:42+08:00 ] 127.0.0.1 /WechatUser/login_do?code=01161jJW1CYaIT0MIELW1xA4JW161jJP
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046801s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531213902 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:12:07+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001Cid1C1Oj3M30qj62C1Oek1C1Cid1i
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531213927 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:14:01+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011a3Lih0vxzUx1BRtih0SZLih0a3Lib
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.043201s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214041 WHERE ( `id` = 10 ) [ RunTime:0.035601s ]
+
+[ 2018-07-10T17:14:33+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061bVYSK1OZmg50RbgTK1wZ1TK1bVYS9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214073 WHERE ( `id` = 10 ) [ RunTime:0.057603s ]
+
+[ 2018-07-10T17:14:50+08:00 ] 127.0.0.1 /WechatUser/login_do?code=0117scP71asP4S11ktL71D06P717scPy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214090 WHERE ( `id` = 10 ) [ RunTime:0.033200s ]
+
+[ 2018-07-10T17:22:41+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011MArIi0wKapn1VCiFi04IJIi0MArIz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.037002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.041003s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214561 WHERE ( `id` = 10 ) [ RunTime:0.035002s ]
+
+[ 2018-07-10T17:23:39+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021iDjDT1tVW671WW7ET1JlxDT1iDjD9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214619 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:23:52+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061gzjtl0AnsEl10qtul0cZmtl0gzjtB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.040003s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.043002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214632 WHERE ( `id` = 10 ) [ RunTime:0.049003s ]
+
+[ 2018-07-10T17:24:17+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061BBFf81Z19vS1OOsc81vyGf81BBFfj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.044201s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214657 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:24:23+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001bAtVF1cG8U00mJ5XF1M4BVF1bAtVL
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.033200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214663 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:24:41+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011T7upi1JgNAx0f4kri12rDpi1T7upD
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.040002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.040002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214681 WHERE ( `id` = 10 ) [ RunTime:0.038002s ]
+
+[ 2018-07-10T17:25:33+08:00 ] 127.0.0.1 /WechatUser/login_do?code=06139R0l1WdIPk0S9o0l1ID41l139R0D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031201s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.047800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214733 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:26:39+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081LYlMo1YKJiq0LBCMo1YkCMo1LYlMJ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214799 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:27:19+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071cUR751QX6pL1y2n451FTC751cUR7j
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.033201s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214839 WHERE ( `id` = 10 ) [ RunTime:0.594801s ]
+
+[ 2018-07-10T17:28:11+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071iKHke163iOr0ceQie1PUVke1iKHks
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031001s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214891 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T17:28:21+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021JKcw60yRNPJ1axDu60nvWv60JKcwy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214901 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:29:35+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061Idyb21XFnjP1x8Tc21nRHb21Idybo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.032200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531214975 WHERE ( `id` = 10 ) [ RunTime:0.038601s ]
+
+[ 2018-07-10T17:31:47+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011EPJCO0nVQ2c2SsLEO03b0DO0EPJC7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031201s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215107 WHERE ( `id` = 10 ) [ RunTime:0.038601s ]
+
+[ 2018-07-10T17:34:23+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021L5D4v0mwuMa1dYX4v0XzI4v0L5D40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215263 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T17:36:31+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021gjHx62KfsoL0uBPv62o2Ox62gjHx5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215391 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T17:36:47+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001SX8C32NN8YM0pANA32wmTB32SX8Cq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215407 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:36:54+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081sn3Ti2Ya7QH0xv2Ri2eVRSi2sn3T3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215414 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:37:03+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001BYsY61m4X3U1pm1W61jr9Y61BYsYU
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215423 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:37:29+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061Vapin1nFxzi02YRen1hFqin1Vapif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.044003s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.045003s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215449 WHERE ( `id` = 10 ) [ RunTime:0.052003s ]
+
+[ 2018-07-10T17:38:02+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011iSh6C1ihmT30Jj87C1Tqa6C1iSh6H
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.039002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.040003s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215482 WHERE ( `id` = 10 ) [ RunTime:0.042002s ]
+
+[ 2018-07-10T17:39:36+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071krssm1Ocltj0m67um1ekHsm1krssi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215576 WHERE ( `id` = 10 ) [ RunTime:0.062202s ]
+
+[ 2018-07-10T17:40:01+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071TaaO214XLCN1gEmN213ScO21TaaOw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215601 WHERE ( `id` = 10 ) [ RunTime:0.053800s ]
+
+[ 2018-07-10T17:40:08+08:00 ] 127.0.0.1 /WechatUser/login_do?code=07167PJ91yLQ0Q18cLI91sPPJ9167PJF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215608 WHERE ( `id` = 10 ) [ RunTime:0.048800s ]
+
+[ 2018-07-10T17:41:23+08:00 ] 127.0.0.1 /WechatUser/login_do?code=0016e6Yg0KzMjz1WLn1h02boYg06e6Yh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.047800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.049800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215683 WHERE ( `id` = 10 ) [ RunTime:0.050201s ]
+
+[ 2018-07-10T17:42:11+08:00 ] 127.0.0.1 /WechatUser/login_do?code=0711GCZU02G0KV19Bx0V03aMZU01GCZv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031201s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215731 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:42:18+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061Lu6MS0zDV1Y1QPHLS06K4MS0Lu6Mq
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215738 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T17:42:27+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061aiCg52PbWnM0tipe52v6og52aiCgm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.044200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215747 WHERE ( `id` = 10 ) [ RunTime:0.031201s ]
+
+[ 2018-07-10T17:44:22+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011s4QsV0WkabW14K8tV0YoYsV0s4QsE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.040201s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215862 WHERE ( `id` = 10 ) [ RunTime:0.036002s ]
+
+[ 2018-07-10T17:44:31+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011vZp35285WJM01Kz352TD6352vZp3M
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215871 WHERE ( `id` = 10 ) [ RunTime:0.048201s ]
+
+[ 2018-07-10T17:45:03+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011I5XFi2hGncI0XP3Ei2bj1Gi2I5XFy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.020601s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215903 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T17:45:38+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081ElAgc26zB1E0drQfc2D5Wgc2ElAgs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215938 WHERE ( `id` = 10 ) [ RunTime:0.044602s ]
+
+[ 2018-07-10T17:45:52+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061DLHb527pgjM01w0d52jyKb52DLHbn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215952 WHERE ( `id` = 10 ) [ RunTime:0.047800s ]
+
+[ 2018-07-10T17:45:57+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021od4zO051i1c23HiAO0A04zO0od4zz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.032200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215957 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T17:46:32+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011J4rGD14foa30UvLFD1FEMGD1J4rGn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531215992 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T17:47:01+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061MOL6Y17XZpT0wjC7Y1aLw6Y1MOL6D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216021 WHERE ( `id` = 10 ) [ RunTime:0.047800s ]
+
+[ 2018-07-10T17:47:05+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071L3uQF1wWVd00OTMOF1AczQF1L3uQJ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.054201s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216025 WHERE ( `id` = 10 ) [ RunTime:0.040003s ]
+
+[ 2018-07-10T17:47:21+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011Qund11rzYEZ1dgab11Ib4d11QundG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216041 WHERE ( `id` = 10 ) [ RunTime:0.048800s ]
+
+[ 2018-07-10T17:47:49+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021hIWxn1Ayfii0QnZzn1NmXxn1hIWx3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216069 WHERE ( `id` = 10 ) [ RunTime:0.058603s ]
+
+[ 2018-07-10T17:47:55+08:00 ] 127.0.0.1 /WechatUser/login_do?code=0610yqnu1TMMsb0e3znu1RkQnu10yqnk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.047801s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216075 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T17:51:25+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021prTIo00hB8r1qXlIo07TVIo0prTIV
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216285 WHERE ( `id` = 10 ) [ RunTime:0.048201s ]
+
+[ 2018-07-10T17:51:45+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061NoCf116pdHZ17bIg11pJGf11NoCfI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216305 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:52:03+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001AK0Q62v4ZWJ0pRhQ62WnkQ62AK0Q0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216323 WHERE ( `id` = 10 ) [ RunTime:0.051800s ]
+
+[ 2018-07-10T17:52:24+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001bdacU1XvLjW02hG9U1MygcU1bdacF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.048801s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216344 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:52:30+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011kFyk61ezVpT1DXzk614LSk61kFykZ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031201s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216350 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T17:53:12+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071urNGh0XSriy1mEtIh0KoDGh0urNGY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216392 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T17:53:41+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021XKAqg02ajMy1nVgrg0LSBqg0XKAqc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.024600s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046801s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216421 WHERE ( `id` = 10 ) [ RunTime:0.036002s ]
+
+[ 2018-07-10T17:53:53+08:00 ] 127.0.0.1 /WechatUser/login_do?code=071Ewj9M03V1v42VsQ9M0juJ9M0Ewj91
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216433 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:53:59+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061ubZw31x7QlO1dTxw3181Cw31ubZw-
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.036200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216439 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:54:51+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021yG0jN1ylD331sysiN1FThjN1yG0ju
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031201s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216491 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:55:19+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081EMkp013vwy02SKNn010mqp01EMkpZ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216519 WHERE ( `id` = 10 ) [ RunTime:0.061801s ]
+
+[ 2018-07-10T17:57:43+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021brZJQ00Jq5922ZeJQ0NpGJQ0brZJV
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046801s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.047800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216663 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T17:58:02+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081rKmbL15qzt51VECcL1PV2bL1rKmbN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031201s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216682 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T17:58:36+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061W7SUP1LYoB91KZGXP1CJ8VP1W7SUK
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216716 WHERE ( `id` = 10 ) [ RunTime:0.047800s ]
+
+[ 2018-07-10T17:59:09+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061SAk0w1A16Ra05ycZv1Y5u0w1SAk0Y
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216748 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T18:00:05+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001iELzm1FlFyj045Fym1UQDzm1iELzR
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216805 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T18:00:17+08:00 ] 127.0.0.1 /WechatUser/login_do?code=06168ceP1htKH21z7RbP18oheP168cee
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216817 WHERE ( `id` = 10 ) [ RunTime:0.048800s ]
+
+[ 2018-07-10T18:00:30+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001Sk2DV1vQrSU06iUBV1HH3DV1Sk2DB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216830 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T18:00:53+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001FpcnJ0KUfAh2XMRlJ0xirnJ0Fpcnc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531216853 WHERE ( `id` = 10 ) [ RunTime:0.047800s ]
+
+[ 2018-07-10T18:04:13+08:00 ] 127.0.0.1 /WechatUser/login_do?code=081ofQ3k2uM0KG0m8G7k2rDS3k2ofQ3x
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.052603s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531217053 WHERE ( `id` = 10 ) [ RunTime:0.048002s ]
+
+[ 2018-07-10T18:08:16+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001ed0RJ0r02K62nIITJ0rxcRJ0ed0RJ
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.025001s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031201s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531217296 WHERE ( `id` = 10 ) [ RunTime:0.048800s ]
+
+[ 2018-07-10T18:08:59+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061NwsKJ1mAHo60QnOMJ1leLKJ1NwsK8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531217339 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T18:11:04+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011mWRFK0KkiR52NzQCK06cHFK0mWRFY
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.039002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.040003s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531217464 WHERE ( `id` = 10 ) [ RunTime:0.042002s ]
+
+[ 2018-07-10T18:11:40+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001qPbBh0WZjfy1xYDBh05XrBh0qPbBG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.033002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.562425s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531217500 WHERE ( `id` = 10 ) [ RunTime:0.038002s ]
+
+[ 2018-07-10T18:12:09+08:00 ] 127.0.0.1 /WechatUser/login_do?code=021MzWHO1m0nA1107yJO11I7IO1MzWHw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.039002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.042002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531217529 WHERE ( `id` = 10 ) [ RunTime:0.044003s ]
+
+[ 2018-07-10T18:15:53+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061GuX611zyhyZ1Opo511NcT611GuX6N
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.044003s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.044003s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531217753 WHERE ( `id` = 10 ) [ RunTime:0.046002s ]
+
+[ 2018-07-10T18:16:07+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001NBfjj1IaBKw0VPBjj1uXujj1NBfj5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.033002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.026002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531217767 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T18:22:30+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011LKspG1b9VM00edfsG19jtpG1LKsp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531218150 WHERE ( `id` = 10 ) [ RunTime:0.046800s ]
+
+[ 2018-07-10T18:23:15+08:00 ] 127.0.0.1 /WechatUser/login_do?code=0118o6ks1jKpBn0HCDis1lTbks18o6kz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.040002s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.030002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531218195 WHERE ( `id` = 10 ) [ RunTime:0.059801s ]
+
+[ 2018-07-10T18:23:44+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011pCpnZ1jr1v112pwlZ1GWlnZ1pCpn7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.033200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531218224 WHERE ( `id` = 10 ) [ RunTime:0.031200s ]
+
+[ 2018-07-10T18:24:24+08:00 ] 127.0.0.1 /WechatUser/login_do?code=011cjf9u1iKJPb0UUAau1XDn9u1cjf9d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.046800s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.031200s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531218264 WHERE ( `id` = 10 ) [ RunTime:0.046801s ]
+
+[ 2018-07-10T18:27:16+08:00 ] 127.0.0.1 /WechatUser/login_do?code=001gwUd40KZm2D1l8gc40H36e40gwUdb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.031200s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.046800s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531218436 WHERE ( `id` = 10 ) [ RunTime:0.047800s ]
+
+[ 2018-07-10T18:36:50+08:00 ] 127.0.0.1 /WechatUser/login_do?code=061C5gb72wHrkK0LQUa72hTfb72C5gbs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: DESCRIBE wechat_user [ RunTime:0.044602s ]
+SQL: SELECT * FROM `wechat_user` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.036002s ]
+SQL: UPDATE `wechat_user` SET `login_time`=1531219010 WHERE ( `id` = 10 ) [ RunTime:0.022001s ]
+

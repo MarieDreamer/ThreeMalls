@@ -1,0 +1,178 @@
+.search-bg {
+    width: 100%;
+    height: 70rpx;
+    background: rgba(255,255,255,1);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search {
+    /* position: fixed;
+    left: 6%; */
+    float: left;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 678rpx;
+    height: 55rpx;
+    background: #f5f5f5;
+    border-radius: 30rpx;
+    font-size: 26rpx;
+    margin-left: 31rpx;
+}
+
+.search-lt {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #BBBBBB;
+}
+
+.search-rt {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.searchimg{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+}
+
+.classimg{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.classimgdiv{
+  float: left;
+  margin-left: 23rpx;
+}
+
+.shopimg{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.tc{
+  height: 110rpx;
+  width: 100%;
+}
+
+.xaunzeclass{
+  position:fixed;
+  height: 106rpx;
+  width: 100%;
+  border-top:1px solid #f5f5f5;
+  border-bottom:1px solid #f5f5f5;
+   z-index: 999;
+  background-color: #fff;
+
+}
+
+.tc2{
+  height: 50rpx;
+  width: 100%;
+  background-color: blue;
+}
+
+.tc3{
+  height: 69rpx;
+}
+
+.xaunzeclasstext{
+  font-size: 26rpx;
+}
+.xaunzeclassdiv{
+  width: 115rpx;
+  text-align: center;
+  float: left;
+  margin-left: 33rpx;
+  margin-top: 11rpx;
+  
+}
+
+.xaunzeclassdivred{
+  width: 115rpx;
+  text-align: center;
+  float: left;
+  margin-left: 33rpx;
+  margin-top: 11rpx;
+  color: red;
+  
+}
+
+.xaunzeclassnumber{
+  font-size: 39rpx;
+ 
+}
+
+.spclass{
+  float: left;
+  width: 47%;
+  height: 494rpx;
+  margin-left: 2%;
+}
+
+.spimg{
+  width: 100%;
+  height: 340rpx;
+}
+
+.spydiv{
+  width: 100%;
+  background-color:  #f5f5f5;
+}
+
+.spdivtextdiv{
+  width: 100%;
+  height: 125rpx;
+  background-color: #fff;
+  margin-top: -10rpx;
+}
+
+.spdivtext{
+  font-size: 29rpx;
+  width: 100%;
+  padding: 4rpx;
+}
+
+.spprice{
+  font-size: 29rpx;
+  color: red;
+}
+
+.screendiv{
+  height: 79rpx;
+  width: 100%;
+  position:fixed;
+  background-color: #fff;
+  border-bottom:1px solid #f5f5f5;
+
+
+}
+
+.screentext{
+  float: left;
+  width: 33%;
+  font-size: 29rpx;
+  text-align: center;
+  margin-top: 16rpx;
+  
+}
+
+.screentextred{
+  float: left;
+  width: 33%;
+  font-size: 29rpx;
+  text-align: center;
+  margin-top: 16rpx;
+  color: #f4ea2a;
+}

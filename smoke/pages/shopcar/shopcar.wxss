@@ -1,0 +1,111 @@
+/* pages/shopcar/shopcar.wxss */
+/* pages/shoppingcart/shoppingcart.wxss */
+page{
+  background-color: #eee;
+}
+.carmode{
+  background-color: white;
+  width: 100%;
+  height: 260rpx;
+  margin-bottom: 10rpx;
+}
+.picture{
+  float: left;
+  padding-top:30rpx;
+  padding-left: 20rpx; 
+  width: 200rpx;
+  height: 200rpx;
+}
+.gouxuan-1{
+  float: left;
+  width: 40rpx;
+  height: 40rpx;
+  padding-top: 100rpx;
+  margin-left:15rpx; 
+}
+.mode-div{
+  float: left;
+  width: 50%;
+}
+.mode-info{
+  width: 90%;
+  font-size:30rpx;
+  padding-top: 30rpx;
+  padding-left: 30rpx;
+}
+.mode-type{
+  width: 60%;
+  font-size: 25rpx;
+  padding-top: 75rpx;
+  padding-left: 30rpx;
+  color:blue;
+}
+.mode-time{
+  float: left;
+  font-size: 25rpx;
+  padding-top: 15rpx;
+  padding-left: 30rpx;
+  color:#1296db;
+}
+.mode-quantity{
+  height: 55rpx;
+  font-size: 25rpx;
+  float:right;
+  padding-top: 15rpx;
+}
+.jiesuan{
+  width:100%;
+  height:100rpx;
+  background-color: white;
+  position:fixed;
+  bottom:0;
+}
+.quanxuananniu{
+  float: left;
+  width: 20%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.gouxuan{
+  float: left;
+  width: 40rpx;
+  height: 40rpx;
+  padding-top: 30rpx;
+  margin-left:15rpx; 
+}
+.quanxuan{
+  font-size: 30rpx;
+  text-align: center;
+}
+.jiesuan-text{
+  float: right;
+  width: 30%;
+  margin-top: 20rpx;
+}
+.heji{
+  float: left;
+  width: 40%;
+  font-size: 30rpx;
+  text-align: left;
+}
+.moneydiv{
+  width: 50%;
+  float:left;
+}
+.money{
+  color: #1296db;
+  font-size: 30rpx;
+  float: right;
+}
+.yunfei{
+  font-size: 20rpx;
+  float: right;
+}
+.jiesuan-1{
+  float: right;
+  width: 30%;
+  background-color: #1296db;
+  color:white;
+  text-align: center;
+  line-height: 100rpx;
+}

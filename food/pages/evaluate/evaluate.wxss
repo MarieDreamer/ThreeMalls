@@ -1,0 +1,125 @@
+page{
+  background-color:#eee;
+  font-size: 30rpx;
+}
+.list{
+  margin-bottom:10rpx;
+  background-color: white
+}
+.list_head{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list_head > view:first-child{
+  display: flex;
+  align-items: center;
+  padding-left: 25rpx;
+}
+.list_head > view:nth-child(2){
+  font-size: 23rpx;
+  color: #bfbfbf;
+  margin-right: 20rpx;
+}
+.list_content{
+  margin-left: 25rpx;
+  width: 700rpx;
+  word-break: break-all;
+}
+.headdiv{
+  height: 80rpx;
+  width: 100%;
+  background: #fff;
+  border-top:1px solid #f5f5f5;
+  border-bottom:1px solid #f5f5f5;
+  display: flex;
+}
+.headdiv>view{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headdiv>view>view:first-child{
+  font-size: 30rpx;
+}
+.headdiv>view>view:nth-child(2){
+  font-size: 25rpx;
+}
+.userdiv{
+  width: 100%;
+  height: 73rpx;
+  background-color: #fff;
+  border-top:1px solid #f5f5f5;
+  border-bottom:1px solid #f5f5f5;
+}
+
+.spimg{
+  height: 40rpx;
+  width: 40rpx;
+}
+
+.nametext{
+  float: left;
+  font-size: 23rpx;
+  line-height: 64rpx;
+  margin-left: 7rpx;
+}
+
+
+.xingimg{
+  width: 100%;
+  height: 63rpx;
+  background-color: #fff;
+}
+
+.xingdiv{
+  width: 40%;
+  height: 50rpx;
+}
+
+.star{
+  height: 25rpx;
+  width: 25rpx;
+  margin-left: 17rpx;
+}
+
+.pingluntext{
+  font-size: 26rpx;
+  width: 100%;
+  background-color: #fff;
+}
+
+.pingluntextright{
+  width: 700rpx;
+  word-wrap:break-word;
+}
+
+.goumaitimediv{
+  background-color: #fff;
+  font-size: 23rpx;
+  color: #bfbfbf;
+  padding-left: 25rpx;
+  padding-bottom: 25rpx;
+}
+
+.goumairiqitext{
+  /* margin-top: 10rpx; */
+  margin-left: 14rpx;
+}
+
+.pinglunimgdiv{
+  padding-left: 25rpx;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25rpx;
+}
+
+.pingluntu{
+  width: 216rpx;
+  height: 216rpx;
+  margin-right: 25rpx;
+  margin-bottom: 25rpx;
+}

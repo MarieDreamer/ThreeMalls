@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/shoppingcart/shoppingcart",
+    "pages/index/index",
+    "pages/pintuan/pintuan",
+    "pages/dingdan/dingdan",
+    "pages/evaluate/evaluate",
+    "pages/my/my",
+    "pages/aftersale/aftersale",
+    "pages/partner/partner",
+    "pages/address/address",
+    "pages/coupon/coupon",
+    "pages/my_spell/my_spell",
+    "pages/couponchoice/couponchoice",
+    "pages/logistics/logistics",
+    "pages/goorderdetails/goorderdetails",
+    "pages/commoditylist/commoditylist",
+    "pages/class/class",
+    "pages/address_edit/address_edit",
+    "pages/queren/queren",
+    "pages/commodity/commodity",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/pintuanlist/pintuanlist"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/zhuye.png",
+        "selectedIconPath": "/images/a.png"
+      },
+      {
+        "pagePath": "pages/shoppingcart/shoppingcart",
+        "text": "购物车",
+        "iconPath": "/images/gouwuche.png",
+        "selectedIconPath": "/images/b.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/wode.png",
+        "selectedIconPath": "/images/c.png"
+      }
+    ],
+    "borderStyle": "white",
+    "color": "#999999",
+    "selectedColor": "#e6e623",
+    "backgroundColor": "#ffffff"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "三个商城",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,78 @@
+<view class='top' style='display:{{top_display?"block":"none"}}'>
+  <view class="search-bg">
+      <view class="search">
+          <view class="search-rt">
+              <image class='searchimg' src="/images/search.png"></image>
+              <input bindconfirm="SearchInput" placeholder="搜索商品" placeholderStyle="font-size:24rpx;color:#ccc" style='width:550rpx;color:black'></input>
+          </view>
+      </view>
+      <image bindtap='goclass' class='classimg' src='/images/category.png' />
+  </view>
+  <view class='tab'>
+    <view bindtap="select_tab" wx:for="{{tab}}" data-index="{{index}}" class='tab_item'>
+      <view>{{item}}</view>
+      <view class='tab_bottom{{select_tab == index?"_select":""}}'></view>
+    </view>
+  </view>
+</view>
+<!-- 首页 -->
+<view style='margin-top:170rpx;' wx:if="{{select_tab == 0}}">
+  <scroll-view scroll-x="true" class='coupondiv' >
+     <view class='coupon' wx:for="{{coupon_list}}" bindtap='getCoupon' data-id='{{item.id}}' data-has_get="{{item.has_get}}" data-index="{{index}}">
+        <view class='couponneileft' style="{{item.has_get?'background:gray':''}}">
+          <view class='couponneileft_title'>￥{{item.discount}}</view>
+          <view class='couponneileft_text'>满{{item.condition}}元可用</view>
+        </view>
+        <view class='couponneiright'>
+          <view class='couponneiright_title'>优惠券</view>
+          <view class='couponneiright_button'>{{item.has_get?'已领取':'点击领取'}}</view>
+        </view>
+    </view>
+  </scroll-view>
+
+  <image wx:for="{{broadcastimglists}}" wx:for-item="broadcastimglists" wx:key="key" class='indeximg' mode="widthFix" src="http://wechat.threemall.jianfengweb.com{{broadcastimglists.img}}"></image>
+</view>
+
+<!-- 全部/拼购/促销 -->
+<view style='margin-top:250rpx;' wx:if="{{select_tab == 1 || select_tab == 2 || select_tab == 3}}">
+  <view class='order_tab' style='{{top_display?"":"top:0rpx"}}'>
+    <view bindtap="select_order" wx:for="{{order_tab}}" class='order_tab_item' data-index="{{index}}" style='{{select_order == index?"color:#e6e623":""}}'>
+      {{item}}
+      <view wx:if="{{index == 3}}" class='high_low_images'>
+        <image src='/images/high_{{price == 1?"yellow":"gray"}}.png' style='margin-bottom:6rpx'/>
+        <image src='/images/low_{{price == 2?"yellow":"gray"}}.png' />
+      </view>
+    </view>
+  </view>
+ 
+  <view class='commdity_list'>
+    <view class='spclass' wx:for="{{list}}" wx:for-item="list" wx:key="key" data-id='{{list.id}}' bindtap="gocommodity">
+      <image class='spimg' src='http://wechat.threemall.jianfengweb.com/{{list.shop_index_image[0]}}'></image>
+      <view class='spdivtextdiv'>
+        <view class='spdivtext'>{{list.shop_name}}</view>
+        <view class='spprice'>￥{{list.shop_price}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 动态 -->
+<view style='margin-top:170rpx;' wx:if="{{select_tab == 4}}">
+  <view class='moments' wx:for="{{list}}">
+    <view>
+      <image class="time" src='/images/time.png'></image>
+      {{item.date}}
+    </view>
+    <view>{{item.shop_name}}</view>
+    <view>{{item.shop_introduce}}</view>
+    <view class='img_container'>
+      <image wx:for="{{item.shop_index_image}}" class='img' wx:for-item="img" src="http://wechat.threemall.jianfengweb.com{{img}}"></image>
+    </view>
+
+  </view>
+</view>
+
+<view style='display:{{top_display?"none":"flex"}}' class='top_container'>
+  <image src='/images/toTop.png' class='to_top' bindtap='toTop' />
+</view>
+

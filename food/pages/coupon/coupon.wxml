@@ -1,0 +1,14 @@
+
+<view class='coupondiv' wx:for="{{list}}">
+  <view class='coupondivleft'>
+    <view class='money'>￥{{item.coupon.discount}}</view>
+    <view class='couponattribute'>满{{item.coupon.condition}}元可用</view>
+  </view>
+  <view class='coupondivright'>
+    <view class='coupontitle'>
+    <view class='bluetitle'>{{item.coupon.title}}</view>
+    {{item.coupon.description}}
+    </view>
+    <view class='coupontime'>{{item.start_time}}-{{item.end_time}}</view> 
+  </view>
+</view>

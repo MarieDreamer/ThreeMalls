@@ -1,0 +1,489 @@
+/* pages/pintuan/pintuan.wxss */
+page{
+  background-color: rgb(241, 242, 245)
+}
+.share_button{
+  border:0 !important;
+}
+.banner {
+    width: 100%;
+}
+.next{
+  width: 700rpx;
+  margin:0 25rpx;
+  background-color: red;
+  text-align: center;
+  border-radius: 50rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: white;
+}
+.spell_info{
+  width: 700rpx;
+  padding: 15rpx 25rpx;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.spell_info_right{
+  font-size: 25rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width:270rpx;
+}
+.lunbotuimg{
+  width: 100%;
+  height: 500rpx;
+}
+.pintuaninfo{
+  background-color: red;
+  height: 120rpx;
+}
+.dollor1{
+  float:left;
+  color:white;
+  width:5%;
+  font-size:40rpx;
+  margin-top:45rpx;
+  margin-left: 30rpx;
+}
+.money1{
+  float:left;
+  color:white;
+  width:10%;
+  margin-top:30rpx;
+  font-size:55rpx;
+  margin-left:10rpx;
+}
+.tiaojian{
+  width: 55%;
+  height: 120rpx;
+  float: left;
+}
+.renshu{
+  color: white;
+  font-size: 25rpx;
+  padding-top: 30rpx;
+}
+.yuanjia{
+  color: white;
+  font-size: 30rpx;
+  margin-top: 10rpx;
+}
+.yuanjia-text{
+  float: left;
+  width:15%;
+  color: white;
+}
+.yuanjia-num{
+  float:left;
+  color: white;
+  width: 20%;
+  text-decoration: line-through;
+}
+.yishou{
+  width:20%;
+  height:50rpx;
+  border-radius:50rpx;
+  background-color:white;
+  font-size:20rpx;
+  float:left;
+  text-align:center;
+  line-height:50rpx;
+  margin-top:35rpx;
+}
+.xinxi-text{
+  width: 80%;
+  float: left;
+}
+.shangpingxiangxi{
+  width: 700rpx;
+  padding: 25rpx;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shangpingtext{
+  font-size:32rpx;
+  margin-bottom: 10rpx;
+}
+
+.xuanzediv{
+  width: 700rpx;
+  padding: 25rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.xuanzetext{
+  font-size:28rpx;
+  color: #707070;
+  margin-right: 20rpx;
+}
+
+.xuanzetextshu{
+  font-size:28rpx;
+  color: #707070;
+  margin-right: 20rpx;
+}
+
+.tc{
+  width: 100%;
+  height: 30rpx;
+}
+
+.tc2{
+  width: 100%;
+  height: 75rpx;
+}
+
+.tc3{
+  width: 30rpx;
+  height: 30rpx;
+  float: left;
+}
+
+.tc4{
+   width: 100%;
+  height: 125rpx;
+}
+
+.xuanzeneirong{
+  float: left;
+  font-size:28rpx;
+}
+
+.guigediv{
+  border:1px solid red;
+  border-radius:13rpx;
+  color: red;
+  font-size:28rpx;
+  text-align: center;
+  padding:0 10rpx;
+  margin-right: 20rpx;
+}
+
+.guigetc{
+  display:flex;
+}
+.jiaimg{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.xuanzedivanniu{
+  display: flex;
+  align-items: center;
+}
+
+.select_items{
+  display: flex;
+  align-items: center;
+}
+.num{
+  min-width: 60rpx;
+  text-align: center;
+  font-size: 30rpx;
+  padding: 10rpx;
+  line-height: 50rpx;
+  height: 50rpx;
+  border: 1px solid #c8c8c8;
+}
+.left{
+  border-right:0;
+  border-top-left-radius: 5rpx;
+  border-bottom-left-radius: 5rpx;
+}
+.right{
+  border-left: 0;
+  border-top-right-radius: 5rpx;
+  border-bottom-right-radius: 5rpx;
+}
+.remain_num{
+  font-size: 30rpx;
+}
+.shuliangtext{
+  font-size:30rpx;
+  margin: 0 20rpx;
+  line-height: 30rpx;
+}
+.beizhu{
+  color:red;
+  font-size:26rpx;
+}
+.share{
+  width:80rpx;
+  height:80rpx;
+}
+.pingjiadiv{
+  height: 80rpx;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 5rpx;
+}
+
+.pingjiatext{
+  font-size:28rpx;
+  color: #8a8a8a;
+  /* margin-top: 10rpx; */
+  /* margin-left: 10rpx; */
+  padding: 23rpx;
+
+}
+
+.pingjiaimg{
+  float: right;
+  margin-top: -53rpx;
+  margin-right: 10rpx;
+  height: 30rpx;
+  width: 30rpx;
+}
+
+.jieshaoimg{
+  width: 100%;
+  /* height: 3; */
+}
+
+.goumaidiv{
+  width: 100%;
+  background-color: #fff;
+  position:fixed;
+  bottom:0;
+  display:flex;
+  align-items: center;
+}
+
+.lianxiimg{
+
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.anniudiv{
+  text-align: center;
+  width:130rpx;
+}
+
+.lianxitext{
+  font-size:22rpx;
+}
+.neirongimg{
+  margin-bottom: 200rpx;
+}
+.jiaruanniu{
+  float: right;
+  width: 33%;
+  background-color: #f4ea2a;
+  text-align: center;
+}
+
+.goumaianniu{
+  float: right;
+  width: 33%;
+  background-color: #d81e06;
+  text-align: center;
+}
+
+.jiaruanniutext{
+  color: #fff;
+  line-height: 100rpx;
+  font-size: 30rpx;
+}
+/* 底部弹出框 */
+/*使屏幕变暗  */
+.commodity_screen {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.2;
+  overflow: hidden;
+  z-index: 1000;
+  color: #fff;
+}
+/*对话框 */
+.commodity_attr_box {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 2000;
+  background: #fff;
+}
+.infomation{
+  width: 100%;
+  height: 280rpx;
+}
+.info-picture{
+  height: 200rpx;
+  width: 200rpx;
+  margin: 50rpx 10rpx 30rpx 20rpx;
+  float: left;
+}
+.info-price{
+  color:red;
+  margin-top:200rpx;
+  width:400rpx;
+  float:left;
+  margin-left:50rpx;
+}
+.info-choose{
+  width: 400rpx;
+  float: left;
+}
+.div{
+  height: 170rpx;
+}
+.color-title{
+  margin-left: 20rpx;
+  margin-bottom: 30rpx;
+}
+.items{
+  border: 2rpx solid #a9a9a9;
+  text-align: center;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-bottom: 30rpx;
+  margin-left:20rpx;
+  width: 100rpx;
+  float: left;
+}
+
+.choose-num{
+  margin-left: 20rpx;
+}
+.color-choose1{
+  border: 2rpx solid #a9a9a9;
+  text-align: center;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-bottom: 30rpx;
+  width: 100rpx;
+  float: left;
+}
+.anniu{
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.rightnow{
+  width: 47%;
+  height: 80rpx;
+  float: left;
+  text-align: center;
+  line-height: 80rpx;
+  margin-left: 2%;
+  border: 2rpx solid #a9a9a9;
+  font-size: 30rpx;
+}
+.jiaru{
+  width:50%;
+  height:80rpx;
+  background-color:orange;
+  color:white;
+  font-size:30rpx;
+  text-align:center;
+  line-height:80rpx;
+  border-radius:50rpx 0 0 50rpx;
+  margin-left:10rpx;
+}
+.xiadan{
+  width:50%;
+  height:80rpx;
+  background-color:red;
+  color:white;
+  font-size:30rpx;
+  text-align:center;
+  line-height:80rpx;
+  border-radius:0 50rpx 50rpx 0;
+  margin-right:10rpx;
+}
+
+
+/*主容器*/
+.stepper {
+	width: 80px;
+	height: 26px;
+	/*给主容器设一个边框*/
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-left: 20rpx;
+}
+ 
+/*加号和减号*/
+.stepper text {
+	width: 19px;
+	line-height: 26px;
+	text-align: center;
+	float: left;
+}
+ 
+/*数值*/
+.stepper input {
+	width: 40px;
+	height: 26px;
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+	/*给中间的input设置左右边框即可*/
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+ 
+/*普通样式*/
+.stepper .normal{
+	color: black;
+}
+ 
+/*禁用样式*/
+.stepper .disabled{
+	color: #ccc;
+}
+.hengxiangshoufa{
+  white-space:nowrap;
+  display:flex;
+}
+.zhanshi-div{
+  width:300rpx;
+  height:450rpx;
+  display:inline-block;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+}
+.shangpin-image{
+  width: 300rpx;
+  height: 300rpx;
+}
+.zhanshi-name{
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+}
+.zhanshi-name1{
+  font-size: 30rpx;
+  color: #A9A9A9;
+  float: left;
+  margin-top: 10rpx;
+}
+.zhanshi-price{
+  color:red;
+  font-size: 35rpx;
+  margin-top: 13rpx;
+}
+.changtu{
+  width: 600rpx;
+}
+.hot{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}

@@ -1,0 +1,90 @@
+/* pages/lipinka/lipinka.wxss */
+page{
+  background-color: #FFFAFA;
+}
+.mine{
+  height: 70rpx;
+  background-color: white;
+}
+.mycard{
+  font-size: 25rpx;
+  float: left;
+  width: 80%;
+  line-height: 70rpx;
+}
+.card{
+  background-color: white;
+  width: 100%;
+  height: 850rpx;
+}
+.card-img{
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 250rpx;
+  margin-left:280rpx;
+}
+.card-text{
+  width: 100%;
+  height: 50rpx;
+  color: #cdcdcd;
+  font-size: 25rpx;
+  line-height: 50rpx;
+  text-align: center;
+}
+.xieyi{
+  width: 100%;
+  height: 50rpx;
+  color: blue;
+  font-size: 20rpx;
+  line-height: 50rpx;
+  text-align: center;
+   background-color: white;
+}
+.mingxi{
+  font-size: 25rpx;
+  float: right;
+  width: 16%;
+  line-height: 70rpx;
+  color: blue;
+}
+.dibu1{
+  height: 100rpx;
+  width: 100%;
+  position: fixed;
+  bottom: 0rpx;
+}
+.duihuan{
+  float: left;
+  text-align: center;
+  width: 50%;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #FF4500;
+  color: white;
+}
+.goumai{
+  float: right;
+  text-align: center;
+  width: 50%;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: red;
+  color: white;
+}
+.dibu {
+  background-color: #FFFAFA;
+  width:100%;
+  height:150rpx;
+}
+.dibu-text1{
+  font-size: 25rpx;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30rpx;
+}
+.dibu-text2{
+  font-size:25rpx;
+  text-align: center;
+  padding-top: 20rpx;
+  color: #B0C4DE;
+}

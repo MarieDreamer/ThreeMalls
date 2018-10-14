@@ -1,0 +1,39 @@
+<view class='bar'>
+  <view wx:for="{{tabBar}}" bindtap='change_tab' data-index="{{index}}" style='{{select_index == index?"color:red;border-bottom:2rpx solid red":""}}'>{{item}}</view>
+</view>
+
+  <view class='list' wx:for="{{list}}">
+    <view class='zhuangtaidiv'>
+      <view>
+        <image class='shangdianimg' src='/image/text.jpg'></image>
+        <view class='dianname'> 官方商城</view>
+      </view>
+      <view class='zhuangtaitext'>{{item.status == 0?'待付款':(item.status == 1?'待收货':(item.status == 2?'交易成功':'拼团失败'))}}</view>
+    </view>
+    <view class='commoditydiv'>
+      <image class='commodityimg' src="http://wechat.threemall.jianfengweb.com{{item.order_detail[0]['commodity_image']}}"></image>
+      <view class='commodity_right'>
+        <view>
+          <view class='commoditytext'>{{item.order_detail[0]['commodity_name']}}</view>
+          <view class='commodityprice'>￥{{item.order_detail[0]['single_price']}}</view>
+        </view>
+        <view>
+          <view class='detail_type'>{{item.order_detail[0]['color']}} {{item.order_detail[0]['size']}}</view>
+          <view class='detail_num'>X{{item.order_detail[0]['num']}}</view>
+        </view>
+        <view wx:if="{{item['group_id']}}">
+          <view class='detail_spell'>拼团</view>
+        </view>
+      </view>
+    </view>
+      <view wx:if="{{item.order_detail_num > 1}}" class='order_detail_num'>查看全部{{item.order_detail_num}}个商品</view>
+    <view class='order_bottom'>
+      <view class='fukuantext'>合计：</view>
+      <view class='jinetext'>￥{{item.final_fee}}</view>
+    </view>
+    <view class='order_bottom buttons' wx:if="{{item.status == 0}}">
+      <view class='btns btn1' bindtap='cancel' data-id="{{item.id}}">取消订单</view>
+      <view class='btns btn2' bindtap='pay' data-id="{{item.id}}">确认付款</view>
+    </view>
+    
+  </view>

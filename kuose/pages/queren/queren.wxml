@@ -1,0 +1,59 @@
+<!--pages/queren/queren.wxml-->
+<view class='personal' bindtap='my_address'>
+  <view class='mid'>
+  <view class='top_addr'>
+    <view class='personal-name'>收货人：{{address.name}}</view>
+    <view class='personal-phone'>{{address.phone}}</view>
+  </view>
+    <view class='personal-addres'>收货地址：{{address.province}} {{address.address}}</view>
+  </view>
+  <image class='right' src='/image/right.png'></image>
+</view>
+
+<!-- 购物车来的 -->
+<view class='carmode' wx:if="{{cartList}}" wx:for="{{cartList}}" wx:for-item="list" wx:key="key" >
+  <view class='mode-img'><image class='picture' src='http://system.threemall.jianfengweb.com{{list.commodity_image}}'></image></view>
+  <view class='mode-div'>
+    <view class='mode-info'>{{list.commodity_name}}</view>
+    <view class='mode-type'>{{list.color}}，{{list.size}}</view>
+    <view class='mode-time'>￥{{list.single_price}}</view>
+  </view>
+  <view class='mode-quantity'>*{{list.num}}</view>
+</view>
+
+<!-- 立即购买来的 -->
+<view class='carmode' wx:if="{{goods}}">
+  <view class='mode-img'>
+    <image class='picture' src='http://system.threemall.jianfengweb.com{{goods.commodity_image}}' />
+  </view>
+  <view class='mode-div'>
+    <view class='mode-info'>{{goods.commodity_name}}</view>
+    <view class='mode-type'>{{goods.color}}，{{goods.size}}</view>
+    <view class='mode-time' style='color:red'>￥{{goods.price}}</view>
+  </view>
+  <view class='mode-quantity'>*{{goods.num}}</view>
+</view>
+
+<view class="order">
+  <text class="myorder-text">优惠券</text>
+  <text class="myorderlook-text">0 张</text>
+  <image class="item-image" src="/image/right.png"></image>
+</view>
+<view class="order">
+  <text class="message" style="width:'';">留言：</text>
+  <input class="mess" bindinput='message' />
+</view>
+<view class="order" style='margin-bottom:200rpx;'>
+  <text class="myorder-text">商品合计：</text>
+  <text wx:if="{{cartList}}" class="myorderlook-text">￥{{total_fee}}</text>
+  <text wx:if="{{goods}}" class="myorderlook-text">￥{{goods.price * goods.num}}</text>
+</view>
+
+<view class='jiesuan'>
+  <view class='quanxuananniu'>
+    <view class='quanxuan'>应付：</view>
+    <view wx:if="{{cartList}}" class='quanxuan-red'>￥{{total_fee}}</view>
+    <view wx:if="{{goods}}" class='quanxuan-red'>￥{{goods.price * goods.num}}</view>
+  </view>
+  <view class='jiesuan-1' bindtap='order'>去付款</view>
+</view>

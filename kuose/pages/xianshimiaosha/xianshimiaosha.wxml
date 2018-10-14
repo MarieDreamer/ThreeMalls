@@ -1,0 +1,111 @@
+<!--pages/xianshimiaosha/xianshimiaosha.wxml-->
+<!--限时抢购-->
+<view class='qianggou' bindtap='goinfo'>
+  <view class='qianggou-img'>
+    <image class='qgimg-img' src='/image/miaosha-1.png'></image>
+  </view>
+  <view class='info'>
+    <text class='qianggou-info'>【小程序限时秒杀】阔色2018夏季新款韩版女</text>
+  </view>
+  <view class='qianggou-price'>
+    <view class='qianggou-dollor'>￥</view>
+    <view class='qianggou-money'>297.00</view>
+    <view class='qianggou-money-1'>297.00</view>
+  </view>
+  <view class='qianggou-like'><image class='car' src='/image/33.png'></image></view>
+</view>
+
+<view class='qianggou' bindtap='goinfo'>
+  <view class='qianggou-img'>
+    <image class='qgimg-img' src='/image/miaosha-1.png'></image>
+  </view>
+  <view class='info'>
+    <text class='qianggou-info'>【小程序限时秒杀】阔色2018夏季新款韩版女</text>
+  </view>
+  <view class='qianggou-price'>
+    <view class='qianggou-dollor'>￥</view>
+    <view class='qianggou-money'>297.00</view>
+    <view class='qianggou-money-1'>297.00</view>
+  </view>
+  <view class='qianggou-like'><image class='car' src='/image/33.png'></image></view>
+</view>
+
+<view class='qianggou' bindtap='goinfo'>
+  <view class='qianggou-img'>
+    <image class='qgimg-img' src='/image/miaosha-1.png'></image>
+  </view>
+  <view class='info'>
+    <text class='qianggou-info'>【小程序限时秒杀】阔色2018夏季新款韩版女</text>
+  </view>
+  <view class='qianggou-price'>
+    <view class='qianggou-dollor'>￥</view>
+    <view class='qianggou-money'>297.00</view>
+    <view class='qianggou-money-1'>297.00</view>
+  </view>
+  <view class='qianggou-like'><image class='car' src='/image/33.png'></image></view>
+</view>
+
+<view class='qianggou' bindtap='goinfo'>
+  <view class='qianggou-img'>
+    <image class='qgimg-img' src='/image/miaosha-1.png'></image>
+  </view>
+  <view class='info'>
+    <text class='qianggou-info'>【小程序限时秒杀】阔色2018夏季新款韩版女</text>
+  </view>
+  <view class='qianggou-price'>
+    <view class='qianggou-dollor'>￥</view>
+    <view class='qianggou-money'>297.00</view>
+    <view class='qianggou-money-1'>297.00</view>
+  </view>
+  <view class='qianggou-like'><image class='car' src='/image/33.png'></image></view>
+</view>
+
+<view class='qianggou' bindtap='goinfo'>
+  <view class='qianggou-img'>
+    <image class='qgimg-img' src='/image/miaosha-1.png'></image>
+  </view>
+  <view class='info'>
+    <text class='qianggou-info'>【小程序限时秒杀】阔色2018夏季新款韩版女</text>
+  </view>
+  <view class='qianggou-price'>
+    <view class='qianggou-dollor'>￥</view>
+    <view class='qianggou-money'>297.00</view>
+    <view class='qianggou-money-1'>297.00</view>
+  </view>
+  <view class='qianggou-like'><image class='car' src='/image/33.png'></image></view>
+</view>
+
+<view class='qianggou' bindtap='goinfo'>
+  <view class='qianggou-img'>
+    <image class='qgimg-img' src='/image/miaosha-1.png'></image>
+  </view>
+  <view class='info'>
+    <text class='qianggou-info'>【小程序限时秒杀】阔色2018夏季新款韩版女</text>
+  </view>
+  <view class='qianggou-price'>
+    <view class='qianggou-dollor'>￥</view>
+    <view class='qianggou-money'>297.00</view>
+    <view class='qianggou-money-1'>297.00</view>
+  </view>
+  <view class='qianggou-like'><image class='car' src='/image/33.png'></image></view>
+</view>
+
+<view class='qianggou' bindtap='goinfo'>
+  <view class='qianggou-img'>
+    <image class='qgimg-img' src='/image/miaosha-1.png'></image>
+  </view>
+  <view class='info'>
+    <text class='qianggou-info'>【小程序限时秒杀】阔色2018夏季新款韩版女</text>
+  </view>
+  <view class='qianggou-price'>
+    <view class='qianggou-dollor'>￥</view>
+    <view class='qianggou-money'>297.00</view>
+    <view class='qianggou-money-1'>297.00</view>
+  </view>
+  <view class='qianggou-like'><image class='car' src='/image/33.png'></image></view>
+
+  
+</view>
+
+
+

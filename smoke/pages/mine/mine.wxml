@@ -1,0 +1,67 @@
+<!--pages/mine/mine.wxml-->
+<view class="userinfo">
+  <image class="userinfo-avatar" src='{{userimage}}'></image>
+  <view class='username'>{{username}}</view>
+  <view class='vip'>普通会员</view>
+</view>
+
+<view class="order" bindtap='goorder'>
+  <text class="myorder-text">我的订单</text>
+  <text class="myorderlook-text">查看全部订单</text>
+  <image class="next-image" src="/images/right.png"></image>
+</view>
+
+<view class="orderinfo">
+  <view class='orderinfo-view' bindtap='daifukuan'>
+    <image class='orderinfo-view-image' src='/images/daifu.png' ></image>
+    <view class='orgerinfo-view-text'>待付款</view>
+  </view>
+
+  <view class='orderinfo-view' bindtap='daifahuo'>
+    <image class='orderinfo-view-image' src='/images/daifa.png' ></image>
+    <view class='orgerinfo-view-text'>代发货</view>
+  </view>
+
+  <view class='orderinfo-view' bindtap='yifahuo'>
+    <image class='orderinfo-view-image' src='/images/yifa.png' ></image>
+     <view class='orgerinfo-view-text'>已发货</view>
+  </view>
+
+  <view class='orderinfo-view' bindtap='yiwancheng'>
+    <image class='orderinfo-view-image' src='/images/wancheng.png' ></image> 
+    <view class='orgerinfo-view-text'>已完成</view>
+  </view>
+</view>
+
+<view class="dise"></view>
+
+<view class="dise"></view>
+<view class="person-list">
+
+  <view class="list-item"  bindtap='gopintuanlist'>
+    <text class="item-text">我的拼团</text>
+    <image class="item-image" src="/images/right.png"></image>
+  </view>
+
+  <view class="list-item"  bindtap='goaddres'>
+    <text class="item-text">收货地址</text>
+    <image class="item-image" src="/images/right.png"></image>
+  </view>
+
+  <view class="list-item"  bindtap='gofenxiao'>
+    <text class="item-text">分销员</text>
+    <image class="item-image" src="/images/right.png"></image>
+  </view>
+
+  <view class="list-item"  bindtap='goyouhuiquan'>
+    <text class="item-text">优惠券</text>
+    <image class="item-image" src="/images/right.png"></image>
+  </view>
+</view>
+
+<view class="dise"></view>
+<view>
+  <view class="list-item-1" >
+    <text class="item-text">在线客服</text>
+  </view>
+</view>

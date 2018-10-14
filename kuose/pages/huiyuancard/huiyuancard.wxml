@@ -1,0 +1,19 @@
+<!--pages/huiyuancard/huiyuancard.wxml-->
+<view class='info' bindtap='gosetinfo'>
+  <image class='info-image' src='/image/text.jpg'></image>
+  <view class='info-person'>
+    <view class='name'>梦想十八块腹肌</view>
+    <view class='number'>15868152873</view>
+  </view>
+  <image class='right' src='/image/right.png'></image>
+  <view class='shezhi'>设置</view>
+</view>
+<view class='card'>
+  <image class='card-img' src='/image/card.png'></image>
+  <view class='card-text'>暂无会员卡</view>
+</view>
+
+<view class='dibu' >
+  <view class='dibu-text1'>KUOSE阔色</view>
+  <view class='dibu-text2'>有赞提供技术支持</view>
+</view>

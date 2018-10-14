@@ -1,0 +1,62 @@
+<view class="search_container">
+  <icon class="searchicon" size='15' type='search'></icon>
+  <input class="input" value="{{key}}" placeholder="请输入关键字" bindinput='input' bindconfirm="search"/>
+  <icon class="clearicon" size='15' type='clear' bindtap='clear'></icon>  
+</view>
+
+<view class='bar'>
+  <view class='baritem' bindtap='selectbar' data-index='0' style="color:{{selectIndex==0?'red':''}}">综合</view>
+  <view class='baritem' bindtap='selectbar' data-index='1' style="color:{{selectIndex==1?'red':''}}">销量</view>
+  <view class='baritem' bindtap='selectbar' data-index='2' style="color:{{selectIndex==2?'red':''}}">上新</view>
+</view>
+
+<view wx:for="{{list}}" class='goods' style="padding-top:{{index != 0?'0':''}}">
+  <image src='http://wechat.threemall.jianfengweb.com/{{item.shop_index_image[0]}}' class='shop_image' bindtap='detail' data-id="{{item.id}}"/>
+  <view class='shop_info'>
+    <view class="shop_name" bindtap='detail' data-id="{{item.id}}">{{item.shop_name}}</view>
+    <view class="shop_bottom">
+      <view style='width:430rpx;display:flex;align-items:center' bindtap='detail' data-id="{{item.id}}">
+        <view class="shop_price">￥{{item.shop_price}}</view>
+        <view class="shop_sale">销量：{{item.shop_sale}}</view>
+      </view>
+      <image class='cart' src="../../image/cart.png" bindtap='showModal' data-id="{{item.id}}" data-price="{{item.shop_price}}"/>
+    </view>
+  </view>
+</view>
+
+
+<view class="commodity_screen"bindtap="hideModal"wx:if="{{showModalStatus}}"></view>
+<view animation="{{animationData}}"class="commodity_attr_box"wx:if="{{showModalStatus}}">
+
+  <view style='padding:25rpx'>
+    <view class='title'>单价:</view>
+    <view class='selectors'>
+      <view class='items' style='border:0;color:red'>￥{{myprice}}</view>
+    </view>
+    <view class='title'>颜色:</view>
+    <view class='selectors'>
+      <view wx:for="{{color}}" class='items' bindtap='selectColor' data-index="{{index}}" style="{{selected_color==index?'background:red;color:#fff':''}}">{{item}}</view>
+    </view>
+    <view class='title'>尺码:</view>
+    <view class='selectors'>
+      <view wx:for="{{size}}" class='items' bindtap='selectSize' data-index="{{index}}" style="{{selected_size==index?'background:red;color:#fff':''}}">{{item}}</view>
+    </view>
+    
+    <view class='remain'>
+      <view style='display:flex;flex-direction:column'>
+        <view style='font-size:30rpx;'>购买数量：</view>
+        <view style='color:#808080;font-size:25rpx'>剩余{{num}}件</view>
+      </view>
+      <view style='display:flex'>
+        <view class='num left' bindtap='minus'>-</view>
+        <view class='num'>{{mynum}}</view>
+        <view class='num right' bindtap='adds'>+</view>
+      </view>
+    </view>
+    
+  </view>
+  <view class='add_buttons'>
+    <view class='button1' bindtap='add_cart'>加入购物车</view>
+    <view class='button2'>立即购买</view>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+/* pages/text/text.wxss */
+.new{
+  width: 100%;
+  height: 1100rpx;
+}
+.swiper-list{
+  width: 100%;
+  height: 1100rpx;
+}
+.lunbotuimg{
+  width: 100%;
+  height: 1100rpx;
+}

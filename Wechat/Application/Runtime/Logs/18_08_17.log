@@ -1,0 +1,25 @@
+[ 2018-08-17T09:12:45+08:00 ] 127.0.0.1 /WechatUserClothmail/login_do?code=081fxK4o1IXoZi0VbZ2o1CoF4o1fxK4A
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+SQL: DESCRIBE wechat_user_clothmail [ RunTime:0.003000s ]
+SQL: SELECT * FROM `wechat_user_clothmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `wechat_user_clothmail` SET `login_time`=1534468365 WHERE ( `id` = 50 ) [ RunTime:0.068004s ]
+
+[ 2018-08-17T09:28:04+08:00 ] 127.0.0.1 /WechatUserFoodmail/login_do?code=011YBJDb0Ve2du1I38Fb0p3PDb0YBJDN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: DESCRIBE wechat_user_foodmail [ RunTime:0.021001s ]
+SQL: SELECT * FROM `wechat_user_foodmail` WHERE ( `openid` = 'o9JDS5A8idkjn3iMpkNyYPjlVNbU' ) LIMIT 1   [ RunTime:0.056004s ]
+SQL: INSERT INTO `wechat_user_foodmail` (`openid`,`status_delete`,`create_time`,`login_time`) VALUES ('o9JDS5A8idkjn3iMpkNyYPjlVNbU',1,1534469284,1534469284) [ RunTime:0.088005s ]
+SQL: SELECT * FROM `wechat_user_foodmail` WHERE ( `id` = 46 ) LIMIT 1   [ RunTime:0.000000s ]
+

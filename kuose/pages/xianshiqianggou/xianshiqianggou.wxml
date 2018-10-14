@@ -1,0 +1,116 @@
+<!--pages/xianshiqianggou/xianshiqianggou.wxml-->
+<!--抢购商品-->
+<view class='qianggou' bindtap='godetailedinfo'>
+  <view class='qianggou-img'>
+    <image class='qgimg-img' src='/image/qianggou.png'></image>
+    <view class='qgimg-text'>1天14时52分16秒</view>
+  </view>
+  <view class='info'>
+    <view class='qianggou-youhui'>减30.00元</view>
+    <text class='qianggou-info'>【小程序限时抢购】阔色2018夏季新款韩版女</text>
+  </view>
+  <view class='qianggou-price'>
+    <view class='qianggou-dollor'>￥</view>
+    <view class='qianggou-money'>297.00</view>
+    <view class='qianggou-money-1'>297.00</view>
+  </view>
+  <view class='qianggou-shengyu'>仅剩345件</view>
+  <view class='qianggou-like'>立即抢购</view>
+</view>
+
+<view class='qianggou'  bindtap='godetailedinfo'>
+  <view class='qianggou-img'>
+    <image class='qgimg-img' src='/image/qianggou.png'></image>
+    <view class='qgimg-text'>1天14时52分16秒</view>
+  </view>
+  <view class='info'>
+    <view class='qianggou-youhui'>减30.00元</view>
+    <text class='qianggou-info'>【小程序限时抢购】阔色2018夏季新款韩版女</text>
+  </view>
+  <view class='qianggou-price'>
+    <view class='qianggou-dollor'>￥</view>
+    <view class='qianggou-money'>297.00</view>
+    <view class='qianggou-money-1'>297.00</view>
+  </view>
+  <view class='qianggou-shengyu'>仅剩345件</view>
+  <view class='qianggou-like'>立即抢购</view>
+</view>
+
+
+<view class='qianggou'  bindtap='godetailedinfo'>
+  <view class='qianggou-img'>
+    <image class='qgimg-img' src='/image/qianggou.png'></image>
+    <view class='qgimg-text'>1天14时52分16秒</view>
+  </view>
+  <view class='info'>
+    <view class='qianggou-youhui'>减30.00元</view>
+    <text class='qianggou-info'>【小程序限时抢购】阔色2018夏季新款韩版女</text>
+  </view>
+  <view class='qianggou-price'>
+    <view class='qianggou-dollor'>￥</view>
+    <view class='qianggou-money'>297.00</view>
+    <view class='qianggou-money-1'>297.00</view>
+  </view>
+  <view class='qianggou-shengyu'>仅剩345件</view>
+  <view class='qianggou-like'>立即抢购</view>
+</view>
+
+
+<view class='qianggou'  bindtap='godetailedinfo'>
+  <view class='qianggou-img'>
+    <image class='qgimg-img' src='/image/qianggou.png'></image>
+    <view class='qgimg-text'>1天14时52分16秒</view>
+  </view>
+  <view class='info'>
+    <view class='qianggou-youhui'>减30.00元</view>
+    <text class='qianggou-info'>【小程序限时抢购】阔色2018夏季新款韩版女</text>
+  </view>
+  <view class='qianggou-price'>
+    <view class='qianggou-dollor'>￥</view>
+    <view class='qianggou-money'>297.00</view>
+    <view class='qianggou-money-1'>297.00</view>
+  </view>
+  <view class='qianggou-shengyu'>仅剩345件</view>
+  <view class='qianggou-like'>立即抢购</view>
+</view>
+
+
+<view class='qianggou'  bindtap='godetailedinfo'>
+  <view class='qianggou-img'>
+    <image class='qgimg-img' src='/image/qianggou.png'></image>
+    <view class='qgimg-text'>1天14时52分16秒</view>
+  </view>
+  <view class='info'>
+    <view class='qianggou-youhui'>减30.00元</view>
+    <text class='qianggou-info'>【小程序限时抢购】阔色2018夏季新款韩版女</text>
+  </view>
+  <view class='qianggou-price'>
+    <view class='qianggou-dollor'>￥</view>
+    <view class='qianggou-money'>297.00</view>
+    <view class='qianggou-money-1'>297.00</view>
+  </view>
+  <view class='qianggou-shengyu'>仅剩345件</view>
+  <view class='qianggou-like'>立即抢购</view>
+</view>
+
+
+<view class='qianggou'  bindtap='godetailedinfo'>
+  <view class='qianggou-img'>
+    <image class='qgimg-img' src='/image/qianggou.png'></image>
+    <view class='qgimg-text'>1天14时52分16秒</view>
+  </view>
+  <view class='info'>
+    <view class='qianggou-youhui'>减30.00元</view>
+    <text class='qianggou-info'>【小程序限时抢购】阔色2018夏季新款韩版女</text>
+  </view>
+  <view class='qianggou-price'>
+    <view class='qianggou-dollor'>￥</view>
+    <view class='qianggou-money'>297.00</view>
+    <view class='qianggou-money-1'>297.00</view>
+  </view>
+  <view class='qianggou-shengyu'>仅剩345件</view>
+  <view class='qianggou-like'>立即抢购</view>
+</view>
+
+
+
